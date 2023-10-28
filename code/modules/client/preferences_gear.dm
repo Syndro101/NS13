@@ -837,3 +837,7 @@ var/global/list/gear_datums_by_name = list()
 /datum/gear/misc/patch_uscm/falcon
 	display_name = "Falling Falcons shoulder patch"
 	path = /obj/item/clothing/accessory/patch/falcon
+
+/datum/gear/misc/patch_uscm/falcon
+	display_name = "Mudskippers shoulder patch"
+	path = /obj/item/clothing/accessory/patch/mudskippers
