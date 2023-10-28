@@ -40,6 +40,7 @@ GLOBAL_LIST_INIT(cm_vending_gear_commanding_officer, list(
 
 		list("Helmet Visors", 0, null, null, null),
 		list("Welding Visor", 5, /obj/item/device/helmet_visor/welding_visor, null, VENDOR_ITEM_RECOMMENDED),
+		list("Night Vision Optic", 15, /obj/item/device/helmet_visor/night_vision, null, VENDOR_ITEM_RECOMMENDED),
 
 		list("UNDERBARREL ATTACHMENTS", 0, null, null, null),
 		list("Laser Sight", 15, /obj/item/attachable/lasersight, null, VENDOR_ITEM_REGULAR),
@@ -82,7 +83,7 @@ GLOBAL_LIST_INIT(cm_vending_clothing_commanding_officer, list(
 		list("Secure Satchel", 0, /obj/item/storage/backpack/satchel/lockable, MARINE_CAN_BUY_BACKPACK, VENDOR_ITEM_MANDATORY),
 
 		list("PATCHES", 0, null, null, null),
-		list("Falling Falcons Shoulder Patch", 0, /obj/item/clothing/accessory/patch/mudskippers, MARINE_CAN_BUY_ATTACHMENT, VENDOR_ITEM_MANDATORY),
+		list("Mudskippers Shoulder Patch", 0, /obj/item/clothing/accessory/patch/mudskippers, MARINE_CAN_BUY_ATTACHMENT, VENDOR_ITEM_MANDATORY),
 		list("USCM Shoulder Patch", 0, /obj/item/clothing/accessory/patch, MARINE_CAN_BUY_MRE, VENDOR_ITEM_MANDATORY),
 
 		list("COMBAT EQUIPMENT (TAKE ALL)", 0, null, null, null),
