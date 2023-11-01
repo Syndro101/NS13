@@ -168,7 +168,7 @@ var/global/list/job_command_roles = JOB_COMMAND_ROLES_LIST
 
 //------------------------------------
 
-//-------------Mudskipper roles---------------
+//-------------Mudskipper roles---------------//
 
 
 //----Command----
