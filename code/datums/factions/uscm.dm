@@ -189,6 +189,13 @@
 			if(JOB_CMB_OBS)
 				marine_rk = "obs"
 				icon_prefix = "cmb_"
+			//MUDSKIPPERS
+			if(JOB_MS_CO)
+				marine_rk = "co"
+				border_rk = "command"
+			if(JOB_MS_GC)
+				marine_rk = "xo"
+				border_rk = "command"
 
 		if(marine_rk)
 			var/image/I = image('icons/mob/hud/marine_hud.dmi', current_human, "hudsquad")
