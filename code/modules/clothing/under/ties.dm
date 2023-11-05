@@ -356,7 +356,7 @@
 
 /obj/item/clothing/accessory/patch/mudskippers
 	name = "USCM Mudskippers patch"
-	desc = "A fire-resistant shoulder patch, worn by the men and women of the Mudskippers, the 3rd battalion of the 4th brigade of the USCM."
+	desc = "A fire-resistant shoulder patch, worn by the men and women of the Mudskippers, the 4th Division 3rd brigade 15th Bat of the USCM."
 	icon_state = "mudskipperspatch"
 
 /obj/item/clothing/accessory/patch/forecon
