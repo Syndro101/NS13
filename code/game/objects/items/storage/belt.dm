@@ -1734,6 +1734,7 @@
 	new /obj/item/tool/weldingtool(src)
 	new /obj/item/tool/wirecutters(src)
 	new /obj/item/device/multitool(src)
+	new	/obj/item/tool/crowbar(src)
 
 ////////////OTHER BELTS//////////////
 

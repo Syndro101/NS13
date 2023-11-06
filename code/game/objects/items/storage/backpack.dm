@@ -923,7 +923,7 @@ GLOBAL_LIST_EMPTY_TYPED(radio_packs, /obj/item/storage/backpack/marine/satchel/r
 	desc = "A specialized satchel worn by USCM technicians and engineers. It carries two small fuel tanks for quick welder refueling and use."
 	icon_state = "satchel_marine_welder"
 	item_state = "satchel_marine_welder"
-	max_storage_space = 12
+	max_storage_space = 15
 	has_gamemode_skin = FALSE
 	max_fuel = 100
 	worn_accessible = TRUE
@@ -933,7 +933,7 @@ GLOBAL_LIST_EMPTY_TYPED(radio_packs, /obj/item/storage/backpack/marine/satchel/r
 	desc = "A specialized Chestrig worn by technicians and engineers. It carries one medium fuel tank for quick welder refueling and use."
 	icon_state = "welder_chestrig"
 	item_state = "welder_chestrig"
-	max_storage_space = 12
+	max_storage_space = 15
 	has_gamemode_skin = FALSE
 	max_fuel = 100
 	worn_accessible = TRUE
