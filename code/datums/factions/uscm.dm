@@ -68,16 +68,16 @@
 		else if(ID)
 			_role = ID.rank
 		switch(_role)
-			if(JOB_XO)
+			if(JOB_XO, JOB_MS_CPT)
 				marine_rk = "xo"
 				border_rk = "command"
-			if(JOB_CO)
+			if(JOB_CO, JOB_MS_CO)
 				marine_rk = "co"
 				border_rk = "command"
-			if(JOB_SO)
+			if(JOB_SO, JOB_MS_LT)
 				marine_rk = "so"
 				border_rk = "command"
-			if(JOB_AUXILIARY_OFFICER)
+			if(JOB_AUXILIARY_OFFICER, JOB_MS_XO)
 				marine_rk = "aso"
 				border_rk = "command"
 			if(JOB_GENERAL, JOB_COLONEL, JOB_ACMC, JOB_CMC)
@@ -151,9 +151,9 @@
 			if(JOB_RIOT_CHIEF)
 				marine_rk = "crmp"
 			// Whiskey Outpost
-			if(JOB_WO_CO)
+			if(JOB_WO_CO, JOB_MS_GC)
 				marine_rk = "wo_co"
-			if(JOB_WO_XO)
+			if(JOB_WO_XO, JOB_MS_PC)
 				marine_rk = "wo_xo"
 			if(JOB_WO_CHIEF_POLICE)
 				marine_rk = "hgsl"
@@ -190,17 +190,17 @@
 				marine_rk = "obs"
 				icon_prefix = "cmb_"
 			// Check squad marines here too, for the unique ones
-			if(JOB_SQUAD_ENGI)
+			if(JOB_SQUAD_ENGI, JOB_MS_ENGINEER)
 				marine_rk = "engi"
-			if(JOB_SQUAD_MEDIC)
+			if(JOB_SQUAD_MEDIC, JOB_MS_MEDIC)
 				marine_rk = "med"
-			if(JOB_SQUAD_SPECIALIST)
+			if(JOB_SQUAD_SPECIALIST, JOB_MS_RFM)
 				marine_rk = "spec"
-			if(JOB_SQUAD_SMARTGUN)
+			if(JOB_SQUAD_SMARTGUN, JOB_MS_SMARTGUNNER)
 				marine_rk = "gun"
 			if(JOB_SQUAD_TEAM_LEADER)
 				marine_rk = "tl"
-			if(JOB_SQUAD_LEADER)
+			if(JOB_SQUAD_LEADER, JOB_MS_SL)
 				marine_rk = "leader"
 
 		if(marine_rk)
