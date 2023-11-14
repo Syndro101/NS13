@@ -220,4 +220,5 @@ GLOBAL_LIST_INIT(cm_vending_clothing_medic, list(
 		/obj/item/storage/surgical_case/regular,
 		/obj/item/reagent_container/blood/OMinus,
 		/obj/item/reagent_container/blood/OMinus,
+		/obj/item/device/helmet_visor/night_vision,
 	)
