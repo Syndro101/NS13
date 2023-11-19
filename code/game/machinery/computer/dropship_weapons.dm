@@ -718,13 +718,13 @@
 		firemission_envelope.change_current_loc(shootloc)
 
 /obj/structure/machinery/computer/dropship_weapons/dropship1
-	name = "\improper 'Alamo' weapons controls"
+	name = "\improper 'verdun' weapons controls"
 	req_one_access = list(ACCESS_MARINE_LEADER, ACCESS_MARINE_DROPSHIP, ACCESS_WY_FLIGHT)
 	firemission_envelope = new /datum/cas_fire_envelope/uscm_dropship()
 
 /obj/structure/machinery/computer/dropship_weapons/dropship1/New()
 	..()
-	shuttle_tag = DROPSHIP_ALAMO
+	shuttle_tag = DROPSHIP_verdun
 
 /obj/structure/machinery/computer/dropship_weapons/dropship2
 	name = "\improper 'Normandy' weapons controls"
