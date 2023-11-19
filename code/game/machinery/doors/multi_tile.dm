@@ -306,7 +306,7 @@
 		lock(TRUE)
 
 /obj/structure/machinery/door/airlock/multi_tile/almayer/dropshiprear/ds1
-	name = "\improper Alamo cargo door"
+	name = "\improper verdun cargo door"
 	icon = 'icons/obj/structures/doors/dropship1_cargo.dmi'
 
 /obj/structure/machinery/door/airlock/multi_tile/almayer/dropshiprear/ds2

@@ -111,7 +111,7 @@
 #define MOBILE_SHUTTLE_LIFEBOAT_STARBOARD "lifeboat-starboard"
 #define MOBILE_SHUTTLE_VEHICLE_ELEVATOR "vehicle_elevator"
 
-#define DROPSHIP_ALAMO "dropship_alamo"
+#define DROPSHIP_verdun "dropship_verdun"
 #define DROPSHIP_NORMANDY "dropship_normandy"
 
 #define ALMAYER_DROPSHIP_LZ1 "almayer-hangar-lz1"

@@ -104,9 +104,9 @@
 			set_security_level(SEC_LEVEL_RED)
 			return
 
-/obj/docking_port/mobile/marine_dropship/alamo
-	name = "Alamo"
-	id = DROPSHIP_ALAMO
+/obj/docking_port/mobile/marine_dropship/verdun
+	name = "verdun"
+	id = DROPSHIP_verdun
 
 /obj/docking_port/mobile/marine_dropship/normandy
 	name = "Normandy"
@@ -252,7 +252,7 @@
 	name = "Almayer Hangar bay 1"
 	id = ALMAYER_DROPSHIP_LZ1
 	auto_open = TRUE
-	roundstart_template = /datum/map_template/shuttle/alamo
+	roundstart_template = /datum/map_template/shuttle/verdun
 
 /obj/docking_port/stationary/marine_dropship/almayer_hangar_2
 	name = "Almayer Hangar bay 2"
@@ -285,9 +285,9 @@
 
 	SEND_GLOBAL_SIGNAL(COMSIG_GLOB_GROUNDSIDE_FORSAKEN_HANDLING)
 
-/datum/map_template/shuttle/alamo
-	name = "Alamo"
-	shuttle_id = DROPSHIP_ALAMO
+/datum/map_template/shuttle/verdun
+	name = "verdun"
+	shuttle_id = DROPSHIP_verdun
 
 /datum/map_template/shuttle/normandy
 	name = "Normandy"

@@ -192,7 +192,7 @@
 	},
 /area/shuttle/drop1/sulaco)
 "mW" = (
-/obj/item/device/radio/intercom/alamo{
+/obj/item/device/radio/intercom/verdun{
 	pixel_x = -10
 	},
 /turf/closed/shuttle/dropship1{
@@ -200,7 +200,7 @@
 	},
 /area/shuttle/drop1/sulaco)
 "nC" = (
-/obj/item/device/radio/intercom/alamo{
+/obj/item/device/radio/intercom/verdun{
 	pixel_x = 10
 	},
 /turf/closed/shuttle/dropship1{
@@ -301,7 +301,7 @@
 /turf/open/space/basic,
 /area/shuttle/drop1/sulaco)
 "tR" = (
-/obj/item/device/radio/intercom/alamo{
+/obj/item/device/radio/intercom/verdun{
 	layer = 3.5;
 	pixel_x = 21;
 	pixel_y = 43
@@ -325,7 +325,7 @@
 /turf/template_noop,
 /area/shuttle/drop1/sulaco)
 "wr" = (
-/obj/item/device/radio/intercom/alamo{
+/obj/item/device/radio/intercom/verdun{
 	pixel_y = 24
 	},
 /turf/open/shuttle/dropship{
@@ -476,9 +476,9 @@
 "Ho" = (
 /obj/structure/machinery/computer/dropship_weapons/dropship1,
 /obj/structure/transmitter/rotary{
-	name = "Alamo Telephone";
+	name = "verdun Telephone";
 	phone_category = "Dropship";
-	phone_id = "Alamo";
+	phone_id = "verdun";
 	pixel_x = 11;
 	pixel_y = 16
 	},
@@ -576,7 +576,7 @@
 	},
 /area/shuttle/drop1/sulaco)
 "OK" = (
-/obj/docking_port/mobile/marine_dropship/alamo,
+/obj/docking_port/mobile/marine_dropship/verdun,
 /obj/effect/attach_point/crew_weapon/dropship1,
 /obj/effect/decal/warning_stripes,
 /turf/open/shuttle/dropship{
@@ -725,7 +725,7 @@
 /area/shuttle/drop1/sulaco)
 "Vm" = (
 /obj/structure/machinery/door_control{
-	id = "dropship_alamo";
+	id = "dropship_verdun";
 	name = "Dropship Lockdown";
 	normaldoorcontrol = 3;
 	pixel_y = -19;
@@ -766,7 +766,7 @@
 /obj/structure/bed/chair/vehicle{
 	pixel_x = 8
 	},
-/obj/item/device/radio/intercom/alamo{
+/obj/item/device/radio/intercom/verdun{
 	pixel_y = 24
 	},
 /turf/open/shuttle/dropship{
