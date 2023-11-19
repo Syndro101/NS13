@@ -257,8 +257,8 @@
 	deployed_turret.set_range()
 
 	deployed_turret.linked_cam = new(deployed_turret.loc, "[capitalize_first_letters(ship_base.name)] [capitalize_first_letters(name)]")
-	if (linked_shuttle.id == DROPSHIP_verdun)
-		deployed_turret.linked_cam.network = list(CAMERA_NET_verdun)
+	if (linked_shuttle.id == DROPSHIP_ALAMO)
+		deployed_turret.linked_cam.network = list(CAMERA_NET_ALAMO)
 	else if (linked_shuttle.id == DROPSHIP_NORMANDY)
 		deployed_turret.linked_cam.network = list(CAMERA_NET_NORMANDY)
 
