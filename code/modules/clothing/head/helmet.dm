@@ -327,7 +327,6 @@ GLOBAL_LIST_INIT(allowed_helmet_items, list(
 	/obj/item/clothing/head/headset = "headset",
 	/obj/item/clothing/accessory/patch = "uscmpatch",
 	/obj/item/clothing/accessory/patch/falcon = "falconspatch",
-	/obj/item/clothing/accessory/patch/mudskippers = "mudskipperspatch",
 	/obj/item/ammo_magazine/handful = "bullet",
 	/obj/item/prop/helmetgarb/riot_shield = "helmet_riot_shield",
 	/obj/item/attachable/flashlight = HELMET_GARB_RELAY_ICON_STATE,
@@ -385,7 +384,7 @@ GLOBAL_LIST_INIT(allowed_helmet_items, list(
 	var/helmet_overlay_icon = 'icons/mob/humans/onmob/head_1.dmi'
 
 	///Any visors built into the helmet
-	var/list/built_in_visors = list(new /obj/item/device/helmet_visor, new /obj/item/device/helmet_visor/night_vision/marine_raider)
+	var/list/built_in_visors = list(new /obj/item/device/helmet_visor)
 
 	///Any visors that have been added into the helmet
 	var/list/inserted_visors = list()
@@ -723,7 +722,7 @@ GLOBAL_LIST_INIT(allowed_helmet_items, list(
 	desc = "A modified M10 marine helmet for ComTechs. Features a toggleable welding screen for eye protection."
 	icon_state = "tech_helmet"
 	specialty = "M10 technician"
-	built_in_visors = list(new /obj/item/device/helmet_visor, new /obj/item/device/helmet_visor/welding_visor, new /obj/item/device/helmet_visor/night_vision/marine_raider)
+	built_in_visors = list(new /obj/item/device/helmet_visor, new /obj/item/device/helmet_visor/welding_visor)
 
 /obj/item/clothing/head/helmet/marine/grey
 	desc = "A standard M10 Pattern Helmet. This one has not had a camouflage pattern applied to it yet. There is a built-in camera on the right side."
@@ -757,14 +756,14 @@ GLOBAL_LIST_INIT(allowed_helmet_items, list(
 	flags_inventory = BLOCKSHARPOBJ
 	flags_inv_hide = HIDEEARS|HIDETOPHAIR
 	specialty = "M50 tanker"
-	built_in_visors = list(new /obj/item/device/helmet_visor, new /obj/item/device/helmet_visor/night_vision/marine_raider, new /obj/item/device/helmet_visor/welding_visor/tanker)
+	built_in_visors = list(new /obj/item/device/helmet_visor, new /obj/item/device/helmet_visor/welding_visor/tanker)
 
 /obj/item/clothing/head/helmet/marine/medic
 	name = "\improper M10 corpsman helmet"
 	desc = "An M10 marine helmet version worn by marine hospital corpsmen. Has red cross painted on its front."
 	icon_state = "med_helmet"
 	specialty = "M10 pattern medic"
-	built_in_visors = list(new /obj/item/device/helmet_visor, new /obj/item/device/helmet_visor/night_vision/marine_raider, new /obj/item/device/helmet_visor/medical/advanced)
+	built_in_visors = list(new /obj/item/device/helmet_visor, new /obj/item/device/helmet_visor/medical/advanced)
 	start_down_visor_type = /obj/item/device/helmet_visor/medical/advanced
 
 /obj/item/clothing/head/helmet/marine/covert
@@ -907,7 +906,7 @@ GLOBAL_LIST_INIT(allowed_helmet_items, list(
 	armor_bio = CLOTHING_ARMOR_MEDIUMHIGH
 	specialty = "M10 pattern captain"
 	flags_atom = NO_SNOW_TYPE
-	built_in_visors = list(new /obj/item/device/helmet_visor, new /obj/item/device/helmet_visor/medical/advanced, new /obj/item/device/helmet_visor/security, new /obj/item/device/helmet_visor/night_vision/marine_raider)
+	built_in_visors = list(new /obj/item/device/helmet_visor, new /obj/item/device/helmet_visor/medical/advanced, new /obj/item/device/helmet_visor/security)
 
 /obj/item/clothing/head/helmet/marine/MP
 	name = "\improper M10 pattern MP helmet"
@@ -1398,34 +1397,7 @@ GLOBAL_LIST_INIT(allowed_helmet_items, list(
 
 	built_in_visors = list()
 
-/obj/item/clothing/head/helmet/marine/cbrn_hood
-	name = "\improper M3 MOPP mask"
-	desc = "The M3 MOPP mask includes a full covering cowl that securely attaches to the MOPP suit. The mask filters out harmful particles in the air to allow the wearer to breathe safely in the field. Depending on the hostility of the contaminated area the mask’s filter will last an average of 12 hours or less."
-	icon_state = "cbrn_hood"
-	item_state = "cbrn_hood"
-	min_cold_protection_temperature = ICE_PLANET_MIN_COLD_PROT
-	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROT
-	flags_cold_protection = BODY_FLAG_HEAD
-	flags_heat_protection = BODY_FLAG_HEAD
-	armor_melee = CLOTHING_ARMOR_MEDIUMLOW
-	armor_bullet = CLOTHING_ARMOR_MEDIUMLOW
-	armor_bomb = CLOTHING_ARMOR_MEDIUM
-	armor_bio = CLOTHING_ARMOR_HIGH
-	armor_rad = CLOTHING_ARMOR_HIGHPLUS
-	force = 0 //"The M3 MOPP mask would be a normal weapon if you were to hit someone with it."
-	throwforce = 0
-	flags_inventory = BLOCKSHARPOBJ
-	flags_marine_helmet = NO_FLAGS
-	flags_atom = NO_SNOW_TYPE|NO_NAME_OVERRIDE
-	flags_inv_hide = HIDEEARS|HIDEALLHAIR
-	built_in_visors = list()
-
-/obj/item/clothing/head/helmet/marine/cbrn_hood/advanced
-	armor_melee = CLOTHING_ARMOR_HIGH
-	armor_bullet = CLOTHING_ARMOR_MEDIUMHIGH
-	armor_bomb = CLOTHING_ARMOR_ULTRAHIGH
-	armor_bio = CLOTHING_ARMOR_GIGAHIGHPLUS
-	armor_rad = CLOTHING_ARMOR_GIGAHIGHPLUS
+#undef HELMET_GARB_RELAY_ICON_STATE
 
 //=ROYAL MARINES=\\
 
@@ -1457,5 +1429,3 @@ GLOBAL_LIST_INIT(allowed_helmet_items, list(
 	armor_bomb = CLOTHING_ARMOR_MEDIUMHIGH
 	armor_bio = CLOTHING_ARMOR_MEDIUM
 	armor_internaldamage = CLOTHING_ARMOR_LOW
-
-#undef HELMET_GARB_RELAY_ICON_STATE
