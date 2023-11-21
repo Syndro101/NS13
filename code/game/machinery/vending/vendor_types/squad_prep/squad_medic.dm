@@ -106,7 +106,7 @@ GLOBAL_LIST_INIT(cm_vending_gear_medic, list(
 	desc = "An automated gear rack for hospital corpsmen."
 	icon_state = "med_gear"
 	show_points = TRUE
-	vendor_role = list(JOB_SQUAD_MEDIC)
+	vendor_role = list(JOB_SQUAD_MEDIC,JOB_MS_MEDIC)
 	req_access = list(ACCESS_MARINE_MEDPREP)
 
 /obj/structure/machinery/cm_vending/gear/medic/get_listed_products(mob/user)
@@ -122,7 +122,6 @@ GLOBAL_LIST_INIT(cm_vending_clothing_medic, list(
 		list("Map", 0, /obj/item/map/current_map, MARINE_CAN_BUY_KIT, VENDOR_ITEM_MANDATORY),
 
 		list("ARMOR (CHOOSE 1)", 0, null, null, null),
-		list("Light Armor", 0, /obj/item/clothing/suit/storage/marine/light, MARINE_CAN_BUY_ARMOR, VENDOR_ITEM_REGULAR),
 		list("Medium Armor", 0, /obj/item/clothing/suit/storage/marine/medium, MARINE_CAN_BUY_ARMOR, VENDOR_ITEM_RECOMMENDED),
 		list("Heavy Armor", 0, /obj/item/clothing/suit/storage/marine/heavy, MARINE_CAN_BUY_ARMOR, VENDOR_ITEM_REGULAR),
 
@@ -181,7 +180,7 @@ GLOBAL_LIST_INIT(cm_vending_clothing_medic, list(
 	name = "\improper ColMarTech Squad Medical Equipment Rack"
 	desc = "An automated rack hooked up to a colossal storage of hospital corpsman standard-issue equipment."
 	req_access = list(ACCESS_MARINE_MEDPREP)
-	vendor_role = list(JOB_SQUAD_MEDIC)
+	vendor_role = list(JOB_SQUAD_MEDIC, JOB_MS_MEDIC)
 
 /obj/structure/machinery/cm_vending/clothing/medic/get_listed_products(mob/user)
 	return GLOB.cm_vending_clothing_medic
@@ -221,4 +220,5 @@ GLOBAL_LIST_INIT(cm_vending_clothing_medic, list(
 		/obj/item/storage/surgical_case/regular,
 		/obj/item/reagent_container/blood/OMinus,
 		/obj/item/reagent_container/blood/OMinus,
+		/obj/item/device/helmet_visor/night_vision,
 	)
