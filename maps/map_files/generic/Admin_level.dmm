@@ -99,7 +99,9 @@
 	},
 /area/adminlevel/ert_station)
 "am" = (
-/obj/structure/disposaloutlet,
+/obj/structure/disposaloutlet{
+	pixel_y = -5
+	},
 /obj/structure/disposalpipe/trunk{
 	dir = 1
 	},
@@ -3524,7 +3526,9 @@
 	name = "\improper High Command Outpost"
 	})
 "ml" = (
-/obj/structure/disposaloutlet,
+/obj/structure/disposaloutlet{
+	pixel_y = -5
+	},
 /obj/structure/disposalpipe/trunk{
 	dir = 1
 	},
@@ -5295,7 +5299,8 @@
 	})
 "sA" = (
 /obj/structure/disposaloutlet{
-	dir = 8
+	dir = 8;
+	pixel_x = -7
 	},
 /obj/structure/disposalpipe/trunk{
 	dir = 4
@@ -7714,10 +7719,10 @@
 /obj/structure/machinery/status_display{
 	pixel_x = 32
 	},
-/obj/structure/safe/floor,
 /obj/item/book/codebook{
 	name = "UA Outpost Code Book"
 	},
+/obj/structure/safe,
 /turf/open/floor/wood/ship,
 /area/adminlevel/ert_station)
 "As" = (
@@ -8528,7 +8533,8 @@
 	dir = 8
 	},
 /obj/structure/disposaloutlet{
-	dir = 4
+	dir = 4;
+	pixel_x = 7
 	},
 /turf/closed/wall/r_wall/chigusa{
 	hull = 1;
@@ -9266,15 +9272,6 @@
 	icon_state = "green"
 	},
 /area/adminlevel/ert_station)
-"Fd" = (
-/obj/structure/showcase,
-/turf/open/floor/almayer{
-	allow_construction = 0;
-	icon_state = "plate"
-	},
-/area/centcom/living{
-	name = "\improper High Command Outpost"
-	})
 "Fh" = (
 /obj/structure/ladder{
 	desc = "A sturdy metal ladder, leads to the hanger.";
@@ -11756,7 +11753,9 @@
 /obj/structure/disposalpipe/trunk{
 	dir = 1
 	},
-/obj/structure/disposaloutlet,
+/obj/structure/disposaloutlet{
+	pixel_y = -5
+	},
 /turf/closed/wall/wood{
 	desc = "A huge chunk of treated wood used to separate rooms, questionably safe.";
 	hull = 1;
@@ -12326,7 +12325,8 @@
 	dir = 4
 	},
 /obj/structure/disposaloutlet{
-	dir = 8
+	dir = 8;
+	pixel_x = -8
 	},
 /turf/closed/wall/almayer/white/hull,
 /area/adminlevel/ert_station)
@@ -14621,16 +14621,6 @@
 	icon_state = "plate"
 	},
 /area/adminlevel/ert_station)
-"Wq" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/showcase,
-/turf/open/floor/almayer{
-	allow_construction = 0;
-	icon_state = "plate"
-	},
-/area/centcom/living{
-	name = "\improper High Command Outpost"
-	})
 "Wr" = (
 /obj/structure/bed{
 	can_buckle = 0
@@ -17651,7 +17641,7 @@ lr
 rK
 am
 as
-as
+TT
 as
 as
 as
@@ -18417,7 +18407,7 @@ HN
 TN
 HN
 TN
-Wq
+Uv
 Ya
 as
 as
@@ -19319,7 +19309,7 @@ KF
 Gk
 WG
 VD
-TP
+Uv
 HN
 HN
 Sv
@@ -19329,7 +19319,7 @@ HN
 TN
 HN
 TN
-Fd
+qY
 Ya
 as
 as
@@ -32916,7 +32906,7 @@ as
 as
 as
 as
-as
+TT
 as
 as
 as
@@ -34595,7 +34585,7 @@ TA
 Jw
 ml
 as
-as
+TT
 as
 as
 TT
@@ -36466,7 +36456,7 @@ CN
 Io
 Nk
 ae
-as
+TT
 as
 as
 TT
