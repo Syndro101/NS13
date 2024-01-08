@@ -22,12 +22,12 @@
 	can_buckle = FALSE
 
 	light_system = MOVABLE_LIGHT
-	light_range = 5
+	light_range = 10
 
 	var/atom/movable/vehicle_light_holder/lighting_holder
 
-	var/vehicle_light_range = 5
-	var/vehicle_light_power = 2
+	var/vehicle_light_range = 10
+	var/vehicle_light_power = 4
 
 	//Yay! Working cameras in the vehicles at last!!
 	var/obj/structure/machinery/camera/vehicle/camera = null
