@@ -145,6 +145,8 @@
 				marine_rk = "tisio"
 			if(JOB_TIS_SA)
 				marine_rk = "tissa"
+			if(JOB_TIS_CO)
+				marine_rk = "tisco"
 			// Riot MPs
 			if(JOB_RIOT)
 				marine_rk = "rmp"

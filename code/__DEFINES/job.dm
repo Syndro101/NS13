@@ -336,8 +336,10 @@ var/global/list/job_command_roles = JOB_COMMAND_ROLES_LIST
 //-------- UAAC --------//
 #define JOB_TIS_IO "UAAC-TIS Intelligence Officer"
 #define JOB_TIS_SA "UAAC-TIS Special Agent"
+#define JOB_TIS_CO "UAAC-TIS Coordinator"
 
-#define TIS_JOB_LIST list(JOB_TIS_SA, JOB_TIS_IO)
+
+#define TIS_JOB_LIST list(JOB_TIS_IO, JOB_TIS_SA, JOB_TIS_CO)
 //-------- DUTCH'S DOZEN --------//
 #define JOB_DUTCH_ARNOLD "Dutch's Dozen - Dutch"
 #define JOB_DUTCH_RIFLEMAN "Dutch's Dozen - Rifleman"
