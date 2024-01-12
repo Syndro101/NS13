@@ -524,9 +524,9 @@
 	flags = EQUIPMENT_PRESET_EXTRA
 
 /datum/equipment_preset/uscm_event/uaac/tis/sa/load_gear(mob/living/carbon/human/new_human)
-	var/back_item = /obj/item/storage/backpack/satchel/lockable
+	var/back_item = /obj/item/storage/backpack/satchel/lockable/fancy
 	if (new_human.client && new_human.client.prefs && (new_human.client.prefs.backbag == 1))
-		back_item = /obj/item/storage/backpack/satchel/lockable
+		back_item = /obj/item/storage/backpack/satchel/lockable/fancy
 
 	new_human.equip_to_slot_or_del(new /obj/item/device/radio/headset/almayer/tis(new_human), WEAR_L_EAR)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/under/uaac/tis(new_human), WEAR_BODY)
@@ -556,9 +556,9 @@
 	flags = EQUIPMENT_PRESET_EXTRA
 
 /datum/equipment_preset/uscm_event/uaac/tis/co/load_gear(mob/living/carbon/human/new_human)
-	var/back_item = /obj/item/storage/backpack/satchel/lockable
+	var/back_item = /obj/item/storage/backpack/satchel/lockable/fancy
 	if (new_human.client && new_human.client.prefs && (new_human.client.prefs.backbag == 1))
-		back_item = /obj/item/storage/backpack/satchel/lockable
+		back_item = /obj/item/storage/backpack/satchel/lockable/fancy
 
 	new_human.equip_to_slot_or_del(new /obj/item/device/radio/headset/almayer/tis(new_human), WEAR_L_EAR)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/under/uaac/tis/co(new_human), WEAR_BODY)
