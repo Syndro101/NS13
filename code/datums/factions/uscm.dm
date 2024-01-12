@@ -143,6 +143,8 @@
 			// TIS
 			if(JOB_TIS_IO)
 				marine_rk = "tisio"
+			if(JOB_TIS_SIO)
+				marine_rk = "tissio"
 			if(JOB_TIS_SA)
 				marine_rk = "tissa"
 			if(JOB_TIS_CO)

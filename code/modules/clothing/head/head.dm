@@ -474,7 +474,7 @@
 	icon_state = "berettis"
 	desc = "A beret with the UAAC-TIS insignia emblazoned on it. A mark of a TIS Special Agent, these berets are one of the only pieces of equipment that the TIS actually manufactures for itself and earning one is one of the rare signs of achievement the Three Eyes allows."
 
-/obj/item/clothing/head/beret/marine/mp/tisco
+/obj/item/clothing/head/beret/marine/mp/tis/co
 	name = "\improper UAAC-TIS Coordinator Beret"
 	icon_state = "berettisco"
 	desc = "A beret with a platinum UAAC-TIS insignia emblazoned on it. A mark of a TIS Coordinators, earning one of these berets is a great honor and are given upon promotion."

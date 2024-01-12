@@ -211,20 +211,3 @@
 	item_state = "cbrn"
 	armor_bio = CLOTHING_ARMOR_GIGAHIGHPLUS
 	armor_rad = CLOTHING_ARMOR_GIGAHIGHPLUS
-
-// =TIS= \\
-
-/obj/item/clothing/gloves/marine/tis
-	name = "TIS armored gloves"
-	desc = "Once standard gloves, this pair have been meticulously up-armored and insulated by a member of the UAAC-TIS."
-	icon_state = "tis_gloves"
-	item_state = "tis_gloves"
-	siemens_coefficient = 0
-	armor_melee = CLOTHING_ARMOR_HIGH
-	armor_bullet = CLOTHING_ARMOR_MEDIUM
-	armor_laser = CLOTHING_ARMOR_LOW
-	armor_energy = CLOTHING_ARMOR_LOW
-	armor_bomb = CLOTHING_ARMOR_LOW
-	armor_rad = CLOTHING_ARMOR_LOW
-	armor_internaldamage = CLOTHING_ARMOR_HIGH
-	adopts_squad_color = FALSE
