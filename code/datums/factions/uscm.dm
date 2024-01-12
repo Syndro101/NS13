@@ -196,7 +196,7 @@
 
 		if(marine_rk)
 			var/image/I = image('icons/mob/hud/marine_hud.dmi', current_human, "hudsquad")
-			I.color = "#5A934A"
+			I.color = "#5a934a38"
 			holder.overlays += I
 			holder.overlays += image('icons/mob/hud/marine_hud.dmi', current_human, "[icon_prefix][marine_rk]")
 			if(border_rk)

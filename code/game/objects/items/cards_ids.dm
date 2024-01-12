@@ -235,6 +235,13 @@
 	registered_name = "The USCM"
 	assignment = "General"
 
+/obj/item/card/id/tis
+	name = "UAAC-TIS holo-badge"
+	desc = "Issued to members of the UAAC-TIS."
+	icon_state = "tis"
+	registered_name = "The TIS"
+	assignment = "UAAC-TIS"
+
 /obj/item/card/id/general/New()
 	access = get_access(ACCESS_LIST_MARINE_ALL)
 

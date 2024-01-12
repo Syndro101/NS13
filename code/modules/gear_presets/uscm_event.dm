@@ -2,7 +2,7 @@
 	name = "USCM (Event Roles)"
 	faction = FACTION_MARINE
 	faction_group = FACTION_LIST_MARINE
-	minimum_age = 30
+	minimum_age = 25
 	languages = list(LANGUAGE_ENGLISH)
 
 
@@ -446,8 +446,8 @@
 /datum/equipment_preset/uscm_event/uaac/tis
 	name = "UAAC-TIS"
 
-	idtype = /obj/item/card/id/general
-	skills = /datum/skills/provost
+	idtype = /obj/item/card/id/tis
+	skills = /datum/skills/intel
 
 /datum/equipment_preset/uscm_event/uaac/tis/New()
 	. = ..()
@@ -455,7 +455,7 @@
 
 /datum/equipment_preset/uscm_event/uaac/tis/io
 	name = "UAAC-TIS Intelligence Officer (NO1)"
-	minimum_age = 20
+	minimum_age = 25
 	skills = /datum/skills/intel
 
 	assignment = JOB_TIS_IO
@@ -480,6 +480,7 @@
 		new_human.equip_to_slot_or_del(new /obj/item/clothing/glasses/sunglasses/sechud/hidden(new_human), WEAR_EYES)
 	new_human.equip_to_slot_or_del(new back_item(new_human), WEAR_BACK)
 	new_human.equip_to_slot_or_del(new /obj/item/device/taperecorder(new_human), WEAR_L_STORE)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/patch/tis(new_human), WEAR_ACCESSORY)
 
 /datum/equipment_preset/uscm_event/uaac/tis/sio
 	name = "UAAC-TIS Senior Intelligence Officer (NO2)"
@@ -509,6 +510,7 @@
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/head/beret/cm/black(new_human), WEAR_HEAD)
 	new_human.equip_to_slot_or_del(new back_item(new_human), WEAR_BACK)
 	new_human.equip_to_slot_or_del(new /obj/item/device/taperecorder(new_human), WEAR_L_STORE)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/patch/tis(new_human), WEAR_ACCESSORY)
 
 /datum/equipment_preset/uscm_event/uaac/tis/sa
 	name = "UAAC-TIS Special Agent (NO5)"
@@ -540,6 +542,7 @@
 	new_human.equip_to_slot_or_del(new back_item(new_human), WEAR_BACK)
 	new_human.equip_to_slot_or_del(new /obj/item/device/taperecorder(new_human), WEAR_L_STORE)
 	new_human.equip_to_slot_or_del(new /obj/item/storage/pouch/magazine/pistol/large/mateba/impact(new_human), WEAR_R_STORE)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/patch/tis(new_human), WEAR_ACCESSORY)
 
 /datum/equipment_preset/uscm_event/uaac/tis/co
 	name = "UAAC-TIS Coordinator (NO6E)"
@@ -572,6 +575,7 @@
 	new_human.equip_to_slot_or_del(new /obj/item/device/taperecorder(new_human), WEAR_L_STORE)
 	new_human.equip_to_slot_or_del(new /obj/item/storage/pouch/magazine/pistol/large/mateba/impact(new_human), WEAR_R_STORE)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/health/ceramic_plate(new_human), WEAR_ACCESSORY)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/patch/tis(new_human), WEAR_ACCESSORY)
 	new_human.equip_to_slot_or_del(new /obj/item/storage/mateba_case/general(new_human), WEAR_L_HAND)
 
 /*****************************************************************************************************/
