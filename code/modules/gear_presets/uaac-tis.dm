@@ -6,7 +6,7 @@
 	name = "UAAC-TIS"
 
 	idtype = /obj/item/card/id/tis
-	skills = /datum/skills/intel
+	skills = /datum/skills/tis
 
 /datum/equipment_preset/uscm_event/uaac/tis/New()
 	. = ..()
@@ -16,7 +16,7 @@
 /datum/equipment_preset/uscm_event/uaac/tis/es
 	name = "UAAC-TIS Escort Officer (NE7)"
 	minimum_age = 25
-	skills = /datum/skills/CMP
+	skills = /datum/skills/tis
 
 	assignment = JOB_TIS_ES
 	rank = "UAAC-TIS Escort Officer"
@@ -53,7 +53,7 @@
 /datum/equipment_preset/uscm_event/uaac/tis/io
 	name = "UAAC-TIS Intelligence Officer (NO1)"
 	minimum_age = 25
-	skills = /datum/skills/intel
+	skills = /datum/skills/tis
 
 	assignment = JOB_TIS_IO
 	rank = "UAAC-TIS Intelligence Officer"
@@ -88,7 +88,7 @@
 /datum/equipment_preset/uscm_event/uaac/tis/sio
 	name = "UAAC-TIS Senior Intelligence Officer (NO2)"
 	minimum_age = 25
-	skills = /datum/skills/intel
+	skills = /datum/skills/tis
 
 	assignment = JOB_TIS_SIO
 	rank = "UAAC-TIS Senior Intelligence Officer"
@@ -123,7 +123,7 @@
 /datum/equipment_preset/uscm_event/uaac/tis/sa
 	name = "UAAC-TIS Special Agent (NO5)"
 	minimum_age = 30
-	skills = /datum/skills/general
+	skills = /datum/skills/tiscomm
 
 	assignment = JOB_TIS_SA
 	rank = "UAAC-TIS Special Agent"
@@ -162,7 +162,7 @@
 /datum/equipment_preset/uscm_event/uaac/tis/co
 	name = "UAAC-TIS Coordinator (NO6E)"
 	minimum_age = 35
-	skills = /datum/skills/general
+	skills = /datum/skills/tiscomm
 
 	assignment = JOB_TIS_CO
 	rank = "UAAC-TIS Coordinator"
