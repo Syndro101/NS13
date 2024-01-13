@@ -15,6 +15,3 @@ endmap
 map almayer
 	default
 endmap
-
-map heavensent
-endmap
