@@ -53,8 +53,8 @@
 	icon_state = "beanietan"
 
 /obj/item/clothing/head/beret/cm
-	name = "\improper USCM beret"
-	desc = "A hat typically worn by the field-officers of the USCM. Occasionally they find their way down the ranks into the hands of squad-leaders and decorated grunts."
+	name = "\improper Military beret"
+	desc = "A hat typically worn by field-officers. Occasionally they find their way down the ranks into the hands of squad-leaders and decorated grunts."
 	icon = 'icons/obj/items/clothing/cm_hats.dmi'
 	icon_state = "beret"
 	item_icons = list(
@@ -82,7 +82,7 @@
 	icon_state = "beret_black"
 
 /obj/item/clothing/head/beret/cm/squadberet
-	name = "USCM Squad Beret"
+	name = "Squad Beret"
 	desc = "For those who want to show pride and have nothing to lose (in their head, at least)."
 
 /obj/item/clothing/head/beret/cm/squadberet/equipped(mob/user, slot)

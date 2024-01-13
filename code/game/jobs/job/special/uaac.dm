@@ -1,3 +1,7 @@
+//UAAC-TIS Escort Officer
+/datum/job/special/uaac/tis/es
+	title = JOB_TIS_ES
+
 //UAAC-TIS Intelligence Officer
 /datum/job/special/uaac/tis/io
 	title = JOB_TIS_IO

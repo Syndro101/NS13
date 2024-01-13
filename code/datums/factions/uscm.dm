@@ -141,6 +141,8 @@
 				marine_rk = "pvm"
 				border_rk = "command"
 			// TIS
+			if(JOB_TIS_ES)
+				marine_rk = "tises"
 			if(JOB_TIS_IO)
 				marine_rk = "tisio"
 			if(JOB_TIS_SIO)

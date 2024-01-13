@@ -413,6 +413,24 @@
 //==================//UNITED AMERICAS ALLIED COMMAND\\===================\\
 //=======================================================================\\
 
+/obj/item/clothing/under/uaac/tis/es
+	name = "\improper UAAC-TIS Escort fatigues"
+	desc = "A robust set of fatigues specially made by the TIS for their Escort Officers, they feature strong padding against melee and some bullet-resistance."
+	flags_atom = NO_SNOW_TYPE|NO_NAME_OVERRIDE
+	icon_state = "tis_uniform"
+	worn_state = "tis_uniform"
+	min_cold_protection_temperature = ICE_PLANET_MIN_COLD_PROT
+	suit_restricted = list(/obj/item/clothing/suit/storage/marine/uaac/tis/es)
+	flags_jumpsuit = UNIFORM_SLEEVE_ROLLABLE
+	armor_melee = CLOTHING_ARMOR_MEDIUMLOW
+	armor_bullet = CLOTHING_ARMOR_LOW
+	armor_laser = CLOTHING_ARMOR_NONE
+	armor_energy = CLOTHING_ARMOR_NONE
+	armor_bomb = CLOTHING_ARMOR_LOW
+	armor_bio = CLOTHING_ARMOR_LOW
+	armor_rad = CLOTHING_ARMOR_LOW
+	armor_internaldamage = CLOTHING_ARMOR_MEDIUMLOW
+
 /obj/item/clothing/under/uaac/tis/io
 	name = "\improper UAAC-TIS Intelligence Officer uniform"
 	desc = "Originally a USCM officer uniform, all insignia have been carefully removed and replaced by a simple TIS pin worn over the right breast. Like their Special Agent counterparts, TIS Intel Officers are typically transplants from UA aligned armed forces, often initially recruited on a temporary basis then transferred permanently. As such, officers are often forced to adapt their original uniforms."
@@ -423,6 +441,7 @@
 /obj/item/clothing/under/uaac/tis/seniorio
 	name = "\improper UAAC-TIS Senior Intelligence Officer uniform"
 	desc = "Often one of the first changes made to their wardrobe, Senior IO's will carefully dye their uniforms to match the TIS color-scheme as a mark of their seniority."
+	flags_atom = NO_SNOW_TYPE|NO_NAME_OVERRIDE
 	icon_state = "tis_jumpsuit"
 	worn_state = "tis_jumpsuit"
 	flags_jumpsuit = UNIFORM_SLEEVE_ROLLABLE
