@@ -68,7 +68,7 @@
 	armor_internaldamage = CLOTHING_ARMOR_MEDIUMHIGH
 	knife_type = /obj/item/attachable/bayonet/upp
 
-/obj/item/clothing/shoes/marine/upp_knife
+/obj/item/clothing/shoes/marine/upp/knife
 	knife_type = /obj/item/attachable/bayonet/upp
 
 /obj/item/clothing/shoes/marine/joe
