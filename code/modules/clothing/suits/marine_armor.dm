@@ -1696,7 +1696,7 @@
 
 /obj/item/clothing/suit/storage/marine/uaac/tis/sa
 	name = "\improper M3 pattern UAAC-TIS Special Agent Armor"
-	desc = "A modified luxury armor, originally meant for a USCM Provost Marshall, modified to use the colors and insignia of the TIS. The Three Eyes is technically able to requisition any equipment or personnel to fulfill its mission and often uses this privilege to outfit their agents with high-quality gear from other UA military forces."
+	desc = "A modified luxury armor, originally meant for a USCM Provost Marshal, modified to use the colors and insignia of the TIS. The Three Eyes is technically able to requisition any equipment or personnel to fulfill its mission and often uses this privilege to outfit their agents with high-quality gear from other UA military forces."
 	icon_state = "tis"
 	item_state_slots = list(WEAR_JACKET = "tis")
 	armor_melee = CLOTHING_ARMOR_MEDIUMHIGH

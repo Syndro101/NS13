@@ -83,7 +83,7 @@
 /*****************************************************************************************************/
 /datum/emergency_call/inspection_tis
 	name = "Inspection - UA Allied Command TIS"
-	mob_max = 3
+	mob_max = 2
 	mob_min = 1
 	probability = 0
 
@@ -127,7 +127,7 @@
 /*****************************************************************************************************/
 /datum/emergency_call/inspection_tis_senior
 	name = "Inspection - Senior UA Allied Command TIS"
-	mob_max = 4
+	mob_max = 3
 	mob_min = 1
 	probability = 0
 
@@ -171,7 +171,7 @@
 /*****************************************************************************************************/
 /datum/emergency_call/inspection_tis_coordinator
 	name = "Full Deployment - UA Allied Command TIS"
-	mob_max = 5
+	mob_max = 3
 	mob_min = 1
 	probability = 0
 
