@@ -44,6 +44,9 @@
 			uniform.sensor_faction = FACTION_TWE
 	return ..()
 
+/datum/equipment_preset/twe/royal_marine/New()
+	. = ..()
+	access = get_access(ACCESS_LIST_TWE_ALL)
 //*****************************************************************************************************/
 
 /datum/equipment_preset/twe/royal_marine

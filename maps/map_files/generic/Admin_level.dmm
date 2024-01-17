@@ -4898,8 +4898,7 @@
 "qX" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/comdoor/reinforced{
 	name = "\improper Dispatch Office";
-	req_access = null;
-	req_one_access = null
+	req_access = list(290)
 	},
 /obj/structure/catwalk/prison/alt,
 /obj/structure/pipes/standard/simple/hidden/supply,

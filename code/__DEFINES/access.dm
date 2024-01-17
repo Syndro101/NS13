@@ -194,7 +194,11 @@ most of them are tied into map-placed objects. This should be reworked in the fu
 ///All access levels associated with UPP
 #define ACCESS_LIST_UPP_ALL "UPP (ALL)"
 
+///All access levels associated with TWE
+#define ACCESS_LIST_TWE_ALL "TWE (ALL)"
+
 ///Generic/basic access to CLF stuff
 #define ACCESS_LIST_CLF_BASE "CLF (Basic)"
+
 ///All access levels associated with CLF
 #define ACCESS_LIST_CLF_ALL "CLF (ALL)"
