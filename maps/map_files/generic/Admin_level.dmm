@@ -137,6 +137,12 @@
 "as" = (
 /turf/open/space/basic,
 /area/space)
+"at" = (
+/turf/open/floor/prison{
+	dir = 10;
+	icon_state = "floor_plate"
+	},
+/area/adminlevel/ert_station/upp_station)
 "au" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/secdoor/glass/reinforced{
 	dir = 8;
@@ -398,9 +404,8 @@
 	},
 /area/adminlevel/ert_station/weyland_station)
 "aZ" = (
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 5
-	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/pipes/standard/simple/hidden/supply,
 /turf/open/floor/plating/plating_catwalk,
 /area/adminlevel/ert_station{
 	name = "UAAC Outpost"
@@ -419,11 +424,6 @@
 /area/centcom/living{
 	name = "\improper High Command Outpost"
 	})
-"bb" = (
-/turf/open/floor/almayer{
-	icon_state = "test_floor4"
-	},
-/area/adminlevel/ert_station/upp_station)
 "bc" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/pipes/standard/simple/hidden/supply{
@@ -578,25 +578,6 @@
 	icon_state = "silver"
 	},
 /area/adminlevel/ert_station/weyland_station)
-"bE" = (
-/obj/structure/pipes/standard/simple/hidden/supply,
-/turf/open/floor/almayer{
-	dir = 1;
-	icon_state = "silver"
-	},
-/area/adminlevel/ert_station{
-	name = "UAAC Outpost"
-	})
-"bG" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/machinery/door/poddoor/almayer/blended{
-	id = null;
-	name = "\improper Hanger Shutter"
-	},
-/turf/open/floor/almayer{
-	icon_state = "test_floor4"
-	},
-/area/adminlevel/ert_station/royal_marines_station)
 "bH" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/pipes/standard/simple/hidden/supply,
@@ -630,6 +611,16 @@
 	icon_state = "dark_sterile"
 	},
 /area/adminlevel/ert_station/weyland_station)
+"bN" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/door/poddoor/almayer/blended{
+	id = null;
+	name = "\improper Hanger Shutter"
+	},
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/adminlevel/ert_station/royal_marines_station)
 "bR" = (
 /turf/closed/wall/almayer/outer,
 /area/tdome/tdomeobserve)
@@ -723,11 +714,6 @@
 	icon_state = "blue"
 	},
 /area/adminlevel/ert_station/weyland_station)
-"ck" = (
-/turf/open/floor/plating/plating_catwalk,
-/area/adminlevel/ert_station{
-	name = "UAAC Outpost"
-	})
 "cl" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "E"
@@ -852,8 +838,12 @@
 	name = "UAAC Outpost"
 	})
 "cD" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/carpet,
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4
+	},
+/turf/open/floor/almayer_hull{
+	name = "floor"
+	},
 /area/adminlevel/ert_station/royal_marines_station)
 "cG" = (
 /turf/open/floor/almayer{
@@ -869,6 +859,13 @@
 	icon_state = "sterile_green"
 	},
 /area/adminlevel/ert_station/weyland_station)
+"cJ" = (
+/obj/effect/decal/cleanable/generic,
+/obj/structure/pipes/standard/simple/hidden/supply,
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/adminlevel/ert_station/royal_marines_station)
 "cL" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/pipes/standard/simple/hidden/supply,
@@ -878,14 +875,6 @@
 /area/adminlevel/ert_station{
 	name = "UAAC Outpost"
 	})
-"cM" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/generic,
-/turf/open/floor/prison{
-	dir = 10;
-	icon_state = "floor_plate"
-	},
-/area/adminlevel/ert_station/upp_station)
 "cO" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/surface/table/almayer,
@@ -926,12 +915,6 @@
 	icon_state = "whitegreen"
 	},
 /area/adminlevel/ert_station/freelancer_station)
-"cW" = (
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 5
-	},
-/turf/open/floor/plating/plating_catwalk,
-/area/adminlevel/ert_station/royal_marines_station)
 "cX" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/generic,
@@ -1062,11 +1045,6 @@
 	},
 /area/centcom/living{
 	name = "\improper High Command Outpost"
-	})
-"do" = (
-/turf/open/floor/plating,
-/area/adminlevel/ert_station/shuttle_dispatch{
-	name = "Large Shuttle Dispatch Station"
 	})
 "dp" = (
 /obj/structure/machinery/cm_vending/sorted/medical/blood{
@@ -1205,14 +1183,6 @@
 /area/adminlevel/ert_station{
 	name = "UAAC Outpost"
 	})
-"dI" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "S"
-	},
-/turf/open/floor/plating/almayer,
-/area/adminlevel/ert_station/shuttle_dispatch{
-	name = "Large Shuttle Dispatch Station"
-	})
 "dK" = (
 /obj/structure/ice/ice_rock/cornerOverlay{
 	dir = 1
@@ -1232,12 +1202,6 @@
 /area/centcom/living{
 	name = "\improper High Command Outpost"
 	})
-"dO" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "S"
-	},
-/turf/open/floor/plating/almayer,
-/area/adminlevel/ert_station/royal_marines_station)
 "dP" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "S"
@@ -1278,15 +1242,6 @@
 /area/adminlevel/ert_station{
 	name = "UAAC Outpost"
 	})
-"dX" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "N";
-	pixel_y = 1
-	},
-/turf/open/floor/almayer{
-	icon_state = "dark_sterile"
-	},
-/area/adminlevel/ert_station/royal_marines_station)
 "dY" = (
 /obj/structure/machinery/vending/cigarette/free,
 /turf/open/floor/almayer{
@@ -1371,6 +1326,11 @@
 	icon_state = "green"
 	},
 /area/adminlevel/ert_station/upp_station)
+"ep" = (
+/turf/open/floor/plating,
+/area/adminlevel/ert_station{
+	name = "UAAC Outpost"
+	})
 "eq" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/prison{
@@ -1462,6 +1422,13 @@
 	},
 /area/centcom/living{
 	name = "\improper High Command Outpost"
+	})
+"eC" = (
+/turf/open/floor/almayer{
+	icon_state = "dark_sterile"
+	},
+/area/adminlevel/ert_station{
+	name = "UAAC Outpost"
 	})
 "eD" = (
 /obj/structure/toilet{
@@ -1833,6 +1800,18 @@
 	},
 /turf/open/floor/wood/ship,
 /area/adminlevel/ert_station/weyland_station)
+"fH" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/adminlevel/ert_station/royal_marines_station)
 "fI" = (
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 6
@@ -1995,26 +1974,17 @@
 /turf/open/auto_turf/snow/layer3,
 /area/adminlevel/ert_station/upp_station)
 "fZ" = (
-/turf/open/floor/plating,
-/area/adminlevel/ert_station{
-	name = "UAAC Outpost"
-	})
-"ga" = (
-/turf/open/floor/prison{
-	dir = 10;
-	icon_state = "floor_plate"
-	},
-/area/adminlevel/ert_station/upp_station)
-"gb" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/pipes/vents/pump,
-/turf/open/floor/plating/plating_catwalk,
+/turf/open/floor/almayer{
+	icon_state = "dark_sterile"
+	},
 /area/adminlevel/ert_station/royal_marines_station)
 "gc" = (
 /turf/open/floor/almayer{
-	icon_state = "sterile_green"
+	dir = 8;
+	icon_state = "plating_striped"
 	},
-/area/adminlevel/ert_station/royal_marines_station)
+/area/adminlevel/ert_station/upp_station)
 "gd" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/pipes/standard/simple/hidden/supply{
@@ -2073,11 +2043,8 @@
 	},
 /area/adminlevel/ert_station/freelancer_station)
 "gj" = (
-/obj/structure/pipes/standard/manifold/hidden/supply,
-/turf/open/floor/almayer{
-	icon_state = "mono"
-	},
-/area/adminlevel/ert_station/royal_marines_station)
+/turf/open/floor/plating,
+/area/adminlevel/ert_station/upp_station)
 "gl" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "N"
@@ -2228,6 +2195,12 @@
 /area/centcom/living{
 	name = "\improper High Command Outpost"
 	})
+"gR" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E"
+	},
+/turf/open/floor/plating/almayer,
+/area/adminlevel/ert_station/royal_marines_station)
 "gS" = (
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 4
@@ -2369,13 +2342,6 @@
 /area/adminlevel/ert_station{
 	name = "UAAC Outpost"
 	})
-"hl" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/almayer{
-	dir = 4;
-	icon_state = "plating_striped"
-	},
-/area/adminlevel/ert_station/royal_marines_station)
 "hp" = (
 /turf/closed/wall/indestructible,
 /area/start)
@@ -2404,6 +2370,17 @@
 	},
 /area/centcom/living{
 	name = "\improper High Command Outpost"
+	})
+"hw" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/adminlevel/ert_station{
+	name = "UAAC Outpost"
 	})
 "hx" = (
 /obj/structure/surface/table/reinforced/black,
@@ -2467,13 +2444,6 @@
 /area/centcom/living{
 	name = "\improper High Command Outpost"
 	})
-"hI" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/generic,
-/turf/open/floor/almayer{
-	icon_state = "mono"
-	},
-/area/adminlevel/ert_station/royal_marines_station)
 "hJ" = (
 /obj/structure/machinery/cm_vending/sorted/tech/comp_storage{
 	density = 0;
@@ -2490,15 +2460,21 @@
 /area/adminlevel/ert_station{
 	name = "UAAC Outpost"
 	})
-"hL" = (
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 4
+"hK" = (
+/obj/structure/machinery/door/poddoor/almayer/blended{
+	id = null;
+	name = "\improper Hanger Shutter"
 	},
-/obj/structure/disposalpipe/segment{
-	dir = 4
+/obj/structure/machinery/door/airlock/multi_tile/almayer/almayer/glass{
+	indestructible = 1;
+	name = "\improper Hanger";
+	no_panel = 1;
+	req_access = list(290)
 	},
-/turf/open/floor/plating/plating_catwalk/strata,
-/area/adminlevel/ert_station/upp_station)
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/adminlevel/ert_station/royal_marines_station)
 "hO" = (
 /obj/structure/machinery/computer/rdservercontrol{
 	indestructible = 1;
@@ -2511,6 +2487,11 @@
 /area/centcom/control{
 	name = "\improper High Command"
 	})
+"hP" = (
+/turf/open/floor/almayer{
+	icon_state = "sterile_green"
+	},
+/area/adminlevel/ert_station/royal_marines_station)
 "hR" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/pipes/standard/simple/hidden/supply{
@@ -2581,6 +2562,11 @@
 /obj/structure/pipes/standard/simple/hidden/supply,
 /turf/open/floor/plating/plating_catwalk,
 /area/adminlevel/ert_station/weyland_station)
+"il" = (
+/turf/open/floor/plating/almayer,
+/area/adminlevel/ert_station/shuttle_dispatch{
+	name = "Large Shuttle Dispatch Station"
+	})
 "im" = (
 /obj/structure/surface/table/almayer,
 /obj/item/device/binoculars{
@@ -2680,6 +2666,11 @@
 /area/centcom/living{
 	name = "\improper High Command Outpost"
 	})
+"iC" = (
+/turf/open/floor/plating,
+/area/adminlevel/ert_station/shuttle_dispatch{
+	name = "Large Shuttle Dispatch Station"
+	})
 "iD" = (
 /obj/structure/pipes/standard/manifold/hidden/supply{
 	dir = 1
@@ -2695,6 +2686,12 @@
 	dir = 1;
 	icon_state = "green"
 	},
+/area/adminlevel/ert_station/royal_marines_station)
+"iF" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4
+	},
+/turf/open/floor/wood/ship,
 /area/adminlevel/ert_station/royal_marines_station)
 "iH" = (
 /obj/structure/surface/table/woodentable/fancy,
@@ -2731,6 +2728,13 @@
 	},
 /turf/open/floor/interior/wood,
 /area/adminlevel/ert_station/freelancer_station)
+"iL" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/prison{
+	dir = 10;
+	icon_state = "floor_plate"
+	},
+/area/adminlevel/ert_station/upp_station)
 "iM" = (
 /obj/structure/sink{
 	pixel_y = 18
@@ -2763,6 +2767,9 @@
 /area/adminlevel/ert_station/shuttle_dispatch{
 	name = "Large Shuttle Dispatch Station"
 	})
+"iP" = (
+/turf/open/floor/carpet,
+/area/adminlevel/ert_station/royal_marines_station)
 "iQ" = (
 /obj/structure/filingcabinet{
 	density = 0;
@@ -2806,23 +2813,6 @@
 	icon_state = "green"
 	},
 /area/adminlevel/ert_station/upp_station)
-"iU" = (
-/obj/structure/machinery/door/airlock/multi_tile/almayer/almayer/glass{
-	indestructible = 1;
-	name = "\improper Hanger";
-	no_panel = 1;
-	req_access = list(230)
-	},
-/obj/structure/machinery/door/poddoor/almayer/blended{
-	id = null;
-	name = "\improper Hanger Shutter"
-	},
-/turf/open/floor/almayer{
-	icon_state = "test_floor4"
-	},
-/area/adminlevel/ert_station/shuttle_dispatch{
-	name = "Large Shuttle Dispatch Station"
-	})
 "iW" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/almayer{
 	dir = 1;
@@ -3134,9 +3124,12 @@
 /area/centcom/living{
 	name = "\improper High Command Outpost"
 	})
-"jL" = (
+"jM" = (
+/obj/effect/decal/cleanable/dirt,
 /obj/structure/pipes/standard/simple/hidden/supply,
-/turf/open/floor/plating/plating_catwalk,
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
 /area/adminlevel/ert_station/royal_marines_station)
 "jN" = (
 /obj/effect/decal/cleanable/dirt,
@@ -3218,6 +3211,13 @@
 /area/centcom/living{
 	name = "\improper High Command Outpost"
 	})
+"kb" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/adminlevel/ert_station/royal_marines_station)
 "kc" = (
 /obj/docking_port/stationary/emergency_response/idle_port6{
 	name = "TWE Dispatch Pad"
@@ -3232,6 +3232,22 @@
 	},
 /area/adminlevel/ert_station{
 	name = "UAAC Outpost"
+	})
+"kg" = (
+/turf/open/floor/prison{
+	dir = 10;
+	icon_state = "floor_plate"
+	},
+/area/adminlevel/ert_station/shuttle_dispatch{
+	name = "Large Shuttle Dispatch Station"
+	})
+"kh" = (
+/turf/open/floor/almayer{
+	dir = 5;
+	icon_state = "plating"
+	},
+/area/adminlevel/ert_station/shuttle_dispatch{
+	name = "Large Shuttle Dispatch Station"
 	})
 "kk" = (
 /turf/closed/wall/almayer/outer,
@@ -3254,6 +3270,24 @@
 	icon_state = "orange"
 	},
 /area/adminlevel/ert_station/royal_marines_station)
+"kr" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 9
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/adminlevel/ert_station{
+	name = "UAAC Outpost"
+	})
+"ks" = (
+/obj/structure/pipes/standard/simple/hidden/supply,
+/turf/open/floor/almayer{
+	dir = 1;
+	icon_state = "silver"
+	},
+/area/adminlevel/ert_station{
+	name = "UAAC Outpost"
+	})
 "kt" = (
 /obj/structure/flora/pottedplant/random{
 	pixel_x = 8;
@@ -3390,12 +3424,6 @@
 /area/centcom/living{
 	name = "\improper High Command Outpost"
 	})
-"kM" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "N"
-	},
-/turf/open/floor/plating/almayer,
-/area/adminlevel/ert_station/royal_marines_station)
 "kN" = (
 /obj/structure/surface/table/almayer,
 /obj/structure/machinery/prop/almayer/computer/PC{
@@ -3407,11 +3435,6 @@
 /area/centcom/living{
 	name = "\improper High Command Outpost"
 	})
-"kP" = (
-/turf/open/floor/almayer{
-	icon_state = "mono"
-	},
-/area/adminlevel/ert_station/royal_marines_station)
 "kQ" = (
 /obj/structure/machinery/cm_vending/sorted/cargo_guns/antag_guns{
 	density = 0;
@@ -3485,23 +3508,6 @@
 	},
 /area/centcom/living{
 	name = "\improper High Command Outpost"
-	})
-"kX" = (
-/obj/structure/machinery/door/poddoor/almayer/blended{
-	id = "UA Hanger";
-	name = "\improper Hanger Shutter"
-	},
-/obj/structure/machinery/door/airlock/multi_tile/almayer/almayer/glass{
-	indestructible = 1;
-	name = "\improper Hanger";
-	no_panel = 1;
-	req_access = list(2)
-	},
-/turf/open/floor/almayer{
-	icon_state = "test_floor4"
-	},
-/area/adminlevel/ert_station{
-	name = "UAAC Outpost"
 	})
 "kZ" = (
 /obj/structure/disposalpipe/segment{
@@ -3594,6 +3600,13 @@
 	icon_state = "blue"
 	},
 /area/adminlevel/ert_station/royal_marines_station)
+"lo" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 9
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/adminlevel/ert_station/royal_marines_station)
 "lr" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/disposalpipe/segment,
@@ -3607,12 +3620,6 @@
 /area/centcom/living{
 	name = "\improper High Command Outpost"
 	})
-"lu" = (
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 4
-	},
-/turf/open/floor/wood/ship,
-/area/adminlevel/ert_station/royal_marines_station)
 "lw" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/pipes/standard/simple/hidden/supply{
@@ -3706,9 +3713,6 @@
 /obj/effect/landmark/ert_spawns/distress_upp,
 /turf/open/floor/strata,
 /area/adminlevel/ert_station/upp_station)
-"lL" = (
-/turf/open/floor/plating/almayer,
-/area/adminlevel/ert_station/royal_marines_station)
 "lN" = (
 /turf/closed/wall/almayer/white/reinforced,
 /area/adminlevel/ert_station/weyland_station)
@@ -3772,12 +3776,6 @@
 /area/centcom/living{
 	name = "\improper High Command Outpost"
 	})
-"ma" = (
-/turf/open/floor/almayer{
-	dir = 8;
-	icon_state = "plating_striped"
-	},
-/area/adminlevel/ert_station/royal_marines_station)
 "mb" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/generic,
@@ -3857,20 +3855,6 @@
 "mq" = (
 /turf/open/floor/plating,
 /area/admin/droppod/loading)
-"mr" = (
-/obj/structure/bed{
-	can_buckle = 0
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/item/bedsheet/red,
-/turf/open/floor/almayer{
-	desc = "part of a rubber room, let's hope there's no rats.";
-	icon_state = "silverfull";
-	name = "rubber floor"
-	},
-/area/adminlevel/ert_station{
-	name = "UAAC Outpost"
-	})
 "ms" = (
 /obj/structure/machinery/door/airlock/almayer/research/glass/reinforced{
 	dir = 1;
@@ -3905,6 +3889,14 @@
 /area/centcom/living{
 	name = "\improper High Command Outpost"
 	})
+"mv" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E"
+	},
+/turf/open/floor/plating/almayer,
+/area/adminlevel/ert_station/shuttle_dispatch{
+	name = "Large Shuttle Dispatch Station"
+	})
 "mw" = (
 /obj/structure/transmitter/hidden{
 	name = "Outpost Telephone";
@@ -3917,6 +3909,15 @@
 	icon_state = "blue"
 	},
 /area/adminlevel/ert_station/upp_station)
+"mx" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/adminlevel/ert_station{
+	name = "UAAC Outpost"
+	})
 "my" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/almayer{
@@ -4074,21 +4075,6 @@
 /area/adminlevel/ert_station{
 	name = "UAAC Outpost"
 	})
-"mY" = (
-/obj/structure/machinery/door/poddoor/almayer/blended{
-	id = null;
-	name = "\improper Hanger Shutter"
-	},
-/obj/structure/machinery/door/airlock/multi_tile/almayer/almayer/glass{
-	indestructible = 1;
-	name = "\improper Hanger";
-	no_panel = 1;
-	req_access = list(290)
-	},
-/turf/open/floor/almayer{
-	icon_state = "test_floor4"
-	},
-/area/adminlevel/ert_station/royal_marines_station)
 "mZ" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/almayer{
@@ -4151,13 +4137,6 @@
 	icon_state = "blue"
 	},
 /area/adminlevel/ert_station/upp_station)
-"nh" = (
-/turf/open/floor/almayer{
-	icon_state = "test_floor4"
-	},
-/area/adminlevel/ert_station{
-	name = "UAAC Outpost"
-	})
 "ni" = (
 /obj/structure/platform/strata/metal{
 	dir = 4
@@ -4298,16 +4277,11 @@
 	icon_state = "orange"
 	},
 /area/adminlevel/ert_station/royal_marines_station)
-"nD" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
+"nE" = (
+/obj/structure/pipes/vents/pump{
+	dir = 1
 	},
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 4
-	},
-/turf/open/floor/almayer{
-	icon_state = "mono"
-	},
+/turf/open/floor/wood/ship,
 /area/adminlevel/ert_station/royal_marines_station)
 "nF" = (
 /obj/effect/decal/cleanable/dirt,
@@ -4405,19 +4379,6 @@
 	dir = 8
 	},
 /turf/open/floor/plating/plating_catwalk/strata,
-/area/adminlevel/ert_station/upp_station)
-"nR" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 4
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/open/floor/prison{
-	dir = 10;
-	icon_state = "floor_plate"
-	},
 /area/adminlevel/ert_station/upp_station)
 "nS" = (
 /obj/effect/decal/cleanable/dirt,
@@ -4821,14 +4782,6 @@
 /obj/structure/ice/ice_rock/cornerOverlay,
 /turf/closed/wall/rock/ice,
 /area/adminlevel/ert_station/upp_station)
-"pm" = (
-/turf/open/floor/almayer{
-	dir = 1;
-	icon_state = "silver"
-	},
-/area/adminlevel/ert_station{
-	name = "UAAC Outpost"
-	})
 "pn" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -4952,11 +4905,6 @@
 	icon_state = "silver"
 	},
 /area/adminlevel/ert_station/weyland_station)
-"pF" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/pipes/standard/simple/hidden/supply,
-/turf/open/floor/plating/plating_catwalk,
-/area/adminlevel/ert_station/royal_marines_station)
 "pI" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/prison{
@@ -5035,10 +4983,6 @@
 	id = "TWE Cell 2"
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
-/area/adminlevel/ert_station/royal_marines_station)
-"pV" = (
-/obj/structure/pipes/standard/simple/hidden/supply,
-/turf/open/floor/wood/ship,
 /area/adminlevel/ert_station/royal_marines_station)
 "pY" = (
 /obj/structure/surface/table/reinforced/prison,
@@ -5175,14 +5119,6 @@
 	dir = 1
 	},
 /area/adminlevel/ert_station/weyland_station)
-"qr" = (
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 4
-	},
-/turf/open/floor/plating/plating_catwalk,
-/area/adminlevel/ert_station{
-	name = "UAAC Outpost"
-	})
 "qv" = (
 /obj/item/prop/helmetgarb/rosary,
 /turf/open/floor/grass,
@@ -5310,6 +5246,23 @@
 	},
 /turf/open/floor/wood/ship,
 /area/adminlevel/ert_station/royal_marines_station)
+"qO" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/almayer/glass{
+	indestructible = 1;
+	name = "\improper Hanger";
+	no_panel = 1;
+	req_access = list(230)
+	},
+/obj/structure/machinery/door/poddoor/almayer/blended{
+	id = null;
+	name = "\improper Hanger Shutter"
+	},
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/adminlevel/ert_station/shuttle_dispatch{
+	name = "Large Shuttle Dispatch Station"
+	})
 "qQ" = (
 /obj/structure/surface/table/reinforced/black,
 /obj/item/reagent_container/food/snacks/mre_pack/meal2,
@@ -5389,13 +5342,6 @@
 /area/centcom/control{
 	name = "\improper High Command"
 	})
-"rh" = (
-/turf/open/floor/almayer{
-	icon_state = "dark_sterile"
-	},
-/area/adminlevel/ert_station{
-	name = "UAAC Outpost"
-	})
 "ri" = (
 /turf/open/floor/almayer{
 	icon_state = "bluefull"
@@ -5444,14 +5390,6 @@
 	},
 /area/centcom/living{
 	name = "\improper High Command Outpost"
-	})
-"rq" = (
-/obj/structure/pipes/standard/simple/hidden/supply,
-/turf/open/floor/almayer{
-	icon_state = "dark_sterile"
-	},
-/area/adminlevel/ert_station{
-	name = "UAAC Outpost"
 	})
 "rr" = (
 /turf/open/floor/carpet,
@@ -5625,6 +5563,13 @@
 /area/adminlevel/ert_station{
 	name = "UAAC Outpost"
 	})
+"rW" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer{
+	dir = 4;
+	icon_state = "plating_striped"
+	},
+/area/adminlevel/ert_station/royal_marines_station)
 "rX" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/extinguisher_cabinet{
@@ -5658,6 +5603,12 @@
 /area/adminlevel/ert_station{
 	name = "UAAC Outpost"
 	})
+"sa" = (
+/obj/structure/pipes/standard/simple/hidden/supply,
+/turf/open/floor/plating/plating_catwalk,
+/area/adminlevel/ert_station{
+	name = "UAAC Outpost"
+	})
 "sb" = (
 /turf/open/floor/plating/almayer,
 /area/adminlevel/ert_station{
@@ -5669,6 +5620,15 @@
 	},
 /turf/open/auto_turf/snow/layer3,
 /area/adminlevel/ert_station/upp_station)
+"sd" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/adminlevel/ert_station/royal_marines_station)
 "sk" = (
 /obj/structure/pipes/standard/simple/hidden/supply,
 /obj/effect/decal/cleanable/dirt,
@@ -5822,12 +5782,6 @@
 	icon_state = "sterile_green"
 	},
 /area/adminlevel/ert_station/weyland_station)
-"sH" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating/plating_catwalk,
-/area/adminlevel/ert_station{
-	name = "UAAC Outpost"
-	})
 "sI" = (
 /obj/structure/barricade/handrail{
 	dir = 1;
@@ -5840,6 +5794,11 @@
 /area/centcom/living{
 	name = "\improper High Command Outpost"
 	})
+"sJ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/pipes/standard/simple/hidden/supply,
+/turf/open/floor/plating/plating_catwalk,
+/area/adminlevel/ert_station/royal_marines_station)
 "sK" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/surface/table/almayer,
@@ -5921,10 +5880,6 @@
 /area/centcom/living{
 	name = "\improper High Command Outpost"
 	})
-"sU" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating/plating_catwalk,
-/area/adminlevel/ert_station/royal_marines_station)
 "sV" = (
 /obj/structure/toilet{
 	dir = 8
@@ -5942,12 +5897,6 @@
 	icon_state = "orange"
 	},
 /area/adminlevel/ert_station/weyland_station)
-"sY" = (
-/obj/structure/pipes/standard/simple/hidden/supply,
-/turf/open/floor/almayer{
-	icon_state = "mono"
-	},
-/area/adminlevel/ert_station/royal_marines_station)
 "sZ" = (
 /obj/structure/transmitter/hidden{
 	dir = 1;
@@ -5987,11 +5936,9 @@
 	},
 /turf/open/floor/carpet,
 /area/adminlevel/ert_station/royal_marines_station)
-"tf" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "E"
-	},
-/turf/open/floor/plating/almayer,
+"te" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/plating_catwalk,
 /area/adminlevel/ert_station/royal_marines_station)
 "th" = (
 /obj/structure/surface/table/woodentable/fancy,
@@ -6024,11 +5971,6 @@
 	},
 /area/adminlevel/ert_station{
 	name = "UAAC Outpost"
-	})
-"tm" = (
-/turf/open/auto_turf/snow/layer0,
-/area/adminlevel/ert_station/shuttle_dispatch{
-	name = "Large Shuttle Dispatch Station"
 	})
 "tn" = (
 /obj/effect/landmark/thunderdome/two,
@@ -6179,6 +6121,15 @@
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/adminlevel/ert_station/weyland_station)
+"tH" = (
+/turf/open/floor/almayer{
+	desc = "part of a rubber room, let's hope there's no rats.";
+	icon_state = "silverfull";
+	name = "rubber floor"
+	},
+/area/adminlevel/ert_station{
+	name = "UAAC Outpost"
+	})
 "tI" = (
 /obj/item/paper_bin/uscm,
 /obj/item/tool/pen{
@@ -6297,13 +6248,6 @@
 	icon_state = "sterile_white"
 	},
 /area/adminlevel/ert_station/upp_station)
-"ub" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/prison{
-	dir = 10;
-	icon_state = "floor_plate"
-	},
-/area/adminlevel/ert_station/upp_station)
 "uc" = (
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 4
@@ -6337,11 +6281,6 @@
 	},
 /area/centcom/living{
 	name = "\improper High Command Outpost"
-	})
-"uf" = (
-/turf/open/floor/plating/almayer,
-/area/adminlevel/ert_station/shuttle_dispatch{
-	name = "Large Shuttle Dispatch Station"
 	})
 "uh" = (
 /obj/effect/decal/cleanable/dirt,
@@ -6377,15 +6316,6 @@
 /turf/open/floor/wood/ship,
 /area/centcom/living{
 	name = "\improper High Command Outpost"
-	})
-"un" = (
-/obj/structure/disposalpipe/segment,
-/obj/structure/pipes/standard/simple/hidden/supply,
-/turf/open/floor/almayer{
-	icon_state = "mono"
-	},
-/area/adminlevel/ert_station{
-	name = "UAAC Outpost"
 	})
 "uo" = (
 /obj/structure/pipes/standard/simple/hidden/supply{
@@ -6461,6 +6391,17 @@
 	icon_state = "sterile_green"
 	},
 /area/adminlevel/ert_station/royal_marines_station)
+"uw" = (
+/obj/structure/machinery/door/poddoor/almayer/blended{
+	id = "UA Hanger";
+	name = "\improper Hanger Shutter"
+	},
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/adminlevel/ert_station{
+	name = "UAAC Outpost"
+	})
 "ux" = (
 /obj/structure/machinery/door/window/brigdoor/southright{
 	id = "UA Cell 3";
@@ -6501,6 +6442,9 @@
 /area/centcom/living{
 	name = "\improper High Command Outpost"
 	})
+"uD" = (
+/turf/open/floor/plating/almayer,
+/area/adminlevel/ert_station/royal_marines_station)
 "uE" = (
 /obj/structure/pipes/standard/simple/hidden/supply,
 /obj/structure/disposalpipe/segment,
@@ -6513,17 +6457,6 @@
 /obj/structure/platform/strata,
 /turf/open/auto_turf/snow/layer1,
 /area/adminlevel/ert_station/upp_station)
-"uH" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/machinery/shower{
-	dir = 4;
-	pixel_x = -4
-	},
-/obj/structure/curtain/shower{
-	pixel_x = -1
-	},
-/turf/open/floor/plating/plating_catwalk,
-/area/adminlevel/ert_station/royal_marines_station)
 "uI" = (
 /obj/structure/pipes/vents/pump{
 	dir = 4
@@ -6582,12 +6515,6 @@
 /area/centcom/living{
 	name = "\improper High Command Outpost"
 	})
-"uS" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/almayer{
-	icon_state = "mono"
-	},
-/area/adminlevel/ert_station/royal_marines_station)
 "uT" = (
 /obj/structure/pipes/standard/simple/hidden/supply,
 /turf/open/floor/almayer{
@@ -6638,6 +6565,14 @@
 	icon_state = "floor_plate"
 	},
 /area/adminlevel/ert_station/freelancer_station)
+"va" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
+/turf/open/floor/plating/almayer,
+/area/adminlevel/ert_station/shuttle_dispatch{
+	name = "Large Shuttle Dispatch Station"
+	})
 "vd" = (
 /obj/structure/surface/table/almayer,
 /obj/item/ashtray/glass,
@@ -6663,6 +6598,11 @@
 	},
 /area/centcom/living{
 	name = "\improper High Command Outpost"
+	})
+"vg" = (
+/turf/open/floor/carpet,
+/area/adminlevel/ert_station{
+	name = "UAAC Outpost"
 	})
 "vi" = (
 /obj/structure/machinery/cm_vending/sorted/medical/wall_med{
@@ -6904,11 +6844,14 @@
 /turf/open/floor/plating/plating_catwalk/strata,
 /area/adminlevel/ert_station/upp_station)
 "vQ" = (
+/obj/structure/disposalpipe/segment,
+/obj/structure/pipes/standard/simple/hidden/supply,
 /turf/open/floor/almayer{
-	dir = 8;
-	icon_state = "plating_striped"
+	icon_state = "mono"
 	},
-/area/adminlevel/ert_station/weyland_station)
+/area/adminlevel/ert_station{
+	name = "UAAC Outpost"
+	})
 "vR" = (
 /obj/structure/machinery/vending/coffee/simple{
 	density = 0;
@@ -6917,6 +6860,17 @@
 /turf/open/floor/almayer_hull{
 	name = "floor"
 	},
+/area/adminlevel/ert_station/royal_marines_station)
+"vT" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/shower{
+	dir = 4;
+	pixel_x = -4
+	},
+/obj/structure/curtain/shower{
+	pixel_x = -1
+	},
+/turf/open/floor/plating/plating_catwalk,
 /area/adminlevel/ert_station/royal_marines_station)
 "vU" = (
 /obj/structure/pipes/standard/simple/hidden/supply{
@@ -6999,6 +6953,10 @@
 /area/adminlevel/ert_station/shuttle_dispatch{
 	name = "Large Shuttle Dispatch Station"
 	})
+"wh" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/carpet,
+/area/adminlevel/ert_station/royal_marines_station)
 "wk" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "N";
@@ -7082,6 +7040,10 @@
 	icon_state = "floor_plate"
 	},
 /area/adminlevel/ert_station/freelancer_station)
+"wz" = (
+/obj/structure/pipes/standard/simple/hidden/supply,
+/turf/open/floor/wood/ship,
+/area/adminlevel/ert_station/royal_marines_station)
 "wC" = (
 /obj/structure/surface/table/reinforced/black,
 /obj/item/storage/bag/trash,
@@ -7152,18 +7114,6 @@
 	icon_state = "plating"
 	},
 /area/tdome)
-"wL" = (
-/obj/structure/pipes/standard/simple/hidden/supply,
-/obj/structure/machinery/door/poddoor/almayer/locked{
-	breakable = 0;
-	id = null;
-	indestructible = 1;
-	name = "ERT Armory"
-	},
-/turf/open/floor/almayer{
-	icon_state = "test_floor4"
-	},
-/area/adminlevel/ert_station/upp_station)
 "wM" = (
 /obj/structure/machinery/cm_vending/sorted/marine_food{
 	density = 0;
@@ -7239,6 +7189,14 @@
 /area/adminlevel/ert_station{
 	name = "UAAC Outpost"
 	})
+"wV" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/generic,
+/turf/open/floor/prison{
+	dir = 10;
+	icon_state = "floor_plate"
+	},
+/area/adminlevel/ert_station/upp_station)
 "wY" = (
 /obj/structure/machinery/door_control{
 	id = "MLU ERT";
@@ -7394,17 +7352,6 @@
 /area/adminlevel/ert_station{
 	name = "UAAC Outpost"
 	})
-"xr" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 4
-	},
-/turf/open/floor/almayer{
-	icon_state = "mono"
-	},
-/area/adminlevel/ert_station{
-	name = "UAAC Outpost"
-	})
 "xs" = (
 /obj/structure/bed/chair/comfy{
 	dir = 1
@@ -7412,6 +7359,13 @@
 /turf/open/floor/wood/ship,
 /area/centcom/living{
 	name = "\improper High Command Outpost"
+	})
+"xt" = (
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/adminlevel/ert_station{
+	name = "UAAC Outpost"
 	})
 "xu" = (
 /obj/effect/decal/cleanable/dirt,
@@ -7464,6 +7418,14 @@
 	dir = 1
 	},
 /area/adminlevel/ert_station/weyland_station)
+"xB" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer{
+	icon_state = "dark_sterile"
+	},
+/area/adminlevel/ert_station{
+	name = "UAAC Outpost"
+	})
 "xD" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/almayer{
@@ -7526,6 +7488,13 @@
 /area/adminlevel/ert_station{
 	name = "UAAC Outpost"
 	})
+"xO" = (
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/adminlevel/ert_station/shuttle_dispatch{
+	name = "Large Shuttle Dispatch Station"
+	})
 "xP" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/machinery/chem_master{
@@ -7539,16 +7508,6 @@
 	icon_state = "whitegreen"
 	},
 /area/adminlevel/ert_station/upp_station)
-"xQ" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/almayer{
-	desc = "part of a rubber room, let's hope there's no rats.";
-	icon_state = "silverfull";
-	name = "rubber floor"
-	},
-/area/adminlevel/ert_station{
-	name = "UAAC Outpost"
-	})
 "xR" = (
 /turf/open/floor/strata,
 /area/adminlevel/ert_station/upp_station)
@@ -7772,6 +7731,19 @@
 /area/centcom/living{
 	name = "\improper High Command Outpost"
 	})
+"yF" = (
+/turf/open/floor/almayer{
+	dir = 8;
+	icon_state = "plating_striped"
+	},
+/area/adminlevel/ert_station/weyland_station)
+"yH" = (
+/obj/item/trash/used_stasis_bag,
+/turf/open/floor/prison{
+	dir = 8;
+	icon_state = "sterile_white"
+	},
+/area/adminlevel/ert_station/upp_station)
 "yI" = (
 /turf/open/floor/almayer{
 	icon_state = "greenfull"
@@ -8049,11 +8021,6 @@
 /area/adminlevel/ert_station{
 	name = "UAAC Outpost"
 	})
-"zp" = (
-/turf/open/floor/wood/ship,
-/area/adminlevel/ert_station{
-	name = "UAAC Outpost"
-	})
 "zq" = (
 /obj/structure/machinery/status_display{
 	pixel_y = 30
@@ -8063,15 +8030,6 @@
 	dir = 1;
 	icon_state = "silver"
 	},
-/area/adminlevel/ert_station{
-	name = "UAAC Outpost"
-	})
-"zs" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 4
-	},
-/turf/open/floor/plating/plating_catwalk,
 /area/adminlevel/ert_station{
 	name = "UAAC Outpost"
 	})
@@ -8150,9 +8108,6 @@
 	icon_state = "plating"
 	},
 /area/adminlevel/ert_station/weyland_station)
-"zF" = (
-/turf/open/floor/plating/plating_catwalk/strata,
-/area/adminlevel/ert_station/upp_station)
 "zG" = (
 /obj/structure/bed{
 	can_buckle = 0;
@@ -8191,13 +8146,20 @@
 	icon_state = "silver"
 	},
 /area/adminlevel/ert_station/weyland_station)
-"zM" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "E"
+"zK" = (
+/turf/open/floor/almayer{
+	icon_state = "silver"
 	},
-/turf/open/floor/plating/almayer,
-/area/adminlevel/ert_station/shuttle_dispatch{
-	name = "Large Shuttle Dispatch Station"
+/area/adminlevel/ert_station{
+	name = "UAAC Outpost"
+	})
+"zL" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 5
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/adminlevel/ert_station{
+	name = "UAAC Outpost"
 	})
 "zN" = (
 /obj/structure/surface/table/holotable/wood,
@@ -8217,14 +8179,6 @@
 	icon_state = "blue"
 	},
 /area/adminlevel/ert_station/weyland_station)
-"zQ" = (
-/turf/open/floor/almayer{
-	dir = 5;
-	icon_state = "plating"
-	},
-/area/adminlevel/ert_station/shuttle_dispatch{
-	name = "Large Shuttle Dispatch Station"
-	})
 "zR" = (
 /obj/structure/pipes/standard/manifold/hidden/supply{
 	dir = 1
@@ -8242,12 +8196,6 @@
 	icon_state = "silvercorner"
 	},
 /area/adminlevel/ert_station/weyland_station)
-"zV" = (
-/obj/effect/decal/cleanable/generic,
-/turf/open/floor/wood/ship,
-/area/adminlevel/ert_station{
-	name = "UAAC Outpost"
-	})
 "zW" = (
 /turf/open/floor/almayer{
 	dir = 1;
@@ -8531,6 +8479,17 @@
 /area/adminlevel/ert_station{
 	name = "UAAC Outpost"
 	})
+"AF" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/pipes/standard/manifold/hidden/supply{
+	dir = 1
+	},
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/adminlevel/ert_station{
+	name = "UAAC Outpost"
+	})
 "AG" = (
 /obj/structure/pipes/vents/pump/no_boom{
 	dir = 1;
@@ -8638,18 +8597,6 @@
 "AY" = (
 /turf/closed/wall/shiva/ice,
 /area/adminlevel/ert_station/upp_station)
-"AZ" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 4
-	},
-/turf/open/floor/almayer{
-	icon_state = "mono"
-	},
-/area/adminlevel/ert_station/royal_marines_station)
 "Ba" = (
 /turf/open/floor/almayer/uscm/directional,
 /area/adminlevel/ert_station{
@@ -8661,15 +8608,6 @@
 	},
 /turf/open/floor/wood/ship,
 /area/adminlevel/ert_station/royal_marines_station)
-"Be" = (
-/obj/structure/machinery/door/poddoor/almayer/blended{
-	id = null;
-	name = "\improper Hanger Shutter"
-	},
-/turf/open/floor/almayer{
-	icon_state = "test_floor4"
-	},
-/area/adminlevel/ert_station/weyland_station)
 "Bf" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/machinery/space_heater/radiator{
@@ -8690,6 +8628,12 @@
 /obj/docking_port/stationary/vehicle_elevator/adminlevel,
 /turf/open/space/basic,
 /area/space)
+"Bk" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/adminlevel/ert_station/royal_marines_station)
 "Bm" = (
 /obj/structure/machinery/chem_dispenser/soda{
 	can_block_movement = 0;
@@ -8944,6 +8888,9 @@
 	},
 /turf/open/floor/interior/wood,
 /area/adminlevel/ert_station/freelancer_station)
+"BQ" = (
+/turf/open/floor/plating,
+/area/adminlevel/ert_station/weyland_station)
 "BS" = (
 /obj/structure/machinery/vending/snack{
 	density = 0;
@@ -9118,17 +9065,6 @@
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/adminlevel/ert_station/weyland_station)
-"Cu" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/pipes/standard/manifold/hidden/supply{
-	dir = 1
-	},
-/turf/open/floor/almayer{
-	icon_state = "mono"
-	},
-/area/adminlevel/ert_station{
-	name = "UAAC Outpost"
-	})
 "Cv" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/pipes/vents/scrubber,
@@ -9186,13 +9122,6 @@
 /area/centcom/living{
 	name = "\improper High Command Outpost"
 	})
-"CA" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 9
-	},
-/turf/open/floor/plating/plating_catwalk,
-/area/adminlevel/ert_station/royal_marines_station)
 "CD" = (
 /obj/structure/bed/chair{
 	dir = 1
@@ -9711,14 +9640,6 @@
 /area/centcom/living{
 	name = "\improper High Command Outpost"
 	})
-"DX" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "W"
-	},
-/turf/open/floor/plating/almayer,
-/area/adminlevel/ert_station/shuttle_dispatch{
-	name = "Large Shuttle Dispatch Station"
-	})
 "DY" = (
 /obj/structure/disposalpipe/segment,
 /obj/structure/pipes/standard/manifold/hidden/supply{
@@ -9850,11 +9771,6 @@
 /area/centcom/living{
 	name = "\improper High Command Outpost"
 	})
-"Eo" = (
-/turf/open/floor/carpet,
-/area/adminlevel/ert_station{
-	name = "UAAC Outpost"
-	})
 "Ep" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/pipes/vents/pump{
@@ -9865,6 +9781,9 @@
 	},
 /turf/open/floor/interior/wood,
 /area/adminlevel/ert_station/freelancer_station)
+"Er" = (
+/turf/open/floor/wood/ship,
+/area/adminlevel/ert_station/royal_marines_station)
 "Es" = (
 /obj/structure/disposalpipe/junction,
 /obj/structure/pipes/standard/manifold/hidden/supply{
@@ -9909,6 +9828,11 @@
 /area/centcom/living{
 	name = "\improper High Command Outpost"
 	})
+"EB" = (
+/turf/open/floor/almayer{
+	icon_state = "dark_sterile"
+	},
+/area/adminlevel/ert_station/upp_station)
 "ED" = (
 /obj/structure/window/framed/almayer,
 /obj/structure/machinery/door/poddoor/shutters/almayer{
@@ -10025,11 +9949,6 @@
 	icon_state = "blue"
 	},
 /area/adminlevel/ert_station/upp_station)
-"EN" = (
-/turf/open/floor/almayer_hull{
-	name = "floor"
-	},
-/area/adminlevel/ert_station/royal_marines_station)
 "EQ" = (
 /obj/structure/surface/table/woodentable/fancy,
 /obj/structure/machinery/computer/skills{
@@ -10116,14 +10035,15 @@
 	icon_state = "green"
 	},
 /area/adminlevel/ert_station/upp_station)
-"Fg" = (
-/turf/open/floor/almayer{
-	dir = 4;
-	icon_state = "silver"
+"Fc" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4
 	},
-/area/adminlevel/ert_station{
-	name = "UAAC Outpost"
-	})
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/plating/plating_catwalk/strata,
+/area/adminlevel/ert_station/upp_station)
 "Fh" = (
 /obj/structure/ladder{
 	desc = "A sturdy metal ladder, leads to the hanger.";
@@ -10192,6 +10112,14 @@
 	icon_state = "blue"
 	},
 /area/adminlevel/ert_station/upp_station)
+"Fq" = (
+/turf/open/floor/almayer{
+	dir = 4;
+	icon_state = "silver"
+	},
+/area/adminlevel/ert_station{
+	name = "UAAC Outpost"
+	})
 "Fr" = (
 /obj/structure/bed,
 /obj/item/bedsheet/red,
@@ -10260,11 +10188,6 @@
 /area/adminlevel/ert_station{
 	name = "UAAC Outpost"
 	})
-"FB" = (
-/turf/open/floor/almayer{
-	icon_state = "dark_sterile"
-	},
-/area/adminlevel/ert_station/upp_station)
 "FF" = (
 /obj/structure/machinery/door/poddoor/almayer/open{
 	dir = 4;
@@ -10312,6 +10235,20 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/almayer_hull{
 	name = "floor"
+	},
+/area/adminlevel/ert_station/royal_marines_station)
+"FJ" = (
+/turf/open/floor/almayer{
+	dir = 4;
+	icon_state = "plating_striped"
+	},
+/area/adminlevel/ert_station/upp_station)
+"FK" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "mono"
 	},
 /area/adminlevel/ert_station/royal_marines_station)
 "FL" = (
@@ -10398,15 +10335,6 @@
 	},
 /turf/open/floor/wood/ship,
 /area/adminlevel/ert_station/weyland_station)
-"FX" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/open/floor/almayer{
-	icon_state = "mono"
-	},
-/area/adminlevel/ert_station/royal_marines_station)
 "FY" = (
 /obj/structure/bed/chair/comfy/orange{
 	dir = 4
@@ -10439,6 +10367,15 @@
 /turf/open/floor/almayer{
 	dir = 8;
 	icon_state = "silver"
+	},
+/area/adminlevel/ert_station{
+	name = "UAAC Outpost"
+	})
+"Ge" = (
+/obj/structure/reagent_dispensers/fueltank,
+/turf/open/floor/almayer{
+	dir = 6;
+	icon_state = "orange"
 	},
 /area/adminlevel/ert_station{
 	name = "UAAC Outpost"
@@ -10549,7 +10486,8 @@
 	name = "UAAC Outpost"
 	})
 "Gs" = (
-/turf/open/floor/plating,
+/obj/structure/pipes/standard/simple/hidden/supply,
+/turf/open/floor/plating/plating_catwalk,
 /area/adminlevel/ert_station/royal_marines_station)
 "Gt" = (
 /turf/open/floor/almayer{
@@ -10590,14 +10528,6 @@
 /area/adminlevel/ert_station{
 	name = "UAAC Outpost"
 	})
-"Gy" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/almayer{
-	icon_state = "dark_sterile"
-	},
-/area/adminlevel/ert_station{
-	name = "UAAC Outpost"
-	})
 "Gz" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "N";
@@ -10608,15 +10538,6 @@
 	dir = 1
 	},
 /area/adminlevel/ert_station/weyland_station)
-"GB" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/almayer{
-	dir = 4;
-	icon_state = "silver"
-	},
-/area/adminlevel/ert_station{
-	name = "UAAC Outpost"
-	})
 "GD" = (
 /obj/structure/surface/table/reinforced/almayer_B,
 /obj/item/trash/USCMtray{
@@ -10674,14 +10595,6 @@
 	icon_state = "darkred2"
 	},
 /area/adminlevel/ert_station/upp_station)
-"GM" = (
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 4
-	},
-/turf/open/floor/almayer_hull{
-	name = "floor"
-	},
-/area/adminlevel/ert_station/royal_marines_station)
 "GP" = (
 /obj/structure/pipes/standard/manifold/hidden/supply{
 	dir = 8
@@ -10773,12 +10686,6 @@
 /area/centcom/living{
 	name = "\improper High Command Outpost"
 	})
-"Ha" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "W"
-	},
-/turf/open/floor/plating/almayer,
-/area/adminlevel/ert_station/royal_marines_station)
 "Hc" = (
 /obj/structure/safe,
 /obj/item/book/codebook/wey_yu,
@@ -10899,15 +10806,6 @@
 /area/adminlevel/ert_station{
 	name = "UAAC Outpost"
 	})
-"Hm" = (
-/turf/open/floor/almayer{
-	desc = "part of a rubber room, let's hope there's no rats.";
-	icon_state = "silverfull";
-	name = "rubber floor"
-	},
-/area/adminlevel/ert_station{
-	name = "UAAC Outpost"
-	})
 "Ho" = (
 /obj/structure/disposalpipe/segment,
 /obj/structure/pipes/standard/simple/hidden/supply,
@@ -10977,6 +10875,23 @@
 	})
 "Hy" = (
 /turf/open/floor/grass,
+/area/adminlevel/ert_station{
+	name = "UAAC Outpost"
+	})
+"HB" = (
+/obj/structure/machinery/door/poddoor/almayer/blended{
+	id = null;
+	name = "\improper Hanger Shutter"
+	},
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/adminlevel/ert_station/upp_station)
+"HC" = (
+/obj/structure/pipes/standard/simple/hidden/supply,
+/turf/open/floor/almayer{
+	icon_state = "dark_sterile"
+	},
 /area/adminlevel/ert_station{
 	name = "UAAC Outpost"
 	})
@@ -11066,18 +10981,6 @@
 /area/centcom/living{
 	name = "\improper High Command Outpost"
 	})
-"HZ" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/pipes/standard/simple/hidden/supply,
-/turf/open/floor/almayer{
-	icon_state = "mono"
-	},
-/area/adminlevel/ert_station/royal_marines_station)
-"Ia" = (
-/turf/open/floor/almayer{
-	icon_state = "test_floor4"
-	},
-/area/adminlevel/ert_station/royal_marines_station)
 "Ic" = (
 /obj/structure/bed{
 	can_buckle = 0
@@ -11395,6 +11298,12 @@
 /area/adminlevel/ert_station{
 	name = "UAAC Outpost"
 	})
+"IX" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
+/turf/open/floor/plating/almayer,
+/area/adminlevel/ert_station/royal_marines_station)
 "IZ" = (
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 4
@@ -11451,15 +11360,6 @@
 	icon_state = "dark_sterile"
 	},
 /area/adminlevel/ert_station/royal_marines_station)
-"Jf" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 4
-	},
-/turf/open/floor/almayer{
-	icon_state = "mono"
-	},
-/area/adminlevel/ert_station/royal_marines_station)
 "Jg" = (
 /obj/structure/platform_decoration{
 	dir = 8
@@ -11471,6 +11371,14 @@
 	icon_state = "test_floor4"
 	},
 /area/adminlevel/ert_station/weyland_station)
+"Ji" = (
+/turf/open/floor/almayer{
+	dir = 8;
+	icon_state = "blue"
+	},
+/area/adminlevel/ert_station/shuttle_dispatch{
+	name = "Large Shuttle Dispatch Station"
+	})
 "Jk" = (
 /obj/structure/window/framed/strata/reinforced,
 /obj/structure/machinery/door/poddoor/shutters/almayer{
@@ -11614,6 +11522,11 @@
 	name = "\improper High Command Outpost"
 	})
 "JH" = (
+/obj/structure/machinery/cm_vending/sorted/medical/no_access{
+	density = 0;
+	pixel_y = 30;
+	req_access = null
+	},
 /turf/open/floor/almayer{
 	icon_state = "silver"
 	},
@@ -11637,8 +11550,10 @@
 	icon_state = "sterile_green"
 	},
 /area/adminlevel/ert_station/royal_marines_station)
-"JM" = (
-/turf/open/floor/carpet,
+"JL" = (
+/obj/structure/disposalpipe/segment,
+/obj/structure/pipes/standard/simple/hidden/supply,
+/turf/open/floor/plating/plating_catwalk,
 /area/adminlevel/ert_station/royal_marines_station)
 "JN" = (
 /obj/structure/showcase{
@@ -11668,6 +11583,23 @@
 /obj/structure/surface/table/almayer,
 /obj/structure/machinery/faxmachine/uscm,
 /turf/open/floor/wood/ship,
+/area/adminlevel/ert_station{
+	name = "UAAC Outpost"
+	})
+"JV" = (
+/obj/structure/machinery/door/poddoor/almayer/blended{
+	id = "UA Hanger";
+	name = "\improper Hanger Shutter"
+	},
+/obj/structure/machinery/door/airlock/multi_tile/almayer/almayer/glass{
+	indestructible = 1;
+	name = "\improper Hanger";
+	no_panel = 1;
+	req_access = list(2)
+	},
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
 /area/adminlevel/ert_station{
 	name = "UAAC Outpost"
 	})
@@ -11782,6 +11714,12 @@
 	icon_state = "blue"
 	},
 /area/adminlevel/ert_station/royal_marines_station)
+"Ks" = (
+/obj/structure/pipes/standard/manifold/hidden/supply,
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/adminlevel/ert_station/royal_marines_station)
 "Kt" = (
 /obj/effect/step_trigger/message/memorial,
 /turf/open/floor/carpet/edge{
@@ -11800,6 +11738,15 @@
 /area/centcom/living{
 	name = "\improper High Command Outpost"
 	})
+"Kv" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4
+	},
+/turf/open/floor/prison{
+	dir = 10;
+	icon_state = "floor_plate"
+	},
+/area/adminlevel/ert_station/upp_station)
 "Kw" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -11877,13 +11824,6 @@
 /area/centcom/living{
 	name = "\improper High Command Outpost"
 	})
-"KH" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/almayer{
-	dir = 4;
-	icon_state = "plating_striped"
-	},
-/area/adminlevel/ert_station/weyland_station)
 "KI" = (
 /obj/structure/pipes/standard/manifold/hidden/supply{
 	dir = 1
@@ -12012,12 +11952,14 @@
 	name = "\improper High Command"
 	})
 "Lc" = (
-/obj/item/trash/used_stasis_bag,
-/turf/open/floor/prison{
-	dir = 8;
-	icon_state = "sterile_white"
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
 	},
-/area/adminlevel/ert_station/upp_station)
+/turf/open/floor/almayer{
+	icon_state = "dark_sterile"
+	},
+/area/adminlevel/ert_station/royal_marines_station)
 "Ld" = (
 /obj/structure/bed/chair{
 	dir = 8;
@@ -12079,12 +12021,6 @@
 /area/centcom/living{
 	name = "\improper High Command Outpost"
 	})
-"Lk" = (
-/obj/structure/pipes/vents/pump{
-	dir = 1
-	},
-/turf/open/floor/wood/ship,
-/area/adminlevel/ert_station/royal_marines_station)
 "Ll" = (
 /turf/open/floor/almayer{
 	dir = 9;
@@ -12112,9 +12048,6 @@
 /area/adminlevel/ert_station{
 	name = "UAAC Outpost"
 	})
-"Lo" = (
-/turf/open/floor/plating,
-/area/adminlevel/ert_station/weyland_station)
 "Lp" = (
 /obj/structure/bed/chair/comfy/orange{
 	dir = 4
@@ -12185,6 +12118,17 @@
 	},
 /area/centcom/living{
 	name = "\improper High Command Outpost"
+	})
+"Ly" = (
+/obj/structure/machinery/door/poddoor/almayer/blended{
+	id = null;
+	name = "\improper Hanger Shutter"
+	},
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/adminlevel/ert_station/shuttle_dispatch{
+	name = "Large Shuttle Dispatch Station"
 	})
 "Lz" = (
 /obj/effect/decal/cleanable/dirt,
@@ -12273,13 +12217,6 @@
 /turf/open/floor/almayer,
 /area/centcom/living{
 	name = "\improper High Command Outpost"
-	})
-"LJ" = (
-/turf/open/floor/almayer{
-	icon_state = "mono"
-	},
-/area/adminlevel/ert_station/shuttle_dispatch{
-	name = "Large Shuttle Dispatch Station"
 	})
 "LK" = (
 /obj/structure/machinery/disposal,
@@ -12400,11 +12337,11 @@
 /area/adminlevel/ert_station{
 	name = "UAAC Outpost"
 	})
-"LZ" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/almayer{
-	icon_state = "dark_sterile"
+"LY" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N"
 	},
+/turf/open/floor/plating/almayer,
 /area/adminlevel/ert_station/royal_marines_station)
 "Ma" = (
 /obj/structure/machinery/cm_vending/sorted/medical/wall_med/souto{
@@ -12539,6 +12476,19 @@
 /area/centcom/living{
 	name = "\improper High Command Outpost"
 	})
+"Mo" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/prison{
+	dir = 10;
+	icon_state = "floor_plate"
+	},
+/area/adminlevel/ert_station/upp_station)
 "Mr" = (
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 4
@@ -12559,12 +12509,6 @@
 	icon_state = "dark_sterile"
 	},
 /area/adminlevel/ert_station/weyland_station)
-"Mt" = (
-/turf/open/floor/almayer{
-	dir = 4;
-	icon_state = "plating_striped"
-	},
-/area/adminlevel/ert_station/upp_station)
 "Mv" = (
 /obj/structure/machinery/cm_vending/sorted/cargo_guns/antag_guns{
 	density = 0;
@@ -12594,6 +12538,23 @@
 /obj/structure/pipes/standard/manifold/hidden/supply,
 /turf/open/floor/wood/ship,
 /area/adminlevel/ert_station/royal_marines_station)
+"My" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/almayer/glass{
+	indestructible = 1;
+	name = "\improper Hanger";
+	no_panel = 1;
+	req_access = list(110)
+	},
+/obj/structure/machinery/door/poddoor/almayer/blended{
+	id = null;
+	name = "\improper Hanger Shutter"
+	},
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/adminlevel/ert_station/shuttle_dispatch{
+	name = "Large Shuttle Dispatch Station"
+	})
 "MA" = (
 /obj/structure/bed{
 	can_buckle = 0
@@ -12650,6 +12611,13 @@
 /area/centcom/living{
 	name = "\improper High Command Outpost"
 	})
+"MH" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer{
+	dir = 4;
+	icon_state = "plating_striped"
+	},
+/area/adminlevel/ert_station/weyland_station)
 "MI" = (
 /obj/structure/surface/table/reinforced/black,
 /obj/structure/machinery/prop/almayer/computer/PC{
@@ -12705,23 +12673,6 @@
 /area/centcom/living{
 	name = "\improper High Command Outpost"
 	})
-"MR" = (
-/obj/structure/machinery/door/airlock/multi_tile/almayer/almayer/glass{
-	indestructible = 1;
-	name = "\improper Hanger";
-	no_panel = 1;
-	req_access = list(110)
-	},
-/obj/structure/machinery/door/poddoor/almayer/blended{
-	id = null;
-	name = "\improper Hanger Shutter"
-	},
-/turf/open/floor/almayer{
-	icon_state = "test_floor4"
-	},
-/area/adminlevel/ert_station/shuttle_dispatch{
-	name = "Large Shuttle Dispatch Station"
-	})
 "MS" = (
 /obj/structure/machinery/space_heater/radiator{
 	dir = 4
@@ -12772,11 +12723,6 @@
 	},
 /turf/open/floor/wood/ship,
 /area/adminlevel/ert_station/weyland_station)
-"Na" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/pipes/vents/scrubber,
-/turf/open/floor/plating/plating_catwalk,
-/area/adminlevel/ert_station/royal_marines_station)
 "Nc" = (
 /obj/structure/surface/table/reinforced/almayer_B,
 /obj/item/trash/USCMtray{
@@ -12802,6 +12748,9 @@
 /area/centcom/living{
 	name = "\improper High Command Outpost"
 	})
+"Nf" = (
+/turf/open/floor/plating/plating_catwalk,
+/area/adminlevel/ert_station/royal_marines_station)
 "Ng" = (
 /obj/structure/machinery/faxmachine/uscm/brig/provost{
 	density = 0;
@@ -12814,23 +12763,6 @@
 	},
 /area/centcom/living{
 	name = "\improper High Command Outpost"
-	})
-"Nh" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 9
-	},
-/turf/open/floor/plating/plating_catwalk,
-/area/adminlevel/ert_station{
-	name = "UAAC Outpost"
-	})
-"Nj" = (
-/turf/open/floor/almayer{
-	dir = 8;
-	icon_state = "blue"
-	},
-/area/adminlevel/ert_station/shuttle_dispatch{
-	name = "Large Shuttle Dispatch Station"
 	})
 "Nk" = (
 /obj/structure/disposalpipe/trunk{
@@ -12901,6 +12833,12 @@
 	icon_state = "plate"
 	},
 /area/adminlevel/ert_station/weyland_station)
+"Nr" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 5
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/adminlevel/ert_station/royal_marines_station)
 "Nt" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/almayer/glass{
 	indestructible = 1;
@@ -12916,15 +12854,6 @@
 	icon_state = "test_floor4"
 	},
 /area/adminlevel/ert_station/upp_station)
-"Nu" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/almayer{
-	dir = 1;
-	icon_state = "silver"
-	},
-/area/adminlevel/ert_station{
-	name = "UAAC Outpost"
-	})
 "Nv" = (
 /obj/structure/barricade/handrail/strata{
 	dir = 4
@@ -13128,6 +13057,12 @@
 /area/centcom/living{
 	name = "\improper High Command Outpost"
 	})
+"Ob" = (
+/turf/open/floor/almayer{
+	dir = 8;
+	icon_state = "plating_striped"
+	},
+/area/adminlevel/ert_station/royal_marines_station)
 "Oc" = (
 /turf/closed/wall/almayer/research/containment/wall/corner{
 	dir = 8
@@ -13258,13 +13193,6 @@
 	icon_state = "green"
 	},
 /area/adminlevel/ert_station/upp_station)
-"Ot" = (
-/turf/open/floor/almayer{
-	icon_state = "silver"
-	},
-/area/adminlevel/ert_station{
-	name = "UAAC Outpost"
-	})
 "Ou" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/pipes/standard/simple/hidden/supply{
@@ -13284,6 +13212,24 @@
 /obj/structure/machinery/atm{
 	pixel_y = 32
 	},
+/turf/open/floor/almayer{
+	dir = 1;
+	icon_state = "silver"
+	},
+/area/adminlevel/ert_station{
+	name = "UAAC Outpost"
+	})
+"OA" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/adminlevel/ert_station/royal_marines_station)
+"OB" = (
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/almayer{
 	dir = 1;
 	icon_state = "silver"
@@ -13313,6 +13259,29 @@
 /area/centcom/living{
 	name = "\improper High Command Outpost"
 	})
+"OE" = (
+/obj/structure/bed{
+	can_buckle = 0
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/item/bedsheet/red,
+/turf/open/floor/almayer{
+	desc = "part of a rubber room, let's hope there's no rats.";
+	icon_state = "silverfull";
+	name = "rubber floor"
+	},
+/area/adminlevel/ert_station{
+	name = "UAAC Outpost"
+	})
+"OF" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer{
+	dir = 4;
+	icon_state = "silver"
+	},
+/area/adminlevel/ert_station{
+	name = "UAAC Outpost"
+	})
 "OG" = (
 /obj/structure/mirror{
 	pixel_x = -28
@@ -13332,6 +13301,14 @@
 	icon_state = "greenfull"
 	},
 /area/adminlevel/ert_station/upp_station)
+"OJ" = (
+/turf/open/floor/almayer{
+	dir = 4;
+	icon_state = "blue"
+	},
+/area/adminlevel/ert_station/shuttle_dispatch{
+	name = "Large Shuttle Dispatch Station"
+	})
 "OK" = (
 /obj/item/trash/candy,
 /obj/effect/decal/cleanable/dirt,
@@ -13521,6 +13498,11 @@
 	icon_state = "blue"
 	},
 /area/adminlevel/ert_station/royal_marines_station)
+"Pi" = (
+/turf/open/floor/plating/plating_catwalk,
+/area/adminlevel/ert_station{
+	name = "UAAC Outpost"
+	})
 "Pj" = (
 /obj/structure/bed/chair/comfy{
 	dir = 8;
@@ -13650,13 +13632,6 @@
 	name = "floor"
 	},
 /area/adminlevel/ert_station/royal_marines_station)
-"Px" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/pipes/standard/simple/hidden/supply,
-/turf/open/floor/plating/plating_catwalk,
-/area/adminlevel/ert_station{
-	name = "UAAC Outpost"
-	})
 "Pz" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/machinery/cm_vending/clothing/antag{
@@ -13777,6 +13752,23 @@
 	},
 /turf/open/floor/wood/ship,
 /area/adminlevel/ert_station/weyland_station)
+"PP" = (
+/obj/structure/machinery/door/poddoor/almayer/blended{
+	id = null;
+	name = "\improper Hanger Shutter"
+	},
+/obj/structure/machinery/door/airlock/multi_tile/almayer/almayer/glass{
+	indestructible = 1;
+	name = "\improper Hanger";
+	no_panel = 1;
+	req_access = list(200)
+	},
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/adminlevel/ert_station/shuttle_dispatch{
+	name = "Large Shuttle Dispatch Station"
+	})
 "PQ" = (
 /obj/item/storage/bag/trash,
 /turf/open/floor/prison{
@@ -13797,6 +13789,12 @@
 	icon_state = "green"
 	},
 /area/adminlevel/ert_station/upp_station)
+"PS" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/adminlevel/ert_station/royal_marines_station)
 "PU" = (
 /obj/structure/toilet{
 	dir = 8
@@ -13868,14 +13866,6 @@
 /area/adminlevel/ert_station{
 	name = "UAAC Outpost"
 	})
-"Qb" = (
-/turf/open/floor/almayer{
-	dir = 8;
-	icon_state = "silver"
-	},
-/area/adminlevel/ert_station{
-	name = "UAAC Outpost"
-	})
 "Qc" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/prison{
@@ -13917,13 +13907,14 @@
 /area/adminlevel/ert_station{
 	name = "UAAC Outpost"
 	})
-"Qh" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 4
+"Qk" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
 	},
-/turf/open/floor/plating/plating_catwalk,
-/area/adminlevel/ert_station/royal_marines_station)
+/turf/open/floor/plating/almayer,
+/area/adminlevel/ert_station/shuttle_dispatch{
+	name = "Large Shuttle Dispatch Station"
+	})
 "Qm" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/sign/goldenplaque{
@@ -13978,15 +13969,6 @@
 	icon_state = "plating_striped"
 	},
 /area/adminlevel/ert_station/freelancer_station)
-"Qs" = (
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 4
-	},
-/turf/open/floor/prison{
-	dir = 10;
-	icon_state = "floor_plate"
-	},
-/area/adminlevel/ert_station/upp_station)
 "Qu" = (
 /obj/item/pizzabox{
 	pixel_y = -4
@@ -14200,7 +14182,9 @@
 	dir = 4
 	},
 /turf/open/floor/plating/plating_catwalk,
-/area/adminlevel/ert_station/royal_marines_station)
+/area/adminlevel/ert_station{
+	name = "UAAC Outpost"
+	})
 "Rb" = (
 /obj/structure/machinery/cm_vending/sorted/marine_food{
 	density = 0;
@@ -14229,6 +14213,11 @@
 	icon_state = "green"
 	},
 /area/adminlevel/ert_station/upp_station)
+"Rf" = (
+/turf/open/floor/almayer_hull{
+	name = "floor"
+	},
+/area/adminlevel/ert_station/royal_marines_station)
 "Rg" = (
 /obj/structure/surface/table/woodentable/fancy,
 /obj/structure/machinery/door_control{
@@ -14314,13 +14303,11 @@
 	},
 /area/adminlevel/ert_station/upp_station)
 "Rm" = (
-/turf/open/floor/prison{
-	dir = 10;
-	icon_state = "floor_plate"
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
 	},
-/area/adminlevel/ert_station/shuttle_dispatch{
-	name = "Large Shuttle Dispatch Station"
-	})
+/turf/open/floor/plating/almayer,
+/area/adminlevel/ert_station/royal_marines_station)
 "Ro" = (
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 4
@@ -14448,6 +14435,17 @@
 /area/centcom/living{
 	name = "\improper High Command Outpost"
 	})
+"RC" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/adminlevel/ert_station/royal_marines_station)
 "RD" = (
 /obj/structure/surface/table/almayer,
 /obj/structure/machinery/prop/almayer/computer/PC{
@@ -14565,6 +14563,16 @@
 	icon_state = "sterile_green"
 	},
 /area/adminlevel/ert_station/weyland_station)
+"RU" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/almayer{
+	desc = "part of a rubber room, let's hope there's no rats.";
+	icon_state = "silverfull";
+	name = "rubber floor"
+	},
+/area/adminlevel/ert_station{
+	name = "UAAC Outpost"
+	})
 "RV" = (
 /turf/open/floor/almayer{
 	icon_state = "green"
@@ -14582,9 +14590,6 @@
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/adminlevel/ert_station/weyland_station)
-"RZ" = (
-/turf/open/floor/wood/ship,
-/area/adminlevel/ert_station/royal_marines_station)
 "Sc" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/surface/table/almayer,
@@ -14592,23 +14597,6 @@
 /turf/open/floor/almayer,
 /area/adminlevel/ert_station{
 	name = "UAAC Outpost"
-	})
-"Sd" = (
-/obj/structure/machinery/door/poddoor/almayer/blended{
-	id = null;
-	name = "\improper Hanger Shutter"
-	},
-/obj/structure/machinery/door/airlock/multi_tile/almayer/almayer/glass{
-	indestructible = 1;
-	name = "\improper Hanger";
-	no_panel = 1;
-	req_access = list(200)
-	},
-/turf/open/floor/almayer{
-	icon_state = "test_floor4"
-	},
-/area/adminlevel/ert_station/shuttle_dispatch{
-	name = "Large Shuttle Dispatch Station"
 	})
 "Se" = (
 /obj/effect/decal/cleanable/dirt,
@@ -14774,6 +14762,11 @@
 	icon_state = "darkred2"
 	},
 /area/adminlevel/ert_station/upp_station)
+"SE" = (
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/adminlevel/ert_station/royal_marines_station)
 "SF" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "E";
@@ -14877,10 +14870,12 @@
 	})
 "SW" = (
 /turf/open/floor/almayer{
-	dir = 8;
-	icon_state = "plating_striped"
+	dir = 1;
+	icon_state = "silver"
 	},
-/area/adminlevel/ert_station/upp_station)
+/area/adminlevel/ert_station{
+	name = "UAAC Outpost"
+	})
 "Ta" = (
 /obj/structure/platform/strata/metal,
 /turf/open/auto_turf/snow/layer3,
@@ -14919,17 +14914,6 @@
 /area/centcom/living{
 	name = "\improper High Command Outpost"
 	})
-"Tf" = (
-/obj/structure/machinery/door/poddoor/almayer/blended{
-	id = null;
-	name = "\improper Hanger Shutter"
-	},
-/turf/open/floor/almayer{
-	icon_state = "test_floor4"
-	},
-/area/adminlevel/ert_station/shuttle_dispatch{
-	name = "Large Shuttle Dispatch Station"
-	})
 "Th" = (
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 4
@@ -14966,6 +14950,11 @@
 /area/centcom/living{
 	name = "\improper High Command Outpost"
 	})
+"Tm" = (
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/adminlevel/ert_station/upp_station)
 "Tp" = (
 /obj/structure/machinery/vending/cola{
 	density = 0;
@@ -15213,6 +15202,11 @@
 	},
 /turf/open/space/basic,
 /area/space)
+"TU" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/pipes/vents/scrubber,
+/turf/open/floor/plating/plating_catwalk,
+/area/adminlevel/ert_station/royal_marines_station)
 "TW" = (
 /obj/structure/bed{
 	can_buckle = 0
@@ -15280,14 +15274,6 @@
 /obj/item/reagent_container/food/snacks/upp,
 /turf/open/floor/strata,
 /area/adminlevel/ert_station/upp_station)
-"Ui" = (
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 4
-	},
-/turf/open/floor/almayer{
-	icon_state = "mono"
-	},
-/area/adminlevel/ert_station/royal_marines_station)
 "Uk" = (
 /turf/closed/wall/almayer/reinforced,
 /area/centcom/living{
@@ -15313,9 +15299,6 @@
 /area/adminlevel/ert_station{
 	name = "UAAC Outpost"
 	})
-"Un" = (
-/turf/open/floor/plating/plating_catwalk,
-/area/adminlevel/ert_station/royal_marines_station)
 "Uo" = (
 /obj/item/clothing/under/color/grey{
 	desc = "A jumpsuit worn by UPP prisoners, poor bastards.";
@@ -15347,17 +15330,11 @@
 /area/centcom/living{
 	name = "\improper High Command Outpost"
 	})
-"Ut" = (
-/obj/structure/machinery/door/poddoor/almayer/blended{
-	id = "UA Hanger";
-	name = "\improper Hanger Shutter"
-	},
-/turf/open/floor/almayer{
-	icon_state = "test_floor4"
-	},
-/area/adminlevel/ert_station{
-	name = "UAAC Outpost"
-	})
+"Ur" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/pipes/vents/pump,
+/turf/open/floor/plating/plating_catwalk,
+/area/adminlevel/ert_station/royal_marines_station)
 "Uu" = (
 /turf/open/floor/almayer/uscm/directional{
 	dir = 8;
@@ -15421,13 +15398,6 @@
 /area/centcom/control{
 	name = "\improper High Command"
 	})
-"UE" = (
-/obj/effect/decal/cleanable/generic,
-/obj/structure/pipes/standard/simple/hidden/supply,
-/turf/open/floor/almayer{
-	icon_state = "mono"
-	},
-/area/adminlevel/ert_station/royal_marines_station)
 "UG" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/pipes/standard/simple/hidden/supply{
@@ -15437,6 +15407,12 @@
 	icon_state = "mono"
 	},
 /area/adminlevel/ert_station/weyland_station)
+"UH" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/plating_catwalk,
+/area/adminlevel/ert_station{
+	name = "UAAC Outpost"
+	})
 "UJ" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "S"
@@ -15461,11 +15437,6 @@
 	icon_state = "plate"
 	},
 /area/adminlevel/ert_station/weyland_station)
-"UL" = (
-/obj/structure/disposalpipe/segment,
-/obj/structure/pipes/standard/simple/hidden/supply,
-/turf/open/floor/plating/plating_catwalk,
-/area/adminlevel/ert_station/royal_marines_station)
 "UM" = (
 /turf/closed/wall/r_wall/unmeltable,
 /area/adminlevel/ert_station/shuttle_dispatch{
@@ -15528,6 +15499,13 @@
 /area/centcom/living{
 	name = "\improper High Command Outpost"
 	})
+"UX" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/generic,
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/adminlevel/ert_station/royal_marines_station)
 "UY" = (
 /obj/structure/machinery/shower{
 	dir = 4;
@@ -15744,6 +15722,9 @@
 	icon_state = "green"
 	},
 /area/adminlevel/ert_station/upp_station)
+"Vy" = (
+/turf/open/floor/plating/plating_catwalk/strata,
+/area/adminlevel/ert_station/upp_station)
 "VA" = (
 /turf/open/floor/prison{
 	dir = 9;
@@ -15795,17 +15776,6 @@
 "VI" = (
 /turf/open/floor/plating/plating_catwalk,
 /area/adminlevel/ert_station/weyland_station)
-"VJ" = (
-/obj/structure/machinery/door/poddoor/almayer/locked{
-	breakable = 0;
-	id = null;
-	indestructible = 1;
-	name = "ERT Armory"
-	},
-/turf/open/floor/almayer{
-	icon_state = "test_floor4"
-	},
-/area/adminlevel/ert_station/royal_marines_station)
 "VK" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -15876,6 +15846,15 @@
 /area/centcom/living{
 	name = "\improper High Command Outpost"
 	})
+"VT" = (
+/obj/structure/machinery/door/poddoor/almayer/blended{
+	id = null;
+	name = "\improper Hanger Shutter"
+	},
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/adminlevel/ert_station/weyland_station)
 "VV" = (
 /obj/effect/decal/cleanable/generic,
 /turf/open/floor/almayer{
@@ -15920,6 +15899,14 @@
 	},
 /turf/open/floor/almayer{
 	icon_state = "test_floor4"
+	},
+/area/adminlevel/ert_station{
+	name = "UAAC Outpost"
+	})
+"Wc" = (
+/turf/open/floor/almayer{
+	dir = 8;
+	icon_state = "silver"
 	},
 /area/adminlevel/ert_station{
 	name = "UAAC Outpost"
@@ -16017,6 +16004,14 @@
 	icon_state = "silvercorner"
 	},
 /area/adminlevel/ert_station/weyland_station)
+"Wv" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N"
+	},
+/turf/open/floor/plating/almayer,
+/area/adminlevel/ert_station/shuttle_dispatch{
+	name = "Large Shuttle Dispatch Station"
+	})
 "Ww" = (
 /obj/structure/pipes/standard/simple/hidden/supply,
 /turf/open/floor/plating/plating_catwalk,
@@ -16033,15 +16028,6 @@
 	icon_state = "plate"
 	},
 /area/adminlevel/ert_station/weyland_station)
-"WB" = (
-/obj/structure/reagent_dispensers/fueltank,
-/turf/open/floor/almayer{
-	dir = 6;
-	icon_state = "orange"
-	},
-/area/adminlevel/ert_station{
-	name = "UAAC Outpost"
-	})
 "WC" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/almayer{
@@ -16049,6 +16035,11 @@
 	icon_state = "green"
 	},
 /area/adminlevel/ert_station/royal_marines_station)
+"WD" = (
+/turf/open/auto_turf/snow/layer0,
+/area/adminlevel/ert_station/shuttle_dispatch{
+	name = "Large Shuttle Dispatch Station"
+	})
 "WG" = (
 /turf/open/floor/almayer{
 	icon_state = "plate"
@@ -16325,14 +16316,6 @@
 	icon_state = "plating_striped"
 	},
 /area/adminlevel/ert_station/weyland_station)
-"Xu" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "N"
-	},
-/turf/open/floor/plating/almayer,
-/area/adminlevel/ert_station/shuttle_dispatch{
-	name = "Large Shuttle Dispatch Station"
-	})
 "Xv" = (
 /obj/structure/window/framed/chigusa{
 	desc = "A glass window with a special rod matrix inside a wall frame. This one was made out of exotic materials to prevent hull breaches. No way to get through here.";
@@ -16370,6 +16353,12 @@
 	icon_state = "silver"
 	},
 /area/adminlevel/ert_station/weyland_station)
+"XD" = (
+/obj/structure/pipes/standard/simple/hidden/supply,
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/adminlevel/ert_station/royal_marines_station)
 "XE" = (
 /turf/open/floor/almayer{
 	icon_state = "tcomms"
@@ -16557,6 +16546,11 @@
 /area/centcom/living{
 	name = "\improper High Command Outpost"
 	})
+"XY" = (
+/turf/open/floor/wood/ship,
+/area/adminlevel/ert_station{
+	name = "UAAC Outpost"
+	})
 "XZ" = (
 /turf/open/floor/almayer{
 	dir = 1;
@@ -16571,12 +16565,6 @@
 	},
 /area/centcom/living{
 	name = "\improper High Command Outpost"
-	})
-"Yb" = (
-/obj/structure/pipes/standard/simple/hidden/supply,
-/turf/open/floor/plating/plating_catwalk,
-/area/adminlevel/ert_station{
-	name = "UAAC Outpost"
 	})
 "Yc" = (
 /obj/structure/disposalpipe/segment,
@@ -16614,6 +16602,18 @@
 	icon_state = "plate"
 	},
 /area/adminlevel/ert_station/weyland_station)
+"Yh" = (
+/obj/structure/pipes/standard/simple/hidden/supply,
+/obj/structure/machinery/door/poddoor/almayer/locked{
+	breakable = 0;
+	id = null;
+	indestructible = 1;
+	name = "ERT Armory"
+	},
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/adminlevel/ert_station/upp_station)
 "Yi" = (
 /obj/structure/ladder{
 	desc = "A sturdy metal ladder, leads to the hanger.";
@@ -16641,15 +16641,6 @@
 	icon_state = "dark_sterile"
 	},
 /area/adminlevel/ert_station/weyland_station)
-"Yn" = (
-/obj/structure/machinery/door/poddoor/almayer/blended{
-	id = null;
-	name = "\improper Hanger Shutter"
-	},
-/turf/open/floor/almayer{
-	icon_state = "test_floor4"
-	},
-/area/adminlevel/ert_station/upp_station)
 "Yo" = (
 /obj/structure/curtain/shower{
 	pixel_x = -1
@@ -16750,6 +16741,9 @@
 /area/centcom/living{
 	name = "\improper High Command Outpost"
 	})
+"YE" = (
+/turf/open/floor/plating,
+/area/adminlevel/ert_station/royal_marines_station)
 "YF" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/pipes/standard/manifold/hidden/supply,
@@ -16856,6 +16850,11 @@
 /area/centcom/living{
 	name = "\improper High Command Outpost"
 	})
+"YX" = (
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/adminlevel/ert_station/royal_marines_station)
 "YY" = (
 /obj/structure/surface/table/woodentable/fancy,
 /obj/structure/machinery/prop/almayer/CICmap{
@@ -16927,14 +16926,6 @@
 /area/centcom/living{
 	name = "\improper High Command Outpost"
 	})
-"Zi" = (
-/turf/open/floor/almayer{
-	dir = 4;
-	icon_state = "blue"
-	},
-/area/adminlevel/ert_station/shuttle_dispatch{
-	name = "Large Shuttle Dispatch Station"
-	})
 "Zj" = (
 /obj/structure/surface/table/almayer,
 /obj/item/trash/cigbutt,
@@ -16979,9 +16970,23 @@
 /area/adminlevel/ert_station{
 	name = "UAAC Outpost"
 	})
-"Zp" = (
-/turf/open/floor/plating,
-/area/adminlevel/ert_station/upp_station)
+"Zo" = (
+/obj/structure/machinery/door/poddoor/almayer/locked{
+	breakable = 0;
+	id = null;
+	indestructible = 1;
+	name = "ERT Armory"
+	},
+/turf/open/floor/almayer{
+	icon_state = "test_floor4"
+	},
+/area/adminlevel/ert_station/royal_marines_station)
+"Zr" = (
+/obj/effect/decal/cleanable/generic,
+/turf/open/floor/wood/ship,
+/area/adminlevel/ert_station{
+	name = "UAAC Outpost"
+	})
 "Zs" = (
 /obj/structure/surface/rack,
 /obj/effect/decal/cleanable/dirt,
@@ -24004,27 +24009,27 @@ as
 TT
 as
 UM
-uf
-zM
-zM
-zM
-zM
-zM
-zM
-zM
-zM
-zM
-zM
-zM
-zM
-zM
-zM
-zM
-zM
-zM
-zM
-zM
-uf
+il
+mv
+mv
+mv
+mv
+mv
+mv
+mv
+mv
+mv
+mv
+mv
+mv
+mv
+mv
+mv
+mv
+mv
+mv
+mv
+il
 UM
 aa
 aC
@@ -24156,7 +24161,7 @@ as
 TT
 as
 UM
-dI
+Qk
 lz
 GP
 yW
@@ -24176,7 +24181,7 @@ yW
 yW
 GP
 Eu
-Xu
+Wv
 UM
 aa
 aC
@@ -24308,27 +24313,27 @@ as
 TT
 as
 UM
-dI
+Qk
 fI
 zi
-do
-do
-do
-do
-do
-do
-do
+iC
+iC
+iC
+iC
+iC
+iC
+iC
 an
-do
-do
-do
-do
-do
-do
-do
+iC
+iC
+iC
+iC
+iC
+iC
+iC
 Lh
 Yp
-Xu
+Wv
 UM
 aa
 aC
@@ -24460,27 +24465,27 @@ as
 TT
 as
 UM
-dI
+Qk
 Vg
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
 Vg
-Xu
+Wv
 UM
 aa
 aC
@@ -24612,27 +24617,27 @@ as
 TT
 as
 UM
-dI
+Qk
 Vg
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
 Vg
-Xu
+Wv
 UM
 aa
 aC
@@ -24764,27 +24769,27 @@ TT
 TT
 as
 UM
-dI
+Qk
 Vg
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
 Vg
-Xu
+Wv
 UM
 aa
 aC
@@ -24916,27 +24921,27 @@ as
 as
 as
 UM
-dI
+Qk
 Vg
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
 Vg
-Xu
+Wv
 UM
 aa
 aC
@@ -25068,27 +25073,27 @@ UM
 UM
 UM
 UM
-dI
+Qk
 Vg
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
 Vg
-Xu
+Wv
 UM
 aa
 aC
@@ -25218,29 +25223,29 @@ TT
 as
 UM
 WT
-LJ
+xO
 qk
-dI
+Qk
 Vg
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
 Vg
-Xu
+Wv
 UM
 aa
 aC
@@ -25370,29 +25375,29 @@ TT
 as
 UM
 Qe
-LJ
+xO
 uV
-dI
+Qk
 Vg
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
 Vg
-Xu
+Wv
 UM
 aa
 aC
@@ -25524,27 +25529,27 @@ UM
 UM
 UM
 UM
-dI
+Qk
 Vg
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
 Vg
-Xu
+Wv
 UM
 aa
 aC
@@ -25676,27 +25681,27 @@ UM
 Yi
 iO
 Go
-dI
+Qk
 Vg
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
 Vg
-Xu
+Wv
 UM
 aa
 aC
@@ -25828,27 +25833,27 @@ UM
 Xo
 iO
 Eg
-dI
+Qk
 Vg
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
 Vg
-Xu
+Wv
 UM
 aa
 aC
@@ -25980,27 +25985,27 @@ UM
 UM
 UM
 UM
-dI
+Qk
 Vg
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
 Vg
-Xu
+Wv
 UM
 aa
 aC
@@ -26130,29 +26135,29 @@ TT
 as
 UM
 wg
-zQ
-Sd
-dI
+kh
+PP
+Qk
 Vg
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
 Vg
-Xu
+Wv
 UM
 aa
 aC
@@ -26282,29 +26287,29 @@ TT
 as
 UM
 lA
-zQ
-Tf
-dI
+kh
+Ly
+Qk
 Vg
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
 Vg
-Xu
+Wv
 UM
 aa
 aC
@@ -26436,27 +26441,27 @@ UM
 UM
 UM
 UM
-dI
+Qk
 Vg
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
 Vg
-Xu
+Wv
 UM
 aa
 aC
@@ -26586,29 +26591,29 @@ TT
 as
 UM
 EG
-Nj
+Ji
 PC
-dI
+Qk
 Vg
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
 Vg
-Xu
+Wv
 UM
 aa
 aC
@@ -26738,29 +26743,29 @@ TT
 as
 UM
 Ky
-Zi
-Tf
-dI
+OJ
+Ly
+Qk
 Vg
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
 Vg
-Xu
+Wv
 UM
 aa
 aC
@@ -26892,27 +26897,27 @@ UM
 UM
 UM
 UM
-dI
+Qk
 Vg
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
 Vg
-Xu
+Wv
 UM
 aa
 aC
@@ -27042,29 +27047,29 @@ TT
 as
 UM
 Zk
-tm
-iU
-dI
+WD
+qO
+Qk
 Vg
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
 Vg
-Xu
+Wv
 UM
 aa
 aC
@@ -27194,29 +27199,29 @@ TT
 as
 UM
 nW
-tm
-Tf
-dI
+WD
+Ly
+Qk
 Vg
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
 Vg
-Xu
+Wv
 UM
 aa
 aC
@@ -27348,27 +27353,27 @@ UM
 UM
 UM
 UM
-dI
+Qk
 Vg
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
 Vg
-Xu
+Wv
 UM
 as
 aC
@@ -27498,29 +27503,29 @@ TT
 as
 UM
 vE
-Rm
-MR
-dI
+kg
+My
+Qk
 Vg
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
 Vg
-Xu
+Wv
 UM
 as
 aC
@@ -27650,29 +27655,29 @@ TT
 as
 UM
 Fh
-Rm
-Tf
-dI
+kg
+Ly
+Qk
 Vg
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
 Vg
-Xu
+Wv
 UM
 as
 aC
@@ -27804,27 +27809,27 @@ UM
 UM
 UM
 UM
-dI
+Qk
 Vg
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
 Vg
-Xu
+Wv
 UM
 as
 aC
@@ -27956,27 +27961,27 @@ as
 as
 as
 UM
-dI
+Qk
 Vg
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
 Vg
-Xu
+Wv
 UM
 as
 aC
@@ -28108,27 +28113,27 @@ TT
 TT
 as
 UM
-dI
+Qk
 Vg
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
 Vg
-Xu
+Wv
 UM
 as
 aC
@@ -28260,27 +28265,27 @@ as
 TT
 as
 UM
-dI
+Qk
 Vg
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
 Vg
-Xu
+Wv
 UM
 as
 aC
@@ -28412,27 +28417,27 @@ as
 TT
 as
 UM
-dI
+Qk
 Vg
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
 Vg
-Xu
+Wv
 UM
 as
 aC
@@ -28564,27 +28569,27 @@ as
 TT
 as
 UM
-dI
+Qk
 Lh
 Yp
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
-do
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
+iC
 fI
 zi
-Xu
+Wv
 UM
 as
 aC
@@ -28716,7 +28721,7 @@ as
 TT
 as
 UM
-dI
+Qk
 Qv
 jI
 yW
@@ -28736,7 +28741,7 @@ yW
 yW
 jI
 ws
-Xu
+Wv
 UM
 as
 aC
@@ -28868,27 +28873,27 @@ as
 TT
 as
 UM
-uf
-DX
-DX
-DX
-DX
-DX
-DX
-DX
-DX
-DX
-DX
-DX
-DX
-DX
-DX
-DX
-DX
-DX
-DX
-DX
-uf
+il
+va
+va
+va
+va
+va
+va
+va
+va
+va
+va
+va
+va
+va
+va
+va
+va
+va
+va
+va
+il
 UM
 as
 aC
@@ -30076,25 +30081,25 @@ as
 TT
 as
 ui
-ck
-sH
+Pi
+UH
 Zg
 mb
 Zg
 bu
 bu
 Zg
-sH
+UH
 Zu
-Px
-LN
-Gp
-Gp
-LN
-LN
-Gp
-Yb
 aZ
+LN
+Gp
+Gp
+LN
+LN
+Gp
+sa
+zL
 ui
 ui
 ui
@@ -30228,7 +30233,7 @@ as
 TT
 as
 ui
-ck
+Pi
 sb
 FS
 FS
@@ -30246,12 +30251,12 @@ FS
 FS
 FS
 sb
-qr
+QZ
 ui
 WN
 zZ
 kd
-kX
+JV
 Yl
 id
 ui
@@ -30382,28 +30387,28 @@ as
 ui
 Zg
 dP
-nh
-nh
-nh
-nh
-nh
-nh
-nh
-nh
-nh
-nh
-nh
-nh
-nh
-nh
-nh
+xt
+xt
+xt
+xt
+xt
+xt
+xt
+xt
+xt
+xt
+xt
+xt
+xt
+xt
+xt
 gl
-xr
+hw
 ui
-pm
+SW
 AP
 Cr
-Ut
+uw
 FS
 Ty
 ui
@@ -30534,23 +30539,23 @@ as
 ui
 Zg
 dP
-nh
-fZ
-fZ
-fZ
-fZ
-fZ
-fZ
-fZ
-fZ
-fZ
-fZ
-fZ
-fZ
+xt
+ep
+ep
+ep
+ep
+ep
+ep
+ep
+ep
+ep
+ep
+ep
+ep
 bd
-nh
+xt
 gl
-xr
+hw
 Ul
 jb
 FA
@@ -30686,25 +30691,25 @@ as
 ui
 Zg
 dP
-nh
-fZ
-fZ
-fZ
-fZ
-fZ
-fZ
-fZ
-fZ
-fZ
-fZ
-fZ
-fZ
-fZ
-nh
+xt
+ep
+ep
+ep
+ep
+ep
+ep
+ep
+ep
+ep
+ep
+ep
+ep
+ep
+xt
 gl
-Cu
+AF
 IF
-bE
+ks
 qM
 Ls
 au
@@ -30836,30 +30841,30 @@ as
 TT
 as
 ui
-sH
+UH
 dP
-nh
-fZ
-fZ
-fZ
-fZ
-fZ
-fZ
-fZ
-fZ
-fZ
-fZ
-fZ
-fZ
-fZ
-nh
+xt
+ep
+ep
+ep
+ep
+ep
+ep
+ep
+ep
+ep
+ep
+ep
+ep
+ep
+xt
 gl
-qr
+QZ
 Hs
 jb
 eN
 Cr
-ck
+Pi
 Kx
 rA
 DE
@@ -30988,23 +30993,23 @@ as
 TT
 as
 ui
-sH
+UH
 dP
-nh
-fZ
-fZ
-fZ
-fZ
-fZ
-fZ
-fZ
-fZ
-fZ
-fZ
-fZ
-fZ
-fZ
-nh
+xt
+ep
+ep
+ep
+ep
+ep
+ep
+ep
+ep
+ep
+ep
+ep
+ep
+ep
+xt
 gl
 Cd
 ui
@@ -31140,32 +31145,32 @@ as
 TT
 as
 ui
-ck
+Pi
 dP
-nh
-fZ
-fZ
-fZ
-fZ
-fZ
-fZ
-fZ
-fZ
-fZ
-fZ
-fZ
-fZ
-fZ
-nh
+xt
+ep
+ep
+ep
+ep
+ep
+ep
+ep
+ep
+ep
+ep
+ep
+ep
+ep
+xt
 gl
-qr
+QZ
 Ul
 Gi
 oH
 oe
 cs
-Hm
-Hm
+tH
+tH
 Wb
 ct
 uh
@@ -31294,21 +31299,21 @@ as
 ui
 bu
 dP
-nh
-fZ
-fZ
-fZ
-fZ
-fZ
-fZ
-fZ
-fZ
-fZ
-fZ
-fZ
-fZ
-fZ
-nh
+xt
+ep
+ep
+ep
+ep
+ep
+ep
+ep
+ep
+ep
+ep
+ep
+ep
+ep
+xt
 gl
 vU
 Hs
@@ -31316,7 +31321,7 @@ Pu
 tr
 oe
 cs
-mr
+OE
 Va
 cs
 xq
@@ -31446,23 +31451,23 @@ as
 ui
 bu
 dP
-nh
-fZ
-fZ
-fZ
-fZ
-fZ
-fZ
-fZ
-fZ
-fZ
-fZ
-fZ
-fZ
-fZ
-nh
+xt
+ep
+ep
+ep
+ep
+ep
+ep
+ep
+ep
+ep
+ep
+ep
+ep
+ep
+xt
 gl
-xr
+hw
 Hs
 fT
 sp
@@ -31598,30 +31603,30 @@ as
 ui
 Zg
 dP
-nh
-nh
-nh
-nh
-nh
-nh
-nh
-nh
-nh
-nh
-nh
-nh
-nh
-nh
-nh
+xt
+xt
+xt
+xt
+xt
+xt
+xt
+xt
+xt
+xt
+xt
+xt
+xt
+xt
+xt
 gl
-xr
+hw
 ui
 rX
 eN
-Ot
+zK
 cs
-xQ
-xQ
+RU
+RU
 Cy
 fT
 CJ
@@ -31748,7 +31753,7 @@ as
 TT
 as
 ui
-sH
+UH
 sb
 Yl
 Yl
@@ -31766,7 +31771,7 @@ Yl
 Yl
 Yl
 sb
-zs
+mx
 ui
 Oz
 eN
@@ -31900,25 +31905,25 @@ as
 TT
 as
 ui
-ck
-ck
+Pi
+Pi
 bu
 bu
 bu
 bu
 bu
 bu
-ck
+Pi
 pA
-Px
+aZ
 LN
 LN
 Gp
 Jx
 Gp
 Gp
-Yb
-Nh
+sa
+kr
 ui
 Qm
 eN
@@ -32072,12 +32077,12 @@ ui
 ui
 ui
 ui
-Nu
+OB
 pn
 oe
 cs
-Hm
-xQ
+tH
+RU
 ux
 jb
 in
@@ -32216,7 +32221,7 @@ Zs
 JU
 AE
 dU
-zV
+Zr
 Dk
 cs
 st
@@ -32358,14 +32363,14 @@ as
 ui
 WI
 sv
-rq
+HC
 gO
 qW
 mQ
-Ot
+zK
 cs
 ax
-Eo
+vg
 FP
 rV
 Bi
@@ -32509,15 +32514,15 @@ TT
 as
 ui
 iM
-rh
-Gy
-ck
+eC
+xB
+Pi
 fT
-qr
+QZ
 oe
 cs
 zo
-Eo
+vg
 AU
 kv
 cd
@@ -32527,10 +32532,10 @@ al
 Ux
 Id
 cL
-Yb
+sa
 io
 vX
-Ot
+zK
 cs
 Br
 od
@@ -32671,8 +32676,8 @@ cs
 ax
 rV
 RQ
-Eo
-Eo
+vg
+vg
 Vd
 cs
 FG
@@ -32683,7 +32688,7 @@ cs
 zq
 eN
 cG
-ck
+Pi
 Rq
 Hy
 Hy
@@ -32821,7 +32826,7 @@ lX
 QX
 cs
 XQ
-zp
+XY
 xz
 Ki
 Yz
@@ -32835,7 +32840,7 @@ ui
 Dj
 yi
 oe
-ck
+Pi
 br
 qv
 Qw
@@ -32987,7 +32992,7 @@ ui
 Gn
 wU
 oe
-ck
+Pi
 br
 HS
 bu
@@ -33117,14 +33122,14 @@ TT
 as
 ui
 nK
-zp
-zp
-zp
+XY
+XY
+XY
 Ki
 Hw
 TC
 NM
-Qb
+Wc
 NM
 Iw
 KB
@@ -33133,13 +33138,13 @@ Gg
 ui
 Nm
 Pa
-ck
+Pi
 DO
 ui
 Pu
 zm
 Cr
-ck
+Pi
 Kn
 Hy
 Hy
@@ -33269,18 +33274,18 @@ TT
 as
 ui
 pO
-zp
+XY
 Um
 SS
 IW
 PV
-zp
+XY
 ut
 ut
 ut
 xz
-zp
-zp
+XY
+XY
 ZF
 ui
 gN
@@ -33288,7 +33293,7 @@ wP
 yI
 yR
 ui
-Nu
+OB
 sp
 oe
 cs
@@ -33432,7 +33437,7 @@ Gb
 Ea
 wN
 jq
-zp
+XY
 Hj
 ui
 ui
@@ -33440,7 +33445,7 @@ Ro
 os
 ui
 ui
-Nu
+OB
 pn
 oe
 cs
@@ -33584,14 +33589,14 @@ XK
 XT
 wN
 lF
-zp
+XY
 zA
 Rv
 Gc
 mC
 KB
 NM
-Qb
+Wc
 CF
 sp
 oe
@@ -33726,8 +33731,8 @@ as
 ui
 rZ
 Kz
-zp
-zp
+XY
+XY
 zl
 Fi
 rN
@@ -33744,7 +33749,7 @@ ip
 OQ
 OQ
 jj
-un
+vQ
 EK
 IV
 WU
@@ -33877,31 +33882,31 @@ TT
 as
 ui
 xY
-GB
+OF
 Wi
 jt
 LK
 vC
-Fg
+Fq
 Dp
 LX
 Dl
-GB
-GB
+OF
+OF
 Vk
 DS
-GB
+OF
 Hl
-Fg
+Fq
 NN
 pk
-GB
+OF
 Gw
 gm
 cC
 cs
 Pg
-WB
+Ge
 ui
 as
 as
@@ -35071,7 +35076,7 @@ as
 as
 ul
 DU
-FB
+EB
 dQ
 bX
 PQ
@@ -35183,7 +35188,7 @@ TT
 as
 Vf
 Xt
-vQ
+yF
 eT
 VV
 ia
@@ -35227,7 +35232,7 @@ QR
 bX
 bX
 bX
-zF
+Vy
 vP
 bX
 ul
@@ -35335,8 +35340,8 @@ TT
 as
 Vf
 jW
-KH
-Be
+MH
+VT
 QY
 Ud
 GF
@@ -35390,7 +35395,7 @@ Zl
 Ou
 rc
 Nt
-SW
+gc
 nA
 ul
 as
@@ -35541,8 +35546,8 @@ Os
 oC
 Th
 zI
-Yn
-Mt
+HB
+FJ
 tv
 ul
 as
@@ -35679,7 +35684,7 @@ nc
 nc
 bX
 bX
-hL
+Fc
 jh
 bX
 bX
@@ -35708,10 +35713,10 @@ as
 as
 SK
 Fa
-ma
-mY
-EN
-EN
+Ob
+hK
+Rf
+Rf
 pw
 qo
 dC
@@ -35721,10 +35726,10 @@ ar
 Ic
 pi
 UY
-uH
+vT
 pi
-EN
-EN
+Rf
+Rf
 qo
 SK
 as
@@ -35860,24 +35865,24 @@ as
 as
 SK
 Pk
-hl
-bG
-EN
-RZ
-RZ
-RZ
-EN
+rW
+bN
+Rf
+Er
+Er
+Er
+Rf
 Xe
 Vp
 VZ
 MA
 pi
 Da
-LZ
+fZ
 yq
-EN
-kP
-EN
+Rf
+YX
+Rf
 SK
 as
 as
@@ -35974,8 +35979,8 @@ as
 ul
 MI
 IN
-Qs
-ga
+Kv
+at
 sx
 iS
 RO
@@ -35983,7 +35988,7 @@ cx
 nc
 qg
 Pt
-nR
+Mo
 NS
 Vo
 bX
@@ -35991,7 +35996,7 @@ rJ
 Qz
 ul
 KP
-ga
+at
 FM
 ul
 ry
@@ -36015,9 +36020,9 @@ SK
 SK
 SK
 gY
-RZ
+Er
 vq
-RZ
+Er
 fj
 pi
 WC
@@ -36125,7 +36130,7 @@ as
 as
 ul
 SH
-ga
+at
 pz
 bU
 Uo
@@ -36134,16 +36139,16 @@ is
 of
 nc
 qg
-ub
+iL
 kG
-ga
+at
 sB
 IU
 ZA
 Jm
 Ze
 MU
-ga
+at
 LQ
 ul
 ry
@@ -36170,7 +36175,7 @@ Yd
 yU
 Yt
 Bc
-EN
+Rf
 Ss
 iE
 cz
@@ -36179,9 +36184,9 @@ pi
 pi
 pi
 pi
-EN
-FX
-EN
+Rf
+sd
+Rf
 SK
 as
 as
@@ -36277,23 +36282,23 @@ as
 as
 ul
 pL
-ga
+at
 fm
-ga
+at
 Vt
 nc
 nc
 nc
 nc
 OW
-ub
+iL
 lI
-ga
+at
 Jm
-zF
+Vy
 Vx
 jy
-wL
+Yh
 dl
 AG
 LQ
@@ -36322,7 +36327,7 @@ Yd
 yU
 yS
 Bc
-EN
+Rf
 Pd
 iE
 cz
@@ -36333,7 +36338,7 @@ Wr
 pi
 eJ
 tF
-EN
+Rf
 SK
 as
 as
@@ -36429,16 +36434,16 @@ as
 as
 ul
 mw
-ga
+at
 xR
-ga
+at
 Sz
 nc
 SD
 GL
 nc
 qg
-ga
+at
 Jt
 RI
 je
@@ -36447,7 +36452,7 @@ NO
 Jm
 ul
 Ek
-ga
+at
 LQ
 ul
 BX
@@ -36471,20 +36476,20 @@ aU
 mM
 aU
 bY
-RZ
-RZ
-RZ
+Er
+Er
+Er
 fj
 pi
 yj
-cD
+wh
 td
-JM
-JM
+iP
+iP
 fK
 pi
-EN
-FX
+Rf
+sd
 fj
 SK
 SK
@@ -36581,9 +36586,9 @@ as
 as
 ul
 jG
-cM
+wV
 wq
-ga
+at
 ZO
 jw
 gI
@@ -36624,21 +36629,21 @@ Ph
 aU
 vR
 qN
-Lk
-RZ
+nE
+Er
 FI
 pi
 vd
 Fx
 mN
-JM
-JM
+iP
+iP
 fK
 pi
-EN
+Rf
 WO
 Bz
-VJ
+Zo
 oA
 SK
 as
@@ -36747,7 +36752,7 @@ ul
 Pl
 ul
 ul
-zF
+Vy
 OU
 ul
 ul
@@ -36769,9 +36774,9 @@ as
 as
 SK
 EQ
-RZ
-RZ
-RZ
+Er
+Er
+Er
 sZ
 aU
 fw
@@ -36787,10 +36792,10 @@ YQ
 lB
 TW
 pi
-EN
-nD
+Rf
+RC
 fj
-VJ
+Zo
 oK
 SK
 as
@@ -36849,18 +36854,18 @@ Vf
 VQ
 WK
 Jh
-Lo
-Lo
-Lo
-Lo
-Lo
-Lo
-Lo
-Lo
-Lo
-Lo
-Lo
-Lo
+BQ
+BQ
+BQ
+BQ
+BQ
+BQ
+BQ
+BQ
+BQ
+BQ
+BQ
+BQ
 bl
 Jh
 Ym
@@ -36907,8 +36912,8 @@ JP
 ul
 VA
 Rl
-ga
-ga
+at
+at
 Vh
 Kw
 AT
@@ -36923,7 +36928,7 @@ SK
 Xm
 Bc
 aN
-pV
+wz
 pu
 qX
 uj
@@ -36940,9 +36945,9 @@ pi
 Xe
 pi
 fj
-nD
+RC
 fj
-VJ
+Zo
 gL
 SK
 as
@@ -37001,19 +37006,19 @@ Vf
 VQ
 WK
 Jh
-Lo
-Lo
-Lo
-Lo
-Lo
-Lo
-Lo
-Lo
-Lo
-Lo
-Lo
-Lo
-Lo
+BQ
+BQ
+BQ
+BQ
+BQ
+BQ
+BQ
+BQ
+BQ
+BQ
+BQ
+BQ
+BQ
 Jh
 Ym
 ek
@@ -37061,7 +37066,7 @@ FL
 eq
 eq
 pI
-ub
+iL
 na
 Tq
 ul
@@ -37073,28 +37078,28 @@ as
 as
 SK
 Kr
-RZ
-RZ
-RZ
+Er
+Er
+Er
 Gt
 bI
-EN
-lu
-RZ
-RZ
+Rf
+iF
+Er
+Er
 VM
-EN
+Rf
 BS
-EN
+Rf
 oj
 fj
-EN
+Rf
 fj
-EN
-EN
-nD
-EN
-VJ
+Rf
+Rf
+RC
+Rf
+Zo
 gL
 SK
 as
@@ -37153,19 +37158,19 @@ Vf
 Wn
 WK
 Jh
-Lo
-Lo
-Lo
-Lo
-Lo
-Lo
-Lo
-Lo
-Lo
-Lo
-Lo
-Lo
-Lo
+BQ
+BQ
+BQ
+BQ
+BQ
+BQ
+BQ
+BQ
+BQ
+BQ
+BQ
+BQ
+BQ
 Jh
 Ym
 Cs
@@ -37225,28 +37230,28 @@ as
 as
 SK
 NX
-RZ
+Er
 AQ
 vq
 EW
 aU
 Tp
 ch
-pV
-pV
+wz
+wz
 kZ
 Ho
 mP
 vo
 mp
-UL
+JL
 Ho
 Ho
 Ho
 TK
 dg
 fj
-VJ
+Zo
 nw
 SK
 as
@@ -37305,19 +37310,19 @@ Vf
 Wn
 WK
 Jh
-Lo
-Lo
-Lo
-Lo
-Lo
-Lo
-Lo
-Lo
-Lo
-Lo
-Lo
-Lo
-Lo
+BQ
+BQ
+BQ
+BQ
+BQ
+BQ
+BQ
+BQ
+BQ
+BQ
+BQ
+BQ
+BQ
 Jh
 Ym
 wc
@@ -37384,20 +37389,20 @@ Og
 oz
 tw
 iv
-EN
+Rf
 fj
 jR
-EN
+Rf
 no
 ZQ
 uX
-EN
-EN
+Rf
+Rf
 fj
-EN
-EN
-AZ
-EN
+Rf
+Rf
+fH
+Rf
 SK
 SK
 SK
@@ -37457,19 +37462,19 @@ Vf
 VI
 WK
 Jh
-Lo
-Lo
-Lo
-Lo
-Lo
-Lo
-Lo
-Lo
-Lo
-Lo
-Lo
-Lo
-Lo
+BQ
+BQ
+BQ
+BQ
+BQ
+BQ
+BQ
+BQ
+BQ
+BQ
+BQ
+BQ
+BQ
 Jh
 Ym
 Cs
@@ -37517,7 +37522,7 @@ Ax
 on
 ul
 bX
-zF
+Vy
 Me
 bX
 ul
@@ -37547,7 +37552,7 @@ SK
 SK
 SK
 SK
-EN
+Rf
 yO
 NA
 SK
@@ -37609,19 +37614,19 @@ Vf
 WA
 WK
 Jh
-Lo
-Lo
-Lo
-Lo
-Lo
-Lo
-Lo
-Lo
-Lo
-Lo
-Lo
-Lo
-Lo
+BQ
+BQ
+BQ
+BQ
+BQ
+BQ
+BQ
+BQ
+BQ
+BQ
+BQ
+BQ
+BQ
 Jh
 Ym
 JC
@@ -37679,28 +37684,28 @@ TT
 as
 as
 SK
-Un
-sU
-uS
-hI
-uS
-kP
-kP
-uS
-sU
-gb
-pF
-HZ
-sY
-sY
-HZ
-HZ
-sY
-jL
-cW
+Nf
+te
+PS
+UX
+PS
+YX
+YX
+PS
+te
+Ur
+sJ
+jM
+XD
+XD
+jM
+jM
+XD
+Gs
+Nr
 SK
-EN
-Jf
+Rf
+OA
 fj
 SK
 as
@@ -37761,19 +37766,19 @@ Vf
 WA
 WK
 Jh
-Lo
-Lo
-Lo
-Lo
-Lo
-Lo
-Lo
-Lo
-Lo
-Lo
-Lo
-Lo
-Lo
+BQ
+BQ
+BQ
+BQ
+BQ
+BQ
+BQ
+BQ
+BQ
+BQ
+BQ
+BQ
+BQ
 Jh
 Ym
 kE
@@ -37831,25 +37836,25 @@ TT
 as
 as
 SK
-Un
-lL
-tf
-tf
-tf
-tf
-tf
-tf
-tf
-tf
-tf
-tf
-tf
-tf
-tf
-tf
-tf
-lL
-QZ
+Nf
+uD
+gR
+gR
+gR
+gR
+gR
+gR
+gR
+gR
+gR
+gR
+gR
+gR
+gR
+gR
+gR
+uD
+Bk
 SK
 cc
 Mk
@@ -37950,21 +37955,21 @@ as
 DL
 Ta
 iJ
-bb
-bb
-bb
-bb
-bb
-bb
-bb
-bb
-bb
-bb
-bb
-bb
-bb
-bb
-bb
+Tm
+Tm
+Tm
+Tm
+Tm
+Tm
+Tm
+Tm
+Tm
+Tm
+Tm
+Tm
+Tm
+Tm
+Tm
 BT
 jC
 Ax
@@ -37983,27 +37988,27 @@ TT
 as
 as
 SK
-uS
-dO
-Ia
-Ia
-Ia
-Ia
-Ia
-Ia
-Ia
-Ia
-Ia
-Ia
-Ia
-Ia
-Ia
-Ia
-Ia
-kM
-Jf
+PS
+Rm
+SE
+SE
+SE
+SE
+SE
+SE
+SE
+SE
+SE
+SE
+SE
+SE
+SE
+SE
+SE
+LY
+OA
 SK
-GM
+cD
 BH
 fj
 SK
@@ -38102,21 +38107,21 @@ as
 De
 Ta
 vw
-bb
-Zp
-Zp
-Zp
-Zp
-Zp
-Zp
-Zp
-Zp
-Zp
-Zp
-Zp
-Zp
+Tm
+gj
+gj
+gj
+gj
+gj
+gj
+gj
+gj
+gj
+gj
+gj
+gj
 Du
-bb
+Tm
 tQ
 jC
 Ax
@@ -38125,7 +38130,7 @@ Dm
 rn
 er
 Qc
-Lc
+yH
 wa
 xP
 ul
@@ -38135,28 +38140,28 @@ TT
 as
 as
 SK
-uS
-dO
-Ia
-Gs
-Gs
-Gs
-Gs
-Gs
-Gs
-Gs
-Gs
-Gs
-Gs
-Gs
-Gs
+PS
+Rm
+SE
+YE
+YE
+YE
+YE
+YE
+YE
+YE
+YE
+YE
+YE
+YE
+YE
 kc
-Ia
-kM
-Jf
+SE
+LY
+OA
 SK
 Pv
-gj
+Ks
 Xr
 SK
 SK
@@ -38254,28 +38259,28 @@ as
 AY
 Ta
 vw
-bb
-Zp
-Zp
-Zp
-Zp
-Zp
-Zp
-Zp
-Zp
-Zp
-Zp
-Zp
-Zp
-Zp
-bb
+Tm
+gj
+gj
+gj
+gj
+gj
+gj
+gj
+gj
+gj
+gj
+gj
+gj
+gj
+Tm
 tQ
 jC
 nb
 Dm
 Dm
 Nv
-zF
+Vy
 Qc
 gM
 ua
@@ -38287,29 +38292,29 @@ TT
 as
 as
 SK
-uS
-dO
-Ia
-Gs
-Gs
-Gs
-Gs
-Gs
-Gs
-Gs
-Gs
-Gs
-Gs
-Gs
-Gs
-Gs
-Ia
-kM
+PS
+Rm
+SE
+YE
+YE
+YE
+YE
+YE
+YE
+YE
+YE
+YE
+YE
+YE
+YE
+YE
+SE
+LY
 Bt
 SK
 OO
-QZ
-EN
+Bk
+Rf
 Ih
 fi
 la
@@ -38406,21 +38411,21 @@ as
 DL
 Ta
 iJ
-bb
-Zp
-Zp
-Zp
-Zp
-Zp
-Zp
-Zp
-Zp
-Zp
-Zp
-Zp
-Zp
-Zp
-bb
+Tm
+gj
+gj
+gj
+gj
+gj
+gj
+gj
+gj
+gj
+gj
+gj
+gj
+gj
+Tm
 dS
 MK
 Dm
@@ -38439,29 +38444,29 @@ TT
 as
 as
 SK
-sU
-dO
-Ia
-Gs
-Gs
-Gs
-Gs
-Gs
-Gs
-Gs
-Gs
-Gs
-Gs
-Gs
-Gs
-Gs
-Ia
-kM
-QZ
+te
+Rm
+SE
+YE
+YE
+YE
+YE
+YE
+YE
+YE
+YE
+YE
+YE
+YE
+YE
+YE
+SE
+LY
+Bk
 yt
 fj
-Ui
-EN
+FK
+Rf
 Je
 JK
 qa
@@ -38558,21 +38563,21 @@ as
 DL
 Ta
 iJ
-bb
-Zp
-Zp
-Zp
-Zp
-Zp
-Zp
-Zp
-Zp
-Zp
-Zp
-Zp
-Zp
-Zp
-bb
+Tm
+gj
+gj
+gj
+gj
+gj
+gj
+gj
+gj
+gj
+gj
+gj
+gj
+gj
+Tm
 dS
 JO
 Dm
@@ -38591,31 +38596,31 @@ TT
 as
 as
 SK
-sU
-dO
-Ia
-Gs
-Gs
-Gs
-Gs
-Gs
-Gs
-Gs
-Gs
-Gs
-Gs
-Gs
-Gs
-Gs
-Ia
-kM
+te
+Rm
+SE
+YE
+YE
+YE
+YE
+YE
+YE
+YE
+YE
+YE
+YE
+YE
+YE
+YE
+SE
+LY
 ME
 jA
 uj
 YF
-EN
-dX
-gc
+Rf
+Lc
+hP
 uu
 SK
 as
@@ -38710,21 +38715,21 @@ as
 De
 Ta
 iJ
-bb
-Zp
-Zp
-Zp
-Zp
-Zp
-Zp
-Zp
-Zp
-Zp
-Zp
-Zp
-Zp
-Zp
-bb
+Tm
+gj
+gj
+gj
+gj
+gj
+gj
+gj
+gj
+gj
+gj
+gj
+gj
+gj
+Tm
 dS
 VW
 Dm
@@ -38743,31 +38748,31 @@ TT
 as
 as
 SK
-Un
-dO
-Ia
-Gs
-Gs
-Gs
-Gs
-Gs
-Gs
-Gs
-Gs
-Gs
-Gs
-Gs
-Gs
-Gs
-Ia
-kM
-QZ
+Nf
+Rm
+SE
+YE
+YE
+YE
+YE
+YE
+YE
+YE
+YE
+YE
+YE
+YE
+YE
+YE
+SE
+LY
+Bk
 jA
-EN
+Rf
 MT
 fj
-dX
-gc
+Lc
+hP
 dp
 SK
 as
@@ -38862,21 +38867,21 @@ as
 kS
 Ta
 RP
-bb
-Zp
-Zp
-Zp
-Zp
-Zp
-Zp
-Zp
-Zp
-Zp
-Zp
-Zp
-Zp
-Zp
-bb
+Tm
+gj
+gj
+gj
+gj
+gj
+gj
+gj
+gj
+gj
+gj
+gj
+gj
+gj
+Tm
 tQ
 jC
 gE
@@ -38895,29 +38900,29 @@ TT
 as
 as
 SK
-kP
-dO
-Ia
-Gs
-Gs
-Gs
-Gs
-Gs
-Gs
-Gs
-Gs
-Gs
-Gs
-Gs
-Gs
-Gs
-Ia
-kM
-Ui
+YX
+Rm
+SE
+YE
+YE
+YE
+YE
+YE
+YE
+YE
+YE
+YE
+YE
+YE
+YE
+YE
+SE
+LY
+FK
 SK
 qo
-GM
-EN
+cD
+Rf
 ll
 Vn
 GY
@@ -39014,21 +39019,21 @@ as
 DL
 Ta
 RP
-bb
-Zp
-Zp
-Zp
-Zp
-Zp
-Zp
-Zp
-Zp
-Zp
-Zp
-Zp
-Zp
-Zp
-bb
+Tm
+gj
+gj
+gj
+gj
+gj
+gj
+gj
+gj
+gj
+gj
+gj
+gj
+gj
+Tm
 tQ
 jC
 Ax
@@ -39047,25 +39052,25 @@ TT
 as
 as
 SK
-kP
-dO
-Ia
-Gs
-Gs
-Gs
-Gs
-Gs
-Gs
-Gs
-Gs
-Gs
-Gs
-Gs
-Gs
-Gs
-Ia
-kM
-Jf
+YX
+Rm
+SE
+YE
+YE
+YE
+YE
+YE
+YE
+YE
+YE
+YE
+YE
+YE
+YE
+YE
+SE
+LY
+OA
 SK
 pi
 Af
@@ -39166,21 +39171,21 @@ as
 DL
 Ta
 iJ
-bb
-bb
-bb
-bb
-bb
-bb
-bb
-bb
-bb
-bb
-bb
-bb
-bb
-bb
-bb
+Tm
+Tm
+Tm
+Tm
+Tm
+Tm
+Tm
+Tm
+Tm
+Tm
+Tm
+Tm
+Tm
+Tm
+Tm
 BT
 jC
 Ax
@@ -39199,25 +39204,25 @@ TT
 as
 as
 SK
-uS
-dO
-Ia
-Ia
-Ia
-Ia
-Ia
-Ia
-Ia
-Ia
-Ia
-Ia
-Ia
-Ia
-Ia
-Ia
-Ia
-kM
-Jf
+PS
+Rm
+SE
+SE
+SE
+SE
+SE
+SE
+SE
+SE
+SE
+SE
+SE
+SE
+SE
+SE
+SE
+LY
+OA
 SK
 kA
 Wg
@@ -39351,30 +39356,30 @@ TT
 as
 as
 SK
-sU
-lL
-Ha
-Ha
-Ha
-Ha
-Ha
-Ha
-Ha
-Ha
-Ha
-Ha
-Ha
-Ha
-Ha
-Ha
-Ha
-lL
-Qh
+te
+uD
+IX
+IX
+IX
+IX
+IX
+IX
+IX
+IX
+IX
+IX
+IX
+IX
+IX
+IX
+IX
+uD
+kb
 SK
 zW
 DZ
 Od
-kP
+YX
 gs
 SK
 as
@@ -39503,25 +39508,25 @@ TT
 as
 as
 SK
-Un
-Un
-kP
-kP
-kP
-kP
-kP
-kP
-Un
-Na
-pF
-HZ
-HZ
-sY
-UE
-sY
-sY
-jL
-CA
+Nf
+Nf
+YX
+YX
+YX
+YX
+YX
+YX
+Nf
+TU
+sJ
+jM
+jM
+XD
+cJ
+XD
+XD
+Gs
+lo
 SK
 RR
 HI
