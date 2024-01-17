@@ -44,9 +44,6 @@
 			uniform.sensor_faction = FACTION_TWE
 	return ..()
 
-/datum/equipment_preset/twe/royal_marine/New()
-	. = ..()
-	access = get_access(ACCESS_LIST_TWE_ALL)
 //*****************************************************************************************************/
 
 /datum/equipment_preset/twe/royal_marine
@@ -57,6 +54,10 @@
 	///Gives the Royal Marines their radios
 	var/headset_type = /obj/item/device/radio/headset/distress/royal_marine
 	idtype = /obj/item/card/id/dogtag
+
+/datum/equipment_preset/twe/royal_marine/New()
+	. = ..()
+	access = get_access(ACCESS_LIST_TWE_MAIN)
 
 //*****************************************************************************************************/
 
@@ -301,6 +302,10 @@
 	assignment = "Royal Marines Team Commander"
 	rank = JOB_TWE_RMC_LIEUTENANT
 	skills = /datum/skills/rmc/leader
+
+/datum/equipment_preset/twe/royal_marine/lieuteant/New()
+	. = ..()
+	access = get_access(ACCESS_LIST_TWE_SENIOR)
 
 /datum/equipment_preset/twe/royal_marine/lieuteant/load_gear(mob/living/carbon/human/new_human)
 	new_human.equip_to_slot_or_del(new headset_type, WEAR_L_EAR)
