@@ -122,6 +122,21 @@
 	armor_internaldamage = CLOTHING_ARMOR_HIGH
 	adopts_squad_color = FALSE
 
+/obj/item/clothing/gloves/marine/marsoc
+	name = "armored gloves"
+	desc = "High-density kevlar and titanium knit combat gloves used by elite raider units. They're insulated and heavily armored, perfect for punching things."
+	icon_state = "brown"
+	item_state = "brown"
+	siemens_coefficient = 0
+	armor_melee = CLOTHING_ARMOR_HIGH
+	armor_bullet = CLOTHING_ARMOR_HIGH
+	armor_laser = CLOTHING_ARMOR_MEDIUMLOW
+	armor_energy = CLOTHING_ARMOR_MEDIUMLOW
+	armor_bomb = CLOTHING_ARMOR_MEDIUMLOW
+	armor_rad = CLOTHING_ARMOR_LOW
+	armor_internaldamage = CLOTHING_ARMOR_MEDIUMLOW
+	adopts_squad_color = FALSE
+
 /obj/item/clothing/gloves/marine/veteran/upp
 	icon_state = "brown"
 	item_state = "brown"

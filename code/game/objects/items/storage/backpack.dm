@@ -625,9 +625,9 @@ GLOBAL_LIST_EMPTY_TYPED(radio_packs, /obj/item/storage/backpack/marine/satchel/r
 	xeno_types = null
 
 /obj/item/storage/backpack/marine/marsoc
-	name = "\improper USCM SOF IMP tactical rucksack"
-	icon_state = "tacrucksack"
-	desc = "With a backpack like this, you'll forget you're on a hell march designed to kill you."
+	name = "\improper SOF Assault Bag "
+	icon_state = "assaultbag"
+	desc = "An advanced bag designed for high-speed operations and lots of gear."
 	worn_accessible = TRUE
 	has_gamemode_skin = FALSE
 	xeno_types = null

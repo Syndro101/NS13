@@ -1007,15 +1007,15 @@
 
 /obj/item/clothing/suit/storage/marine/sof
 	name = "\improper SOF Armor"
-	desc = "A heavily customized suit of M3 armor. Used by Marine Raiders."
+	desc = "A heavily reinforced set of M3 pattern armor, used by elite raider units to keep themselves intact."
 	icon_state = "marsoc"
-	armor_melee = CLOTHING_ARMOR_HIGH
-	armor_bullet = CLOTHING_ARMOR_HIGH
-	armor_bomb = CLOTHING_ARMOR_VERYHIGH
+	armor_melee = CLOTHING_ARMOR_MEDIUMLOW
+	armor_bullet = CLOTHING_ARMOR_VERYHIGH
+	armor_bomb = CLOTHING_ARMOR_MEDIUMHIGH
 	armor_bio = CLOTHING_ARMOR_MEDIUMLOW
-	armor_rad = CLOTHING_ARMOR_MEDIUMHIGH
+	armor_rad = CLOTHING_ARMOR_LOW
 	armor_internaldamage = CLOTHING_ARMOR_MEDIUMHIGH
-	slowdown = SLOWDOWN_ARMOR_LIGHT
+	slowdown = SLOWDOWN_ARMOR_VERY_LIGHT
 	unacidable = TRUE
 	flags_atom = MOB_LOCK_ON_EQUIP|NO_CRYO_STORE|NO_SNOW_TYPE
 	storage_slots = 4

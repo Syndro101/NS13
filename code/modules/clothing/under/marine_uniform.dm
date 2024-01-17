@@ -469,7 +469,7 @@
 
 /obj/item/clothing/under/marine/veteran/marsoc
 	name = "SOF Uniform"
-	desc = "A black uniform for elite Marine personnel. Designed to be comfortable and help blend into dark enviorments."
+	desc = "An tactical uniform with blended black and woodland camo, used by elite marine raider units."
 	flags_jumpsuit = UNIFORM_SLEEVE_ROLLABLE
 	icon_state = "marsoc"
 	worn_state = "marsoc"

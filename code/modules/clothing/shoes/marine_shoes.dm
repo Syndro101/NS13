@@ -71,6 +71,18 @@
 /obj/item/clothing/shoes/marine/upp_knife
 	knife_type = /obj/item/attachable/bayonet/upp
 
+/obj/item/clothing/shoes/marine/marsoc
+	icon_state = "marine_brown"
+	name = "armored combat boots"
+	desc = "Specially reinforced combat boots used by elite raider units to kick things to death."
+	armor_bullet = CLOTHING_ARMOR_MEDIUM
+	armor_energy = CLOTHING_ARMOR_LOW
+	armor_bio = CLOTHING_ARMOR_LOW
+	armor_rad = CLOTHING_ARMOR_LOW
+	armor_internaldamage = CLOTHING_ARMOR_MEDIUMLOW
+/obj/item/clothing/shoes/marine/marsoc/knife
+	knife_type = /obj/item/attachable/bayonet
+
 /obj/item/clothing/shoes/marine/joe
 	name = "biohazard boots"
 	desc = "A pair of somewhat cheaply made biohazard boots. Tomorrow, Together."
