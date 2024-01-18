@@ -171,6 +171,21 @@
 	armor_rad = CLOTHING_ARMOR_NONE
 	armor_internaldamage = CLOTHING_ARMOR_MEDIUM
 
+/obj/item/clothing/suit/armor/QRF
+	name = "C9 Tactical Response Armor"
+	desc = "The main protection in a Marshal's QRF team. While outdated compared to the M3 series, is cheaper to produce and maintain as well as lighter. It has markings on all sides denoting the user is an agent of the Colonial Marshals."
+	icon_state = "cmb_qrf"
+	item_state = "cmb_qrf"
+	flags_armor_protection = BODY_FLAG_ALL_BUT_HEAD
+	armor_melee = CLOTHING_ARMOR_LOW
+	armor_bullet = CLOTHING_ARMOR_MEDIUMHIGH
+	armor_laser = CLOTHING_ARMOR_NONE
+	armor_energy = CLOTHING_ARMOR_NONE
+	armor_bomb = CLOTHING_ARMOR_LOW
+	armor_bio = CLOTHING_ARMOR_NONE
+	armor_rad = CLOTHING_ARMOR_NONE
+	armor_internaldamage = CLOTHING_ARMOR_LOW
+	slowdown = SLOWDOWN_ARMOR_LIGHT
 
 /obj/item/clothing/suit/armor/bulletproof/badge
 	icon_state = "bulletproofbadge"
