@@ -173,7 +173,7 @@
 
 /obj/item/clothing/suit/armor/QRF
 	name = "C9 Tactical Response Armor"
-	desc = "The main protection in a Marshal's QRF team. While outdated compared to the M3 series, is cheaper to produce and maintain as well as lighter. It has markings on all sides denoting the user is an agent of the Colonial Marshals."
+	desc = "The main protection in a Marshal's QRF team. While outdated compared to the M3 series, is cheaper to produce and maintain as well as lighter. It has markings on all sides denoting the user as an agent of the Colonial Marshals."
 	icon_state = "cmb_qrf"
 	item_state = "cmb_qrf"
 	flags_armor_protection = BODY_FLAG_ALL_BUT_HEAD
@@ -184,8 +184,26 @@
 	armor_bomb = CLOTHING_ARMOR_LOW
 	armor_bio = CLOTHING_ARMOR_NONE
 	armor_rad = CLOTHING_ARMOR_NONE
-	armor_internaldamage = CLOTHING_ARMOR_LOW
+	armor_internaldamage = CLOTHING_ARMOR_MEDIUM
 	slowdown = SLOWDOWN_ARMOR_LIGHT
+	uniform_restricted = list(/obj/item/clothing/under/CM_uniform/QRF)
+
+/obj/item/clothing/suit/armor/QRF/sg
+	name = "C9S Smartgun Mesh"
+	desc = "Specially modified QRF armor designed to carry the M56 Smartgun platform, the lessened plating reduces protection somewhat. It has markings on all sides denoting the user as an agent of the Colonial Marshals."
+	icon_state = "cmb_qrf_sg"
+	item_state = "cmb_qrf_sg"
+	flags_armor_protection = BODY_FLAG_CHEST|BODY_FLAG_ARMS|BODY_FLAG_LEGS
+	armor_melee = CLOTHING_ARMOR_LOW
+	armor_bullet = CLOTHING_ARMOR_MEDIUM
+	armor_laser = CLOTHING_ARMOR_NONE
+	armor_energy = CLOTHING_ARMOR_NONE
+	armor_bomb = CLOTHING_ARMOR_LOW
+	armor_bio = CLOTHING_ARMOR_NONE
+	armor_rad = CLOTHING_ARMOR_NONE
+	armor_internaldamage = CLOTHING_ARMOR_MEDIUMLOW
+	slowdown = SLOWDOWN_ARMOR_LIGHT
+	flags_inventory = SMARTGUN_HARNESS
 
 /obj/item/clothing/suit/armor/bulletproof/badge
 	icon_state = "bulletproofbadge"
