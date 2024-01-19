@@ -149,10 +149,6 @@
 		medics++
 		to_chat(mob, SPAN_ROLE_HEADER("You are a Marine Corpsman of Anchorpoint Station!"))
 		arm_equipment(mob, /datum/equipment_preset/uscm/cmb/medic, TRUE, TRUE)
-	else if(engineers < max_engineers && HAS_FLAG(mob?.client.prefs.toggles_ert, PLAY_ENGINEER) && check_timelock(mob.client, JOB_SQUAD_ENGI, time_required_for_job))
-		engineers++
-		to_chat(mob, SPAN_ROLE_HEADER("You are a Technical Specialist of Anchorpoint Station!"))
-		arm_equipment(mob, /datum/equipment_preset/uscm/cmb/rto, TRUE, TRUE)
 	else
 		to_chat(mob, SPAN_ROLE_HEADER("You are a Marine Rifleman of Anchorpoint Station!"))
 		arm_equipment(mob, /datum/equipment_preset/uscm/cmb, TRUE, TRUE)
