@@ -129,18 +129,22 @@
 	default_ammo = /datum/ammo/bullet/rifle/kramer
 	ammo_band_icon = "+kramer_band"
 	ammo_band_icon_empty = "+kramer_band_e"
+	caliber = "12x35mm"
 
 /obj/item/ammo_magazine/rifle/kramer/ap
 	name = "\improper Kramer AP magazine (12x35mm)"
 	desc = "A wide double-stack magazine compatible with the Kramer assault rifle. Holds 25 rounds, this one uses armor-piercing ammo."
 	default_ammo = /datum/ammo/bullet/rifle/kramer/ap
 	ammo_band_color = AMMO_BAND_COLOR_AP
+	caliber = "12x35mm"
 
 /obj/item/ammo_magazine/rifle/kramer/heap
 	name = "\improper Kramer HEAP magazine (12x35mm)"
 	desc = "A wide double-stack magazine compatible with the Kramer assault rifle. Holds 25 rounds, this one uses high-explosive armor-piercing ammo."
 	default_ammo = /datum/ammo/bullet/rifle/kramer/heap
 	ammo_band_color = AMMO_BAND_COLOR_HEAP
+	caliber = "12x35mm"
+
 //-------------------------------------------------------
 //M4RA, l42 reskin, same stats as before but different, lore friendly, shell.
 
