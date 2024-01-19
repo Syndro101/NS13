@@ -93,6 +93,12 @@
 	default_ammo = /datum/ammo/bullet/revolver/small
 	icon_state = "cmb"
 
+/obj/item/ammo_magazine/revolver/cmb/marksman //put these in the marshal ert - ok sure :)
+	name = "\improper Spearhead marksman speed loader (.357)"
+	desc = "This speedloader is fitted with specialized match-grade .357 revolver bullets. An extreme rarity among marshal teams and more commonly found with QRF members for their stopping power and penetration."
+	default_ammo = /datum/ammo/bullet/revolver/small/marksman
+	icon_state = "cmb_mark"
+
 /**
  * MATEBA REVOLVER
  */
