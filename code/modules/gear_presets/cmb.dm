@@ -469,6 +469,7 @@
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/patch/cmb, WEAR_ACCESSORY)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/storage/surg_vest/blue/equipped, WEAR_ACCESSORY)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/head/helmet/marine/QRF, WEAR_HEAD)
+	new_human.equip_to_slot_or_del(new /obj/item/attachable/flashlight, WEAR_IN_HELMET)
 	new_human.equip_to_slot_or_del(new /obj/item/device/radio/headset/distress/CMB, WEAR_L_EAR)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/suit/armor/QRF/corpsman, WEAR_JACKET)
 	new_human.equip_to_slot_or_del(new /obj/item/storage/backpack/satchel/QRF, WEAR_BACK)
