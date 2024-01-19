@@ -613,7 +613,7 @@
 
 
 /obj/item/clothing/glasses/sunglasses/sechud/tactical
-	name = "tactical response HUD"
+	name = "Tactical response HUD"
 	gender = NEUTER
 	desc = "Flash-resistant goggles with inbuilt combat and security information."
 	icon_state = "swatgoggles"
