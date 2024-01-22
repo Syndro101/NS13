@@ -232,6 +232,7 @@
 	desc = "The well-ironed utility uniform of a USCM officer. Even looking at it the wrong way could result in being court-martialed. It has shards of light Kevlar to help protect against stabbing weapons and bullets."
 	icon_state = "CO_jumpsuit"
 	worn_state = "CO_jumpsuit"
+	flags_jumpsuit = UNIFORM_SLEEVE_ROLLABLE|UNIFORM_JACKET_REMOVABLE
 	specialty = "USCM officer"
 
 /obj/item/clothing/under/marine/officer/general
