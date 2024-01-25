@@ -575,7 +575,7 @@
 
 /obj/item/storage/belt/marine/smartgunner/surplus
 	name = "\improper Surplus smartgunner drum belt"
-	desc = "A civilian manufactured drum belt meant to hold M56 drums. While not nearly as capacious as the M280 pattern, this one is certainly more comforatable to wear."
+	desc = "A civilian manufactured drum belt meant to hold M56 drums. While not nearly as capacious as the M280 pattern, this one is certainly more comfortable to wear."
 	icon_state = "sgbelt_surplus"
 	item_state = "sgbelt_surplus"
 	storage_slots = 2

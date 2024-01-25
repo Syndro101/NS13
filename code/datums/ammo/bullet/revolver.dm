@@ -130,9 +130,9 @@
 	name = "small marksman revolver bullet"
 	headshot_state = HEADSHOT_OVERLAY_HEAVY
 
-	damage = 75
+	damage = 60
 	damage_falloff = 0
-	penetration = ARMOR_PENETRATION_TIER_7
+	penetration = ARMOR_PENETRATION_TIER_6
 
 // CO rounds
 

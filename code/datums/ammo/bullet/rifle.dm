@@ -200,7 +200,7 @@
 	name = "heavy armor-piercing rifle bullet"
 
 	damage = 40
-	penetration = ARMOR_PENETRATION_TIER_10
+	penetration = ARMOR_PENETRATION_TIER_8
 
 /datum/ammo/bullet/rifle/type71/heap
 	name = "heavy high-explosive armor-piercing rifle bullet"
@@ -218,8 +218,8 @@
 /datum/ammo/bullet/rifle/kramer/ap
 	name = "heavy armor-piercing rifle bullet"
 
-	damage = 46
-	penetration = ARMOR_PENETRATION_TIER_10
+	damage = 40
+	penetration = ARMOR_PENETRATION_TIER_8
 
 /datum/ammo/bullet/rifle/kramer/heap
 	name = "heavy high-explosive armor-piercing rifle bullet"
