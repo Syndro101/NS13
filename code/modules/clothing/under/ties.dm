@@ -387,6 +387,11 @@
 	desc = "A fire-resistant shoulder patch, worn by colonial QRF members."
 	icon_state = "cmb_patch"
 
+/obj/item/clothing/accessory/patch/tis
+	name = "UAAC-TIS patch"
+	desc = "An elusive patch worn by members of the UAAC-TIS, also known as Three Eyes."
+	icon_state = "tis_patch"
+
 /obj/item/clothing/accessory/poncho
 	name = "USCM Poncho"
 	desc = "The standard USCM poncho has variations for every climate. Custom fitted to be attached to standard USCM armor variants it is comfortable, warming or cooling as needed, and well-fit. A marine couldn't ask for more. Affectionately referred to as a \"woobie\"."
