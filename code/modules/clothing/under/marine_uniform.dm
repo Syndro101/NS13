@@ -428,8 +428,8 @@
 	flags_jumpsuit = FALSE
 	flags_atom = NO_SNOW_TYPE|NO_NAME_OVERRIDE
 	siemens_coefficient = 0.9
-	icon_state = "tis_sa"
-	worn_state = "tis_sa"
+	icon_state = "tis"
+	worn_state = "tis"
 	flags_jumpsuit = UNIFORM_SLEEVE_ROLLABLE
 	armor_melee = CLOTHING_ARMOR_LOW
 	armor_bullet = CLOTHING_ARMOR_LOW
