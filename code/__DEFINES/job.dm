@@ -253,7 +253,7 @@ var/global/list/job_command_roles = JOB_COMMAND_ROLES_LIST
 #define JOB_TR_GC "Company Commander"
 #define JOB_TR_PC "Platoon Commander"
 
-#define JOB_TUNNELRAT_SQUAD_LIST list(JOB_TR_CO, JOB_TR_XO, JOB_TR_CPT, JOB_TR_LT, JOB_TR_GC, JOB_TR_PC)
+#define JOB_TUNNELRAT_COMMAND_LIST list(JOB_TR_CO, JOB_TR_XO, JOB_TR_CPT, JOB_TR_LT, JOB_TR_GC, JOB_TR_PC)
 
 //----Squad-----
 #define JOB_TR_RFM "Tunnel Rats Squad Rifleman"
