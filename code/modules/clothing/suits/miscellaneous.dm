@@ -276,7 +276,7 @@
 	desc = "Designed to be worn over a jumpsuit rather than clipped on."
 	icon_state = "webbing"
 	item_state = "webbing"
-	storage_slots = 8
+	storage_slots = 6
 	allowed = list(
 		/obj/item/weapon/baton,
 		/obj/item/handcuffs,
@@ -306,7 +306,7 @@
 	desc = "Designed to be worn over a jumpsuit rather than clipped on, this version has expanded storage and is made from robust black synthcotton. Often used by intelligence officers for document storage."
 	icon_state = "webbing_black"
 	item_state = "webbing_black"
-	storage_slots = 5
+	storage_slots = 8
 
 /obj/item/clothing/suit/storage/utility_vest
 	name = "utility vest"
