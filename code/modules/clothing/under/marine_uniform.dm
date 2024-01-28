@@ -220,7 +220,7 @@
 
 /obj/item/clothing/under/marine/officer/boiler
 	name = "marine operations uniform"
-	desc = "An operations uniform worn by members of the USCM. Do the corps proud. It has shards of light Kevlar to help protect against stabbing weapons and bullets."
+	desc = "An casual but respectable field uniform worn by officers of the USCM, made to combine service and field uniforms. Do the corps proud. It has shards of light Kevlar to help protect against stabbing weapons and bullets."
 	icon_state = "uscmboiler"
 	item_state = "uscmboiler"
 	worn_state = "uscmboiler"
@@ -234,6 +234,14 @@
 	worn_state = "CO_jumpsuit"
 	flags_jumpsuit = UNIFORM_SLEEVE_ROLLABLE|UNIFORM_JACKET_REMOVABLE
 	specialty = "USCM officer"
+
+/obj/item/clothing/under/marine/officer/colonel
+	name = "\improper USCM Colonel uniform"
+	desc = "The well-ironed black utility uniform of a USCM Colonel, radiates power and dedication. It has shards of light Kevlar to help protect against stabbing weapons and bullets."
+	icon_state = "COL_jumpsuit"
+	worn_state = "COL_jumpsuit"
+	flags_jumpsuit = UNIFORM_SLEEVE_ROLLABLE|UNIFORM_JACKET_REMOVABLE
+	specialty = "USCM Colonel"
 
 /obj/item/clothing/under/marine/officer/general
 	name = "general uniform"

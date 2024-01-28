@@ -542,10 +542,13 @@
 	desc = "A black, Navy-style peaked cap for the Commanding Officer. Wearer may suffer the heavy weight of responsibility upon their head."
 	icon_state = "co_peakedcap_black"
 
-/obj/item/clothing/head/beret/marine/chiefofficer
-	name = "chief officer beret"
-	desc = "A beret with the lieutenant-commander insignia emblazoned on it. It emits a dark aura and may corrupt the soul."
-	icon_state = "hosberet"
+/obj/item/clothing/head/beret/marine/captain
+	name = "captain's beret"
+	desc = "A beret with a golden set of Captain's bars emblazoned on it. It emits an aura of authority and power."
+	icon = 'icons/obj/items/clothing/cm_hats.dmi'
+	icon_state = "xoberet"
+	item_icons = list(
+		WEAR_HEAD = 'icons/mob/humans/onmob/head_1.dmi')
 
 /obj/item/clothing/head/beret/marine/techofficer
 	name = "technical officer beret"
