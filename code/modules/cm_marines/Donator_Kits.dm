@@ -37,12 +37,4 @@
 	log_admin("[key_name(user)] deleted a donator kit.")
 	qdel(src)
 
-/obj/item/storage/box/donator_kit/generic_omega //Generic set given to various donors
-	kit_variant = "Team Omega (G)"
-	donor_gear = list(
-		/obj/item/clothing/under/marine/fluff/standard_jumpsuit,
-		/obj/item/clothing/suit/storage/marine/fluff/standard_armor,
-		/obj/item/clothing/head/helmet/marine/fluff/standard_helmet,
-	)
-
 //Unless specified in comments as otherwise, subtype of box/donator_kit/ is CKEY of the donator (example: /obj/item/storage/box/donator_kit/ckey)

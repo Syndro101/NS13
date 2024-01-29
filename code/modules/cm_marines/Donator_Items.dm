@@ -148,24 +148,3 @@
 	min_cold_protection_temperature = ICE_PLANET_MIN_COLD_PROT
 	//DON'T GRAB STUFF BETWEEN THIS LINE
 	//AND THIS LINE
-
-/obj/item/clothing/head/helmet/marine/fluff/standard_helmet //GENERIC DONOR
-	name = "Omega Team Helmet"
-	desc = "Helmet worn by Omega Team.  DONOR ITEM"
-	icon_state = "standard_helmet"
-	item_state = "standard_helmet"
-	flags_inventory = BLOCKSHARPOBJ
-	flags_inv_hide = HIDEEARS|HIDEMASK|HIDEEYES|HIDEALLHAIR
-
-/obj/item/clothing/suit/storage/marine/fluff/standard_armor //GENERIC DONOR
-	name = "Omega Team Armor"
-	desc = "Armor worn by the Omega Team.  DONOR ITEM"
-	icon_state = "standard_armor"
-	item_state = "standard_armor"
-
-/obj/item/clothing/under/marine/fluff/standard_jumpsuit //GENERIC DONOR
-	name = "Omega Team Uniform"
-	desc = "Uniform worn by Omega Team.  DONOR ITEM"
-	icon_state = "standard_jumpsuit"
-	worn_state = "standard_jumpsuit"
-	flags_jumpsuit = FALSE
