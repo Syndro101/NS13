@@ -301,6 +301,25 @@
 	item_state_slots = list(WEAR_JACKET = "mp_armor")
 	black_market_value = 20
 
+/obj/item/clothing/suit/storage/marine/MP/honorguard
+	name = "\improper M2-H Honorguard Armor"
+	desc = "A standard Colonial Marines M2 Pattern Chestplate. Protects the chest from ballistic rounds, bladed objects and accidents. It has a small leather pouch strapped to it for limited storage."
+	icon_state = "honor_armor"
+	armor_melee = CLOTHING_ARMOR_HIGHPLUS
+	armor_bullet = CLOTHING_ARMOR_HIGHPLUS
+	armor_laser = CLOTHING_ARMOR_MEDIUMHIGH
+	armor_energy = CLOTHING_ARMOR_MEDIUM
+	armor_bomb = CLOTHING_ARMOR_HIGHPLUS
+	armor_bio = CLOTHING_ARMOR_MEDIUM
+	armor_internaldamage = CLOTHING_ARMOR_HIGHPLUS
+	storage_slots = 2
+	slowdown = SLOWDOWN_ARMOR_MEDIUM
+	black_market_value = 40
+	item_state_slots = list(WEAR_JACKET = "honor_armor")
+	specialty = "M2-H Honorguard Armor"
+	flags_atom = NO_NAME_OVERRIDE
+
+
 /obj/item/clothing/suit/storage/marine/MP/warden
 	icon_state = "warden"
 	name = "\improper M3 pattern warden MP armor"

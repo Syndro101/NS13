@@ -241,6 +241,7 @@
 	icon_state = "COL_jumpsuit"
 	worn_state = "COL_jumpsuit"
 	flags_jumpsuit = UNIFORM_SLEEVE_ROLLABLE|UNIFORM_JACKET_REMOVABLE
+	flags_atom = NO_SNOW_TYPE|NO_NAME_OVERRIDE
 	specialty = "USCM Colonel"
 
 /obj/item/clothing/under/marine/officer/general
