@@ -1318,21 +1318,36 @@ em {
   font-weight: bold;
 }
 
-.yautja {
-  color: #803b56;
-}
+//########################################//
 
-.yautja_signlang {
-  color: #941c1c;
-}
-
-.apollo {
-  color: #00ced1;
-}
+// Major Languages
 
 .russian {
   color: #228b22;
 }
+
+.german {
+  color: #858f1e;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.french {
+  color: #667fdb;
+}
+
+.spanish {
+  color: #cf982b;
+}
+
+.japanese {
+  color: #940927;
+}
+
+.chinese {
+  color: #fe1919;
+}
+
+// Minor Languages
 
 .celtic {
   color: #88c288;
@@ -1362,29 +1377,22 @@ em {
   color: #74495d;
 }
 
+// Special Languages
+
+.yautja {
+  color: #803b56;
+}
+
+.yautja_signlang {
+  color: #941c1c;
+}
+
+.apollo {
+  color: #00ced1;
+}
+
 .monkey {
   color: #966c47;
-}
-
-.german {
-  color: #858f1e;
-  font-family: 'Times New Roman', Times, serif;
-}
-
-.french {
-  color: #667fdb;
-}
-
-.spanish {
-  color: #cf982b;
-}
-
-.japanese {
-  color: #940927;
-}
-
-.chinese {
-  color: #fe1919;
 }
 
 .zombie {
@@ -1392,13 +1400,15 @@ em {
   font-style: italic;
 }
 
-.rough {
-  font-family: trebuchet-ms, cursive, sans-serif;
-}
-
 .commando {
   color: #fe9b24;
   font-style: bold;
+}
+
+//########################################//
+
+.rough {
+  font-family: trebuchet-ms, cursive, sans-serif;
 }
 
 .say_quote {
