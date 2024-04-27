@@ -75,6 +75,40 @@
 	syllables = list("une", "est", "par", "les", "en", "et", "se", "dans", "du", "qui", "vous", "avez", "sur", "trois", "c'est", "en", "pas", "à", "me", "poser", "ce", "titre", "avec", "sons", "cinq", "bien", "valse", "pour", "plus", "de", "ou",
 				 	 "é", "éde", "comme", "mot", "bl", "ch", "sui", "peut", "être", "pouvez")
 
+/datum/language/celtic
+	name = LANGUAGE_CELTIC
+	desc = "A subset of languages most commonly used in Ireland and Scotland. Celtic usage has been in steady decline for centuries and is usually a rare sight in the wild."
+	speech_verb = "cànans"
+	ask_verb = "larrs"
+	exclaim_verb = "scread"
+	color = "celtic"
+	key = "11"
+
+	syllables = list("tá", "an", "ag", "spéir", "sa", "go", "lonrú", "Bhí", "mé", "siúl", "ar", "mi", "anns", "loch", "fhàs", "a'", "dia", "nos", "hwyl", "tú", "sláá", "n-éirí", "dté", "ball", "thú", "leat", "orm", "baa", "agat", "rai", "da", "pryn",
+					 "duit", "slá", "cro")
+
+/datum/language/farsi
+	name = LANGUAGE_FARSI
+	desc = "Also known as Persian, Farsi is a language primarily used in Iran, Afghanistan and Pakistan."
+	speech_verb = ""
+	ask_verb = ""
+	exclaim_verb = ""
+	color = "farsi"
+	key = "12"
+
+	syllables = list()
+
+/datum/language/arabic
+	name = LANGUAGE_ARABIC
+	desc = ""
+	speech_verb = ""
+	ask_verb = ""
+	exclaim_verb = ""
+	color = "arabic"
+	key = "13"
+
+	syllables = list()
+
 /datum/language/generated/chinese
 	name = LANGUAGE_CHINESE
 	desc = "The secondary language of the UPP, widespread around Asia and with a notable immigrant population in other parts of the world. The most spoken language in charted space."

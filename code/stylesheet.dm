@@ -142,8 +142,9 @@ h1.alert, h2.alert {color: #000000;}
 .yautja_signlang {color: #941C1C;}
 .apollo {color: #00CED1;}
 .russian {color: #228B22;}
-.changeling {color: #800080;}
-.vox {color: #AA00AA;}
+.celtic {color: #8aaa4f;}
+.farsi {color: #e45f36;}
+.arabic {color: #b89c43;}
 .monkey {color: #966C47;}
 .rough {font-family: trebuchet-ms, cursive, sans-serif;}
 .german {color: #858F1E; font-family: 'Times New Roman', Times, serif}
