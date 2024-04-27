@@ -65,7 +65,7 @@
 	applyable = TRUE
 	cost = 3
 
-	/datum/character_trait/language/latin
+/datum/character_trait/language/latin
 	language_name = LANGUAGE_LATIN
 	applyable = TRUE
 	cost = 3
