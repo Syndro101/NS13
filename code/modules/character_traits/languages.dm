@@ -2,6 +2,7 @@
 	var/language_name
 	applyable = FALSE
 	trait_group = /datum/character_trait_group/language
+	var/max = 2
 
 /datum/character_trait/language/New()
 	..()
@@ -15,7 +16,6 @@
 /datum/character_trait/language/unapply_trait(mob/living/carbon/human/target)
 	..()
 	target.remove_language(language_name)
-
 
 /datum/character_trait_group/language
 	trait_group_name = "Languages"
