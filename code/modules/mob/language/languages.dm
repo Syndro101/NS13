@@ -111,16 +111,16 @@
 	syllables = list("mar", "haba", "sabah", "al-kha", "ayr'", "masa", "shu", "kran", "jaz", "eezla", "afwan", "ana", "asef", "min", "fad", "fah", "afk", "lik", "uzra", "kayfa", "haluk", "kallam", "al-ara'", "ibya", "adah", "kinuk", "alta", "duth", "'abta",
 					"ma", "is", "ki", "fa", "ka'", "jah'", "sa'h")
 
-/datum/language/korean
-	name = LANGUAGE_KOREAN
-	desc = "The main language found in the Korean peninsula."
-	speech_verb = "iyagi"
-	ask_verb = "mutda"
-	exclaim_verb = "oechida"
-	color = "korean"
-	key = "14"
+/datum/language/swedish
+	name = LANGUAGE_SWEDISH
+	desc = "Mainly used by the sweds, pioneers of affordable furniture and... meatballs.."
+	speech_verb = "tal"
+	ask_verb = "fråga "
+	exclaim_verb = "utropa"
+	color = "swedish"
+	key = "17"
 
-	syllables = list("ja", "nam", "anj", "chim", "bat", "gwa", "gam", "nida", "giyo", "ayo", "cheo", "eun", "mian", "sah", "amado", "ye", "ne", "goma", "hago", "ani", "jinae", "jang", "sil", "haru", "seoy", "seo", "umi", "ang", "geon")
+	syllables = list("hur", "mår", "du", "jag", "pra", "tar", "inte", "sven", "ska", "ta", "lyc", "till", "äls", "urs", "vad", "heter", "håll", "jäv", "god", "såd", "läg", "är", "bjor", "tje", "valk", "tack", "omen", "in", "för", "lat")
 
 /datum/language/finnish
 	name = LANGUAGE_FINNISH
