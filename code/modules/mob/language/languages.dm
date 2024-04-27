@@ -20,22 +20,13 @@
 	space_chance = 100 //uses a unique system
 
 // Galactic common languages (systemwide accepted standards).
+
 /datum/language/generated/japanese
 	name = LANGUAGE_JAPANESE
 	desc = "A notoriously complex language boasting an extensive grammatical system, three writing systems, and a new smattering of English loanwords. It has gained popularity due to high cultural contact in the 3WE, and finds use outside due to emigration."
 	speech_verb = "vocalizes"
 	color = "japanese"
 	key = "2"
-
-
-/datum/language/generated/chinese
-	name = LANGUAGE_CHINESE
-	desc = "The secondary language of the UPP, widespread around Asia and with a notable immigrant population in other parts of the world. The most spoken language in charted space."
-	speech_verb = "shuo"
-	ask_verb = "wen"
-	exclaim_verb = "han"
-	color = "chinese"
-	key = "8"
 
 /datum/language/russian
 	name = LANGUAGE_RUSSIAN
@@ -45,6 +36,15 @@
 	key = "3"
 
 	syllables = list("al", "an", "bi", "vye", "vo", "go", "dye", "yel", "en", "yer", "yet", "ka", "ko", "la", "ly", "lo", "l", "na", "nye", "ny", "no", "ov", "ol", "on", "or", "slog", "ot", "po", "pr", "ra", "rye", "ro", "st", "ta", "tye", "to", "t", "at", "bil", "vyer", "yego", "yeny", "yenn", "yest", "kak", "ln", "ova", "ogo", "oro", "ost", "oto", "pry", "pro", "sta", "stv", "tor", "chto", "eto", "rus", "nar", "arya", "mol")
+
+/datum/language/generated/chinese
+	name = LANGUAGE_CHINESE
+	desc = "The secondary language of the UPP, widespread around Asia and with a notable immigrant population in other parts of the world. The most spoken language in charted space."
+	speech_verb = "shuo"
+	ask_verb = "wen"
+	exclaim_verb = "han"
+	color = "chinese"
+	key = "8"
 
 /datum/language/german
 	name = LANGUAGE_GERMAN
@@ -67,6 +67,17 @@
 	key = "5"
 
 	syllables = list("ha", "pana", "ja", "blo", "que", "spa", "di", "ga", "na", "ces", "si", "mo", "so", "de", "el", "to", "ro", "mi", "ca", "la", "di", "ah", "mio", "tar", "ion", "gran", "van", "jo", "cie", "qie", "las", "locho", "mas", "no", "gui", "es", "mal")
+
+/datum/language/french
+	name = LANGUAGE_FRENCH
+	desc = "An traditional romance language descended from Roman Latin, primarily used in western European areas including France and the Benelux region."
+	speech_verb = "discours"
+	ask_verb = "quoi"
+	exclaim_verb = "exclamer"
+	color = "french"
+	key = "10"
+
+	syllables = list("une", "est", "par", "les", "en", "et", "se", "dans", "du", "qui", "vous", "avez", "sur", "trois", "c'est", "en", "pas", "à", "me", "poser", "ce", "titre", "avec", "sons", "cinq", "bien", "valse", "pour", "plus", "de", "ou")
 
 /datum/language/commando
 	name = LANGUAGE_TSL
@@ -148,7 +159,7 @@
 /datum/language/apollo
 	name = LANGUAGE_APOLLO
 	desc = "The APOLLO Link is an AI subprocessor designed by SEEGSON, allowing for coordination of maintenance drones and Working Joes. WY denies claims the processor was stolen for ARES."
-	color = "skrell"
+	color = "apollo"
 	speech_verb = "states"
 	ask_verb = "queries"
 	exclaim_verb = "declares"

@@ -138,15 +138,16 @@ h1.alert, h2.alert {color: #000000;}
 .centerbold { text-align: center; font-weight: bold;}
 
 .modooc {color: #184880; font-weight: bold;}
-.tajaran {color: #803B56;}
-.tajaran_signlang {color: #941C1C;}
-.skrell {color: #00CED1;}
-.soghun {color: #228B22;}
+.yautja {color: #803B56;}
+.yautja_signlang {color: #941C1C;}
+.apollo {color: #00CED1;}
+.russian {color: #228B22;}
 .changeling {color: #800080;}
 .vox {color: #AA00AA;}
 .monkey {color: #966C47;}
 .rough {font-family: trebuchet-ms, cursive, sans-serif;}
 .german {color: #858F1E; font-family: 'Times New Roman', Times, serif}
+.french {color: #8498dd;}
 .spanish {color: #CF982B;}
 .japanese {color: #0047A0}
 .commando {color: #FE9B24; font-style: bold;}
