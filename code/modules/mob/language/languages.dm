@@ -131,8 +131,8 @@
 	color = "finnish"
 	key = "15"
 
-	syllables = list("se", "ko", "si", "ta", "va", "ra", "ti", "tta", "vä", "kä", "aa", "aa", "kko", "saa", "tuu", "puu", "lä", "llä", "lö", "llö", "it", "ku", "kuu", "ro", "rre", "re", "yk", "yh", "tä", "lto", "rto", "ju", "ma", "la"
-					, "lau", "muo", "muu", "maa", "mme", "mma", "kki", "ri", "lla", "pää", "y", "a", "u", "o", "ö", "öl", "ä", "äl", "ni", "mi", "ki", "li", "ly", "lyi", "vyi", "hi", "hie")
+	syllables = list("se", "ko", "si", "ta", "va", "ra", "ti", "tta", "va", "ka", "aa", "aa", "kko", "saa", "tuu", "puu", "la", "llo", "lo", "llo", "it", "ku", "kuu", "ro", "rre", "re", "yk", "yh", "ta", "lto", "rto", "ju", "ma", "la",
+					"lau", "muo", "muu", "maa", "mme", "mma", "kki", "ri", "lla", "paa", "y", "a", "u", "o", "ol", "a", "al", "ni", "mi", "ki", "li", "ly", "lyi", "vyi", "hi", "hie")
 	space_chance = 30
 
 /datum/language/latin
