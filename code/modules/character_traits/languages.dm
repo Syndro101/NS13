@@ -2,7 +2,6 @@
 	var/language_name
 	applyable = FALSE
 	trait_group = /datum/character_trait_group/language
-	var/max = 2
 
 /datum/character_trait/language/New()
 	..()
@@ -11,7 +10,14 @@
 
 /datum/character_trait/language/apply_trait(mob/living/carbon/human/target)
 	..()
-	target.add_language(language_name)
+	var/list/languages = list()
+	for(var/language in target.languages)
+		languages += language
+	if(languages.len < 3)
+		target.add_language(language_name)
+	else
+		target << "You can only learn two languages."
+
 
 /datum/character_trait/language/unapply_trait(mob/living/carbon/human/target)
 	..()
