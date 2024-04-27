@@ -6,8 +6,8 @@
 	flags = RESTRICTED
 
 	syllables = list("al", "an", "ar", "as", "at", "ea", "ed", "en", "er", "es", "ha", "he", "hi", "in", "is", "it", "le", "me", "nd", "ne", "ng", "nt", "on", "or", "ou", "re", "se", "st", "te", "th", "ti", "to", "ve", "wa",
-					 "all", "and", "are", "but", "ent", "era", "ere", "eve", "for", "had", "hat", "hen", "her", "hin", "his", "ing", "ion", "ith", "not", "ome", "oul", "our", "sho", "ted", "ter", "tha", "the", "thi", "tio",
-					 "uld", "ver", "was", "wit", "you")
+					"all", "and", "are", "but", "ent", "era", "ere", "eve", "for", "had", "hat", "hen", "her", "hin", "his", "ing", "ion", "ith", "not", "ome", "oul", "our", "sho", "ted", "ter", "tha", "the", "thi", "tio",
+					"uld", "ver", "was", "wit", "you")
 
 /datum/language/common/get_spoken_verb(msg_end)
 	switch(msg_end)
@@ -37,7 +37,7 @@
 	key = "3"
 
 	syllables = list("al", "an", "bi", "vye", "vo", "go", "dye", "yel", "en", "yer", "yet", "ka", "ko", "la", "ly", "lo", "l", "na", "nye", "ny", "no", "ov", "ol", "on", "or", "slog", "ot", "po", "pr", "ra", "rye", "ro", "st",
-					 "ta", "tye", "to", "t", "at", "bil", "vyer", "yego", "yeny", "yenn", "yest", "kak", "ln", "ova", "ogo", "oro", "ost", "oto", "pry", "pro", "sta", "stv", "tor", "chto", "eto", "rus", "nar", "arya", "mol")
+					"ta", "tye", "to", "t", "at", "bil", "vyer", "yego", "yeny", "yenn", "yest", "kak", "ln", "ova", "ogo", "oro", "ost", "oto", "pry", "pro", "sta", "stv", "tor", "chto", "eto", "rus", "nar", "arya", "mol")
 
 /datum/language/german
 	name = LANGUAGE_GERMAN
@@ -49,7 +49,7 @@
 	key = "4"
 
 	syllables = list("die", "das", "wein", "mir", "und", "wir", "ein", "nein", "gen", "en", "sauen", "bin", "nein", "rhein", "deut", "der", "lieb", "en", "stein", "nein", "ja", "wolle", "sil", "bei", "der", "sie", "sch", "kein",
-					 "nur", "ach", "kann", "volk", "vau", "gelb", "grun", "macht", "zwei", "vier", "nacht", "tag")
+					"nur", "ach", "kann", "volk", "vau", "gelb", "grun", "macht", "zwei", "vier", "nacht", "tag")
 
 /datum/language/spanish
 	name = LANGUAGE_SPANISH
@@ -61,7 +61,7 @@
 	key = "5"
 
 	syllables = list("ha", "pana", "ja", "blo", "que", "spa", "di", "ga", "na", "ces", "si", "mo", "so", "de", "el", "to", "ro", "mi", "ca", "la", "di", "ah", "mio", "tar", "ion", "gran", "van", "jo", "cie", "qie", "las",
-					 "locho", "mas", "no", "gui", "es", "mal")
+					"locho", "mas", "no", "gui", "es", "mal")
 
 /datum/language/french
 	name = LANGUAGE_FRENCH
@@ -73,7 +73,7 @@
 	key = "10"
 
 	syllables = list("une", "est", "par", "les", "en", "et", "se", "dans", "du", "qui", "vous", "avez", "sur", "trois", "c'est", "en", "pas", "à", "me", "poser", "ce", "titre", "avec", "sons", "cinq", "bien", "valse", "pour", "plus", "de", "ou",
-				 	 "é", "éde", "comme", "mot", "bl", "ch", "sui", "peut", "être", "pouvez")
+				"é", "éde", "comme", "mot", "bl", "ch", "sui", "peut", "être", "pouvez")
 
 /datum/language/celtic
 	name = LANGUAGE_CELTIC
@@ -85,29 +85,43 @@
 	key = "11"
 
 	syllables = list("tá", "an", "ag", "spéir", "sa", "go", "lonrú", "Bhí", "mé", "siúl", "ar", "mi", "anns", "loch", "fhàs", "a'", "dia", "nos", "hwyl", "tú", "sláá", "n-éirí", "dté", "ball", "thú", "leat", "orm", "baa", "agat", "rai", "da", "pryn",
-					 "duit", "slá", "cro")
+					"duit", "slá", "cro")
 
 /datum/language/farsi
 	name = LANGUAGE_FARSI
 	desc = "Also known as Persian, Farsi is a language primarily used in Iran, Afghanistan and Pakistan."
-	speech_verb = ""
-	ask_verb = ""
-	exclaim_verb = ""
+	speech_verb = "kardans"
+	ask_verb = "persidan"
+	exclaim_verb = "faryads"
 	color = "farsi"
 	key = "12"
 
-	syllables = list()
+	syllables = list("laam", "Khosh", "a'ama", "vakh", "tam", "aste", "naaba", "shid", "saala", "baas", "shi'id", "ahvaal", "chet", "oreh", "e'tun", "khu", "ban", "mersi", "valla", "nista", "ejaaz", "bakh", "khaam", "miko",
+					"befar", "maa'id", "maz'", "erat'", "afa", "faar")
 
 /datum/language/arabic
 	name = LANGUAGE_ARABIC
-	desc = ""
-	speech_verb = ""
-	ask_verb = ""
-	exclaim_verb = ""
+	desc = "The main language used in Egypt, parts of the Middle-east, and certain parts of Africa."
+	speech_verb = "khitaabs"
+	ask_verb = "as’al"
+	exclaim_verb = "nehtef"
 	color = "arabic"
 	key = "13"
 
-	syllables = list()
+	syllables = list("mar", "haba", "sabah", "al-kha", "ayr'", "masa", "shu", "kran", "jaz", "eezla", "afwan", "ana", "asef", "min", "fad", "fah", "afk", "lik", "uzra", "kayfa", "haluk", "kallam", "al-ara'", "ibya", "adah", "kinuk", "alta", "duth", "'abta",
+					"ma", "is", "ki", "fa", "ka'", "jah'", "sa'h")
+
+/datum/language/latin
+	name = LANGUAGE_LATIN
+	desc = "A classical language very rarely seen anywhere but scholarly institutions, popularized by the ancient Roman empire of old."
+	speech_verb = "oratio"
+	ask_verb = "rogare"
+	exclaim_verb = "exclamo"
+	color = "latin"
+	key = "14"
+
+	syllables = list("carpe", "ipsum", "lor", "vene", "sere", "sed", "lex", "tu", "tempus", "sic", "panem", "unum", "di", "um", "fug", "vici", "vidi", "ergo", "ave", "mori", "et", "est", "pro", "astra", "ex", "salu", "nōn", "ad", "potes", "inimi", "mortem",
+					"effu", "gere", "ip", "disti", "peri", "lux", "seca", "miser", "quod", "illia", "fo", "ibi", "cēte", "tenta", "cor", "tuum", "cadit", "tene", "bris")
 
 /datum/language/generated/chinese
 	name = LANGUAGE_CHINESE
@@ -128,7 +142,7 @@
 	key = "l"
 
 	syllables = list("A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m",
-				     "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "!", "?", "@", "#" ,"*")
+				    "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "!", "?", "@", "#" ,"*")
 	sentence_chance = 50
 	space_chance = 50
 

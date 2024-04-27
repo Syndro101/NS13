@@ -142,9 +142,10 @@ h1.alert, h2.alert {color: #000000;}
 .yautja_signlang {color: #941C1C;}
 .apollo {color: #00CED1;}
 .russian {color: #228B22;}
-.celtic {color: #8aaa4f;}
+.celtic {color: #88c288;}
 .farsi {color: #e45f36;}
 .arabic {color: #b89c43;}
+.latin {color: #74495d;}
 .monkey {color: #966C47;}
 .rough {font-family: trebuchet-ms, cursive, sans-serif;}
 .german {color: #858F1E; font-family: 'Times New Roman', Times, serif}

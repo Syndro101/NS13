@@ -53,17 +53,22 @@
 /datum/character_trait/language/celtic
 	language_name = LANGUAGE_CELTIC
 	applyable = TRUE
-	cost = 1
+	cost = 2
 
 /datum/character_trait/language/farsi
 	language_name = LANGUAGE_FARSI
 	applyable = TRUE
-	cost = 1
+	cost = 3
 
 /datum/character_trait/language/arabic
 	language_name = LANGUAGE_ARABIC
 	applyable = TRUE
-	cost = 1
+	cost = 3
+
+	/datum/character_trait/language/latin
+	language_name = LANGUAGE_LATIN
+	applyable = TRUE
+	cost = 3
 
 /datum/character_trait/language/primitive
 	language_name = LANGUAGE_MONKEY
