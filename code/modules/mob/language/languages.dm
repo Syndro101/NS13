@@ -111,6 +111,42 @@
 	syllables = list("mar", "haba", "sabah", "al-kha", "ayr'", "masa", "shu", "kran", "jaz", "eezla", "afwan", "ana", "asef", "min", "fad", "fah", "afk", "lik", "uzra", "kayfa", "haluk", "kallam", "al-ara'", "ibya", "adah", "kinuk", "alta", "duth", "'abta",
 					"ma", "is", "ki", "fa", "ka'", "jah'", "sa'h")
 
+/datum/language/korean
+	name = LANGUAGE_KOREAN
+	desc = "The main language found in the Korean peninsula."
+	speech_verb = "iyagi"
+	ask_verb = "mutda"
+	exclaim_verb = "oechida"
+	color = "korean"
+	key = "14"
+
+	syllables = list("ja", "nam", "anj", "chim", "bat", "gwa", "gam", "nida", "giyo", "ayo", "cheo", "eun", "mian", "sah", "amado", "ye", "ne", "goma", "hago", "ani", "jinae", "jang", "sil", "haru", "seoy", "seo", "umi", "ang", "geon")
+
+/datum/language/finnish
+	name = LANGUAGE_FINNISH
+	desc = "The main language spoken by the proud Finnish people back on Earth."
+	speech_verb = "sanoo"
+	ask_verb = "kysyy"
+	exclaim_verb = "huutaa"
+	color = "finnish"
+	key = "15"
+
+	syllables = list("se", "ko", "si", "ta", "va", "ra", "ti", "tta", "vä", "kä", "aa", "aa", "kko", "saa", "tuu", "puu", "lä", "llä", "lö", "llö", "it", "ku", "kuu", "ro", "rre", "re", "yk", "yh", "tä", "lto", "rto", "ju", "ma", "la"
+					, "lau", "muo", "muu", "maa", "mme", "mma", "kki", "ri", "lla", "pää", "y", "a", "u", "o", "ö", "öl", "ä", "äl", "ni", "mi", "ki", "li", "ly", "lyi", "vyi", "hi", "hie")
+	space_chance = 30
+
+/datum/language/latin
+	name = LANGUAGE_LATIN
+	desc = "A classical language very rarely seen anywhere but scholarly institutions, popularized by the ancient Roman empire of old."
+	speech_verb = "oratio"
+	ask_verb = "rogare"
+	exclaim_verb = "exclamo"
+	color = "latin"
+	key = "16"
+
+	syllables = list("carpe", "ipsum", "lor", "vene", "sere", "sed", "lex", "tu", "tempus", "sic", "panem", "unum", "di", "um", "fug", "vici", "vidi", "ergo", "ave", "mori", "et", "est", "pro", "astra", "ex", "salu", "nōn", "ad", "potes", "inimi", "mortem",
+					"effu", "gere", "ip", "disti", "peri", "lux", "seca", "miser", "quod", "illia", "fo", "ibi", "cēte", "tenta", "cor", "tuum", "cadit", "tene", "bris")
+
 /datum/language/generated/chinese
 	name = LANGUAGE_CHINESE
 	desc = "The secondary language of the UPP, widespread around Asia and with a notable immigrant population in other parts of the world. The most spoken language in charted space."

@@ -145,7 +145,10 @@ h1.alert, h2.alert {color: #000000;}
 .celtic {color: #88c288;}
 .farsi {color: #e45f36;}
 .arabic {color: #b89c43;}
+.korean {#7fb9b6;}
 .latin {color: #74495d;}
+.finnish {color: #c3f7f4;}
+.swedish {color: #e2e18e;}
 .monkey {color: #966C47;}
 .rough {font-family: trebuchet-ms, cursive, sans-serif;}
 .german {color: #858F1E; font-family: 'Times New Roman', Times, serif}
