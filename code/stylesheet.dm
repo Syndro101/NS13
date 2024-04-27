@@ -147,7 +147,7 @@ h1.alert, h2.alert {color: #000000;}
 .monkey {color: #966C47;}
 .rough {font-family: trebuchet-ms, cursive, sans-serif;}
 .german {color: #858F1E; font-family: 'Times New Roman', Times, serif}
-.french {color: #8498dd;}
+.french {color: #667fdb;}
 .spanish {color: #CF982B;}
 .japanese {color: #0047A0}
 .commando {color: #FE9B24; font-style: bold;}

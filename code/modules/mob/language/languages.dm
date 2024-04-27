@@ -72,7 +72,8 @@
 	color = "french"
 	key = "10"
 
-	syllables = list("une", "est", "par", "les", "en", "et", "se", "dans", "du", "qui", "vous", "avez", "sur", "trois", "c'est", "en", "pas", "à", "me", "poser", "ce", "titre", "avec", "sons", "cinq", "bien", "valse", "pour", "plus", "de", "ou")
+	syllables = list("une", "est", "par", "les", "en", "et", "se", "dans", "du", "qui", "vous", "avez", "sur", "trois", "c'est", "en", "pas", "à", "me", "poser", "ce", "titre", "avec", "sons", "cinq", "bien", "valse", "pour", "plus", "de", "ou",
+				 	 "é", "éde", "comme", "mot", "bl", "ch", "sui", "peut", "être", "pouvez")
 
 /datum/language/generated/chinese
 	name = LANGUAGE_CHINESE

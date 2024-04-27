@@ -45,6 +45,11 @@
 	applyable = TRUE
 	cost = 1
 
+/datum/character_trait/language/french
+	language_name = LANGUAGE_FRENCH
+	applyable = TRUE
+	cost = 1
+
 /datum/character_trait/language/primitive
 	language_name = LANGUAGE_MONKEY
 	applyable = FALSE
