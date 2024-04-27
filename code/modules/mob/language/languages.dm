@@ -73,7 +73,7 @@
 	key = "10"
 
 	syllables = list("une", "est", "par", "les", "en", "et", "se", "dans", "du", "qui", "vous", "avez", "sur", "trois", "c'est", "en", "pas", "à", "me", "poser", "ce", "titre", "avec", "sons", "cinq", "bien", "valse", "pour", "plus", "de", "ou",
-				"é", "éde", "comme", "mot", "bl", "ch", "sui", "peut", "être", "pouvez")
+					"é", "éde", "comme", "mot", "bl", "ch", "sui", "peut", "être", "pouvez")
 
 /datum/language/celtic
 	name = LANGUAGE_CELTIC
@@ -111,18 +111,6 @@
 	syllables = list("mar", "haba", "sabah", "al-kha", "ayr'", "masa", "shu", "kran", "jaz", "eezla", "afwan", "ana", "asef", "min", "fad", "fah", "afk", "lik", "uzra", "kayfa", "haluk", "kallam", "al-ara'", "ibya", "adah", "kinuk", "alta", "duth", "'abta",
 					"ma", "is", "ki", "fa", "ka'", "jah'", "sa'h")
 
-/datum/language/latin
-	name = LANGUAGE_LATIN
-	desc = "A classical language very rarely seen anywhere but scholarly institutions, popularized by the ancient Roman empire of old."
-	speech_verb = "oratio"
-	ask_verb = "rogare"
-	exclaim_verb = "exclamo"
-	color = "latin"
-	key = "14"
-
-	syllables = list("carpe", "ipsum", "lor", "vene", "sere", "sed", "lex", "tu", "tempus", "sic", "panem", "unum", "di", "um", "fug", "vici", "vidi", "ergo", "ave", "mori", "et", "est", "pro", "astra", "ex", "salu", "nōn", "ad", "potes", "inimi", "mortem",
-					"effu", "gere", "ip", "disti", "peri", "lux", "seca", "miser", "quod", "illia", "fo", "ibi", "cēte", "tenta", "cor", "tuum", "cadit", "tene", "bris")
-
 /datum/language/generated/chinese
 	name = LANGUAGE_CHINESE
 	desc = "The secondary language of the UPP, widespread around Asia and with a notable immigrant population in other parts of the world. The most spoken language in charted space."
@@ -142,7 +130,7 @@
 	key = "l"
 
 	syllables = list("A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m",
-				    "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "!", "?", "@", "#" ,"*")
+					"n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "!", "?", "@", "#" ,"*")
 	sentence_chance = 50
 	space_chance = 50
 
