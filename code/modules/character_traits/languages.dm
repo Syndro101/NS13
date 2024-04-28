@@ -19,6 +19,8 @@
 /datum/character_trait_group/language
 	trait_group_name = "Languages"
 
+// Major Languages
+
 /datum/character_trait/language/russian
 	language_name = LANGUAGE_RUSSIAN
 	applyable = TRUE
@@ -49,6 +51,8 @@
 	applyable = TRUE
 	cost = 2
 
+// Minor Languages
+
 /datum/character_trait/language/korean
 	language_name = LANGUAGE_KOREAN
 	applyable = TRUE
@@ -69,6 +73,16 @@
 	applyable = TRUE
 	cost = 2
 
+/datum/character_trait/language/berber
+	language_name = LANGUAGE_BERBER
+	applyable = TRUE
+	cost = 3
+
+/datum/character_trait/language/bantu
+	language_name = LANGUAGE_BANTU
+	applyable = TRUE
+	cost = 3
+
 /datum/character_trait/language/farsi
 	language_name = LANGUAGE_FARSI
 	applyable = TRUE
@@ -79,10 +93,17 @@
 	applyable = TRUE
 	cost = 3
 
+/datum/character_trait/language/hindi
+	language_name = LANGUAGE_HINDI
+	applyable = TRUE
+	cost = 3
+
 /datum/character_trait/language/latin
 	language_name = LANGUAGE_LATIN
 	applyable = TRUE
 	cost = 3
+
+// Special Languages
 
 /datum/character_trait/language/primitive
 	language_name = LANGUAGE_MONKEY

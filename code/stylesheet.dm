@@ -147,8 +147,12 @@ h1.alert, h2.alert {color: #000000;}
 .arabic {color: #b89c43;}
 .korean {#7fb9b6;}
 .latin {color: #74495d;}
+.berber {color: #3c5879;}
+.bantu {color: #185734;}
+.hindi {color: #8b9412;}
 .finnish {color: #c3f7f4;}
 .swedish {color: #e2e18e;}
+
 .monkey {color: #966C47;}
 .rough {font-family: trebuchet-ms, cursive, sans-serif;}
 .german {color: #858F1E; font-family: 'Times New Roman', Times, serif}

@@ -75,6 +75,17 @@
 	syllables = list("une", "est", "par", "les", "en", "et", "se", "dans", "du", "qui", "vous", "avez", "sur", "trois", "c'est", "en", "pas", "à", "me", "poser", "ce", "titre", "avec", "sons", "cinq", "bien", "valse", "pour", "plus", "de", "ou",
 					"é", "éde", "comme", "mot", "bl", "ch", "sui", "peut", "être", "pouvez")
 
+/datum/language/generated/chinese
+	name = LANGUAGE_CHINESE
+	desc = "The secondary language of the UPP, widespread around Asia and with a notable immigrant population in other parts of the world. The most spoken language in charted space."
+	speech_verb = "shuo"
+	ask_verb = "wen"
+	exclaim_verb = "han"
+	color = "chinese"
+	key = "8"
+
+// Minor Languages
+
 /datum/language/celtic
 	name = LANGUAGE_CELTIC
 	desc = "A subset of languages most commonly used in Ireland and Scotland. Celtic usage has been in steady decline for centuries and is usually a rare sight in the wild."
@@ -147,14 +158,41 @@
 	syllables = list("carpe", "ipsum", "lor", "vene", "sere", "sed", "lex", "tu", "tempus", "sic", "panem", "unum", "di", "um", "fug", "vici", "vidi", "ergo", "ave", "mori", "et", "est", "pro", "astra", "ex", "salu", "nōn", "ad", "potes", "inimi", "mortem",
 					"effu", "gere", "ip", "disti", "peri", "lux", "seca", "miser", "quod", "illia", "fo", "ibi", "cēte", "tenta", "cor", "tuum", "cadit", "tene", "bris")
 
-/datum/language/generated/chinese
-	name = LANGUAGE_CHINESE
-	desc = "The secondary language of the UPP, widespread around Asia and with a notable immigrant population in other parts of the world. The most spoken language in charted space."
-	speech_verb = "shuo"
-	ask_verb = "wen"
-	exclaim_verb = "han"
-	color = "chinese"
-	key = "8"
+/datum/language/berber
+	name = LANGUAGE_BERBER
+	desc = "An African language primarly used in the northern sections of the continent."
+	speech_verb = "tamazight"
+	ask_verb = "ankatte"
+	exclaim_verb = "“suɣ"
+	color = "berber"
+	key = "17"
+
+	syllables = list("az", "ul", "mata", "aàn", "laba", "sbah", "ms", "ikhr", "yàw", "nit", "ar", "mez", "zra", "wahd", "khem", "àach", "meya", "iqeh", "nes", "sleh", "atag", "chal", "tagin", "sou", "foul", "ous", "tan", "mert", "ehba", "ch", "ab", "uhe",
+					"igh", "lla", "med", "ash", "tis", "lam", "tu", "fat", "ghur", "mam")
+
+/datum/language/bantu
+	name = LANGUAGE_BANTU
+	desc = "One of the more common Central and South African languages."
+	speech_verb = "di̧ika"
+	ask_verb = "búudi̧a"
+	exclaim_verb = "tsk!"
+	color = "bantu"
+	key = "18"
+
+	syllables = list("di̧", "ika", "kar", "ibu", "ha", "ri", "ar", "nan", "naf", "fur", "ahi", "kuko", "ona", "kwa", "nae", "ewa", "nia", "mpya", "lewa", "ae", "ra", "pah", "ku", "bu", "nje", "te", "ya")
+
+/datum/language/hindi
+	name = LANGUAGE_HINDI
+	desc = "The most common language spoken on the indian sub-continent."
+	speech_verb = "bolna"
+	ask_verb = "pūchanā"
+	exclaim_verb = "chillana"
+	color = "hindi"
+	key = "19"
+
+	syllables = list("kai", "svā", "haiṅ", "nama", "as", "te", "skār", "he", "lo", "āp", "kai", "ka", "hāṁ ", "tum", "ho", "acchā", "maiṁ", "vād", "aur", "ṭh", "īk", "dek", "ha", "bahut", "sam", "nahīṅ","hārā", "merā", "se", "ke", "śubh", "yātr")
+
+// Special Languages
 
 /datum/language/commando
 	name = LANGUAGE_TSL
