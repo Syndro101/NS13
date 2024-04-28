@@ -10,13 +10,7 @@
 
 /datum/character_trait/language/apply_trait(mob/living/carbon/human/target)
 	..()
-	var/list/languages = list()
-	for(var/language in target.languages)
-		languages += language
-	if(languages.len < 3)
-		target.add_language(language_name)
-	else
-		target << "You can only learn two languages."
+	target.add_language(language_name)
 
 /datum/character_trait/language/unapply_trait(mob/living/carbon/human/target)
 	..()
