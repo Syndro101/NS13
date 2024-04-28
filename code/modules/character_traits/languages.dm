@@ -18,7 +18,6 @@
 	else
 		target << "You can only learn two languages."
 
-
 /datum/character_trait/language/unapply_trait(mob/living/carbon/human/target)
 	..()
 	target.remove_language(language_name)
