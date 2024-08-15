@@ -347,6 +347,15 @@ var/global/list/job_command_roles = JOB_COMMAND_ROLES_LIST
 
 #define DUTCH_JOB_LIST list(JOB_DUTCH_ARNOLD, JOB_DUTCH_RIFLEMAN, JOB_DUTCH_MINIGUNNER, JOB_DUTCH_FLAMETHROWER, JOB_DUTCH_MEDIC)
 
+//-------- UNITED NATIONS --------//
+#define JOB_UN_PEACEKEEPER "UN - Peacekeeper"
+#define JOB_UN_MEDIC "UN - Medic"
+#define JOB_UN_LEAD "UN - Lead Peacekeeper"
+#define JOB_UN_COMMAND "UN - Director"
+
+#define UN_JOB_LIST list(JOB_UN_PEACEKEEPER, JOB_UN_MEDIC, JOB_UN_LEAD, JOB_UN_COMMAND)
+
+//-------- FILTHY XENOS --------//
 #define JOB_PREDATOR "Predator"
 #define JOB_XENOMORPH    "Xenomorph"
 #define JOB_XENOMORPH_QUEEN  "Queen"

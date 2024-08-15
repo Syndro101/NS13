@@ -980,3 +980,41 @@
 	desc = "The officers uniform of the royal marines commando. They have shards of light Kevlar to help protect against stabbing weapons and bullets. Onpar with similar USCM equipment"
 	icon_state = "rmc_uniform_lt"
 	worn_state = "rmc_uniform_lt"
+
+//=United Nations=\\
+
+/obj/item/clothing/under/unitednations
+	name = "\improper UN Peacekeeper uniform"
+	desc = "Standard-issue UN attire for a peacekeeper. A protective lining is included along with padding for vital areas, provids a moderate degree of protection for less weight than standard armor.
+	siemens_coefficient = 0.5
+	icon_state = "un_uniform"
+	worn_state = "un_uniform"
+	armor_melee = CLOTHING_ARMOR_MEDIUM
+	armor_bullet = CLOTHING_ARMOR_MEDIUM
+	armor_laser = CLOTHING_ARMOR_NONE
+	armor_energy = CLOTHING_ARMOR_NONE
+	armor_bomb = CLOTHING_ARMOR_LOW
+	armor_bio = CLOTHING_ARMOR_NONE
+	armor_rad = CLOTHING_ARMOR_NONE
+	armor_internaldamage = CLOTHING_ARMOR_MEDIUM
+	flags_jumpsuit = UNIFORM_SLEEVE_ROLLABLE|UNIFORM_JACKET_REMOVABLE
+	flags_atom = NO_NAME_OVERRIDE|NO_SNOW_TYPE
+	flags_cold_protection = ICE_PLANET_MIN_COLD_PROT
+	///Makes it so that we can see the right name in the vendor.
+	var/specialty = "UN Peacekeeper"
+
+/obj/item/clothing/under/unitednations/lead
+	name = "\improper UN Lead Peacekeeper uniform"
+	desc = "Standard-issue UN attire for a lead peacekeeper. A protective lining is included along with padding for vital areas, provids a moderate degree of protection for less weight than standard armor. Comes with scarlet accents denoting a senior position.
+	icon_state = "un_lead_uniform"
+	worn_state = "un_lead_uniform"
+	///Makes it so that we can see the right name in the vendor.
+	var/specialty = "UN Lead Peacekeeper"
+
+/obj/item/clothing/under/unitednations/command
+	name = "\improper UN Command jumpsuit"
+	desc = "Standard-issue UN attire for an officer in the UN. A protective lining is included along with padding for vital areas, provids a moderate degree of protection for less weight than standard armor. Comes with golden accents denoting a general position.
+	icon_state = "un_command_uniform"
+	worn_state = "un_command_uniform"
+	///Makes it so that we can see the right name in the vendor.
+	var/specialty = "UN Commander"

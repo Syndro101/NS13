@@ -431,3 +431,25 @@
 	icon_state = "data"
 	item_state = "card-id"
 	unacidable = 1
+
+//United Nations\\
+
+/obj/item/card/id/unitednations
+	name = "Peacekeeper Badge"
+	desc = "A silver badge denoting the wearer as a UN Peacekeeper, sworn to uphold the peace."
+	icon_state = "unpeacekeeper"
+	item_state = "unpeacekeeper"
+	access = get_access(ACCESS_LIST_GLOBAL)
+	unacidable = 1
+
+/obj/item/card/id/unitednations/lead
+	name = "Lead Peacekeeper Badge"
+	desc = "A gold badge denoting the wearer as a UN Lead Peacekeeper, sworn to uphold the peace."
+	icon_state = "unlead"
+	item_state = "unlead"
+
+/obj/item/card/id/unitednations/command
+	name = "UN Director Badge"
+	desc = "A platinum badge denoting the wearer as a UN director, managers of the peace."
+	icon_state = "uncommand"
+	item_state = "uncommand"
